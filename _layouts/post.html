@@ -2,7 +2,12 @@
 layout: default
 ---
 <h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date: "%Y/%m/%d" }}</p>
+<div class="labels">
+  {% for tag in page.tags %}
+    <span class="label label-info">{{ tag | slugify }}</span>
+  {% endfor %}
+</div>
+<small>{{ page.date | date: "%Y/%m/%d" }}</small>
 
 {{ content }}
 
