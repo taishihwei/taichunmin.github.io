@@ -1,13 +1,18 @@
-theme: jekyll-theme-cayman
-timezone: Asia/Taipei
-title: 筆記國度
-description: 在這裡放著一些我自己的筆記
-show_downloads: false
-google_analytics: UA-96342273-1
-defaults:
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      author: 戴均民
+# Setup
+title:        筆記國度
+url:          http://blog.taichunmin.tk/
+tagline:      在這裡放著一些我自己的筆記
+baseurl:      ""
+paginate:     1
+
+# About/contact
+author:
+  name:       戴均民
+  url:        http://taichunmin.idv.tw/
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
