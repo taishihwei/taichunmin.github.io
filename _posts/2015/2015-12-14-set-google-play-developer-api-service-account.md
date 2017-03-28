@@ -2,7 +2,7 @@
 layout: "post"
 title: "設定 Google Play Developer API Service Account"
 date: "2015-12-14 17:23"
-categories: PHP
+categories: Skycarpenter
 tags:
   - PHP
   - Google Play
