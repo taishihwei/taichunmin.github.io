@@ -3,9 +3,7 @@ layout: "post"
 title: "使用 Chrome 的 POSTMAN 來手動確認 Apple IAP 訂單"
 date: "2015-11-10 11:02"
 categories: Skycarpenter
-tags:
-  - postman
-  - In App Purchase
+tags: [postman, 'In App Purchase']
 ---
 
 處理玩家客訴的時候會用到。
