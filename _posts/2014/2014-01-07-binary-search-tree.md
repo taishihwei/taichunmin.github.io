@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "binary-search-tree"
+title: "Binary Search Tree"
 date: "2014-01-07 02:22"
 categories: C
 tags: [C, 'Binary Search Tree', algorithm, BST]

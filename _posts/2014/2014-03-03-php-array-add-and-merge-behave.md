@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "[PHP] array add and merge behave"
+title: "PHP array add and merge behave"
 date: "2014-03-03 20:02"
 categories: PHP
 tags: [PHP, array_merge]
@@ -13,6 +13,7 @@ Compare between array add `array()+array()` and `array_merge()` in PHP.
 ## Code:
 
 ```php
+<?php
 $arr = array(
 	'a' => 1,
 	'b' => 1,
