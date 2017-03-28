@@ -11,7 +11,7 @@ title: ''
 
 <ul class="posts">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date: "%Y/%m/%d" }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    <li><span>{{ post.date | date: "%Y/%m/%d" }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>&nbsp;&nbsp;<span class="label label-primary">{{ post.categories | array_to_sentence_string }}</span></li>
   {% endfor %}
 </ul>
 
