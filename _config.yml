@@ -1,6 +1,6 @@
 # Setup
 title:        筆記國度
-url:          http://blog.taichunmin.tk/
+url:          http://blog.taichunmin.tk
 tagline:      在這裡放著一些我自己的筆記
 baseurl:      ""
 paginate:     1
@@ -8,7 +8,7 @@ paginate:     1
 # About/contact
 author:
   name:       戴均民
-  url:        http://taichunmin.idv.tw/
+  url:        http://taichunmin.idv.tw
 
 # Gems
 gems:
@@ -16,3 +16,12 @@ gems:
 
 #Others
 markdown: kramdown
+
+#Default
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      comments: true
