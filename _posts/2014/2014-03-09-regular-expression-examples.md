@@ -2,7 +2,7 @@
 layout: "post"
 title: "正規表示法範例"
 date: "2014-03-09 00:47"
-categories: reference
+categories: Reference
 tags: [reference, regexp]
 ---
 

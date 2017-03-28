@@ -2,7 +2,7 @@
 layout: "post"
 title: "DNS list in SetDNS App"
 date: "2014-03-21 00:16"
-categories: reference
+categories: Reference
 tags: [reference, dns]
 ---
 

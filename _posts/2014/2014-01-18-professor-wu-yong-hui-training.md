@@ -2,7 +2,7 @@
 layout: "post"
 title: "吳永輝老師培訓"
 date: "2014-01-18 23:09"
-categories: diary
+categories: Diary
 tags: [C, CPP, diary]
 ---
 ## 第一章 程式設計技巧

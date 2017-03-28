@@ -2,8 +2,8 @@
 layout: "post"
 title: "生產 ssh, 複製公鑰, keychain 管理"
 date: "2014-04-11 11:20"
-categories: raspberrypi
-tags: [raspberrypi, ssh-key, keychain]
+categories: Linux
+tags: [Linux, ssh-key, keychain]
 ---
 
 ## 生產 ssh 公私鑰

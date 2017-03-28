@@ -2,7 +2,7 @@
 layout: "post"
 title: "教育女兒成長過程中的自我保護意識"
 date: "2014-01-07 05:25"
-categories: reprint
+categories: Reprint
 tags: [daughter, story]
 ---
 轉載自：[http://www.epochtimes.com.tw/n80253](http://www.epochtimes.com.tw/n80253)
