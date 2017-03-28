@@ -11,7 +11,7 @@ title: {{ site.name }}
 
 <ul class="posts">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date: "%Y/%m/%d" }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread">{{ post.title }}</a></li>
+    <li><span>{{ post.date | date: "%Y/%m/%d" }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
 
