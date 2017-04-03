@@ -6,7 +6,7 @@ categories: Diary
 tags: [Diary]
 ---
 
-Aaron Swartz，這個對台灣人來說，相對陌生的名字，最近卻在西方世界掀起軒然大波。他因不堪美國政府的追殺與壓迫，2013 年 1 月 11 日選擇在紐約家中自殺，年僅 26 歲。
+　　Aaron Swartz，這個對台灣人來說，相對陌生的名字，最近卻在西方世界掀起軒然大波。他因不堪美國政府的追殺與壓迫，2013 年 1 月 11 日選擇在紐約家中自殺，年僅 26 歲。
 
 　　Aaron Swartz 被稱為「網路神童」，14 歲那年，有份參與「RSS推播技術」規格的共同制定，除此之外，他也協助創立了 Reddit，亦有積極反對當時被稱為外國網絡 23 條的 SOPA/PIPA。但他並未像我們熟知的那些網路巨擎一般，成立公司、擁有上市股票。這樣的人，即使不成為百萬富翁，也會是世人所稱的天才，但究竟發生了什麼事，使得他必須走上自殺一途？
 
@@ -22,14 +22,13 @@ Aaron Swartz，這個對台灣人來說，相對陌生的名字，最近卻在�
 
 　　世界各地仍有許多聲援 Aaron Swartz 的活動，無論是網路上的連署、或支持文章、甚至還有人駭進企業公司的網站紀念他。這樣的熱潮還能持續多久我們並不曉得，資訊自由化這個議題，短時間內也難有定論，但可以確定的是，這個議題因為 Aaron Swartz 而浮上檯面，也趨使愈來愈多人關心資訊自由的議題。
 
-心得：
-　　老實說，那陣子從 RSS 得知這個消息，最讓我吃驚的莫過於 Aaron Swartz 的年輕，以及他所完成的許多大事。他的死訊，也讓同為資訊界的我，深深地感到唇亡齒寒。在書本上，美國是最自由的國家，但是在我漸漸接觸到越來越多資料後，才知道『盡信書，不如無書』的真諦。現在的我，真的認為學術文章要被買斷著作權，是一件很過分的事情，可惜的是我人微言輕，如果以後讀了碩士，可能還是免不了隨波逐流，只為了那張文憑，一想到這裡，就深深地感到自己的無力感，他在 14 歲時，就能有如此大的影響力，我現在已經 21 歲，我到底為這世界貢獻了什麼？很慶幸至少我還能夠上到老師的課，能夠體會到老師所堅持的理念，雖然我還沒有能力去影響這世界，但是我至少不會被蒙在鼓裡，被賣掉還幫別人數錢。
+　　心得：老實說，那陣子從 RSS 得知這個消息，最讓我吃驚的莫過於 Aaron Swartz 的年輕，以及他所完成的許多大事。他的死訊，也讓同為資訊界的我，深深地感到唇亡齒寒。在書本上，美國是最自由的國家，但是在我漸漸接觸到越來越多資料後，才知道『盡信書，不如無書』的真諦。現在的我，真的認為學術文章要被買斷著作權，是一件很過分的事情，可惜的是我人微言輕，如果以後讀了碩士，可能還是免不了隨波逐流，只為了那張文憑，一想到這裡，就深深地感到自己的無力感，他在 14 歲時，就能有如此大的影響力，我現在已經 21 歲，我到底為這世界貢獻了什麼？很慶幸至少我還能夠上到老師的課，能夠體會到老師所堅持的理念，雖然我還沒有能力去影響這世界，但是我至少不會被蒙在鼓裡，被賣掉還幫別人數錢。
 
 資料來源：
-<http://ckhung0.blogspot.tw/2013/01/aaron-swartz.html>
-<http://www.winandmac.com/2013/01/aaron-swartz-has-committed-suicide-and-the-family-has-issued-the-statement/>
-<http://zh.wikipedia.org/zh-tw/%E4%BA%9A%E4%BC%A6%C2%B7%E6%96%AF%E6%B2%83%E8%8C%A8>
-<http://techcrunch.com/2013/01/13/mits-president-orders-internal-investigation-into-how-the-school-handled-aaron-swartzs-case/>
-<http://techorange.com/2013/01/14/to-aaron-swartz-block-or-release-knowledge/>
-<http://www.openfoundry.org/tw/foss-news/8903--aaron-swartz->
-<http://www.gvm.com.tw/webonly_content_259.html>
+* <http://ckhung0.blogspot.tw/2013/01/aaron-swartz.html>
+* <http://www.winandmac.com/2013/01/aaron-swartz-has-committed-suicide-and-the-family-has-issued-the-statement/>
+* <http://zh.wikipedia.org/zh-tw/%E4%BA%9A%E4%BC%A6%C2%B7%E6%96%AF%E6%B2%83%E8%8C%A8>
+* <http://techcrunch.com/2013/01/13/mits-president-orders-internal-investigation-into-how-the-school-handled-aaron-swartzs-case/>
+* <http://techorange.com/2013/01/14/to-aaron-swartz-block-or-release-knowledge/>
+* <http://www.openfoundry.org/tw/foss-news/8903--aaron-swartz->
+* <http://www.gvm.com.tw/webonly_content_259.html>
