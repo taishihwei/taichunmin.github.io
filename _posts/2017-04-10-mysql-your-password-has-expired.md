@@ -27,10 +27,12 @@ MySQLi connect failed: Your password has expired. To log in you must change it u
 
 在此節錄一些重點
 
-* 可以幫帳號設定過期
+* 可以幫帳號設定過期或不過期，以及確認目前期限的指令
 
 ```sql
 ALTER USER 'jeffrey'@'localhost' PASSWORD EXPIRE;
+ALTER USER 'script'@'localhost' PASSWORD EXPIRE NEVER;
+SELECT User, Host, password_last_changed, password_lifetime FROM mysql.user;
 ```
 
 * 多了一個 global variable `default_password_lifetime`
