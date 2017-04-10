@@ -95,3 +95,9 @@ mysql> select @@default_password_lifetime;
 +-----------------------------+
 1 row in set (0.00 sec)
 ```
+
+## 設定特定帳號為不過期
+
+```sql
+ALTER USER 'script'@'localhost' PASSWORD EXPIRE NEVER;
+```
