@@ -5,6 +5,7 @@ date: "2011-10-19 20:18"
 categories: JSP
 ---
 
+{% raw %}
 ```jsp
 <%@page contentType="text/html; charset=utf8" import="java.util.*" %>
 <%@ include file="20111019_DBSetup.jsp" %>
@@ -220,3 +221,4 @@ if( request.getParameter("username") != null )
     }
 %>
 ```
+{% endraw %}
