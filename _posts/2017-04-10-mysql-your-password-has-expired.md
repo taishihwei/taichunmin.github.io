@@ -2,6 +2,8 @@
 layout: "post"
 title: "MySQL 5.7+ Your password has expired"
 date: "2017-04-10 11:53"
+categories: Skycarpenter
+tags: [MySQL, default_password_lifetime]
 ---
 
 ## 參考連結
