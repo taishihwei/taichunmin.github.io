@@ -2,6 +2,8 @@
 layout: "post"
 title: "使用 Google 表單來追蹤電子郵件開啟"
 date: "2017-09-13 15:48"
+categories: Tutorial
+tags: [Google, Form, Tutorial]
 ---
 
 ## 開一個新的 Google 表單
