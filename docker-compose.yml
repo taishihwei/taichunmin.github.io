@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  node:
+    build: ./docker-vuepress
+    volumes:
+      - ./:/blog
+    ports:
+      - '8080'

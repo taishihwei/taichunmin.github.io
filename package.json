@@ -1,0 +1,17 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Chunmin Tai's blog.",
+  "main": "vuepress build",
+  "repository": "git@github.com:taichunmin/blog.git",
+  "author": "taichunmin <taichunmin@gmail.com>",
+  "license": "CC BY-NC-SA 3.0",
+  "private": true,
+  "scripts": {
+    "dev": "docker-compose up -d",
+    "build": "docker-compose run node yarn vuepress build src"
+  },
+  "devDependencies": {
+    "vuepress": "^0.5.1"
+  }
+}
