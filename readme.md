@@ -1,6 +1,5 @@
 ---
-# layout: LayoutHome
-home: true
+layout: LayoutHome
 heroImage: https://i.imgur.com/pLlxV0M.jpg
 heroText: 和風信使
 actionText: 部落格 →
