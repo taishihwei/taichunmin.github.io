@@ -7,7 +7,6 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: '關於我', link: '/about-me' },
       { text: '經歷', link: '/experiences' },
       { text: '技能', link: '/skills' },
       { text: '作品集', link: '/works' },

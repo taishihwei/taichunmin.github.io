@@ -8,7 +8,7 @@ footer: CC BY-NC-SA 3.0 | Copyright © 2014-present taichunmin
 socials:
   - { icon: envelope, href: mailto:taichunmin@gmail.com }
   - { icon: facebook-square, href: https://facebook.com/taichunmin }
-  - { icon: google-plus, href: https://www.google.com/+%E6%88%B4%E5%9D%87%E6%B0%91 }
+  - { icon: linkedin-square, href: https://www.linkedin.com/in/taichunmin/ }
   - { icon: github, href: https://github.com/taichunmin }
 meta:
   - name: keywords
