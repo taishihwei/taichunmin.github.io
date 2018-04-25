@@ -13,7 +13,8 @@ module.exports = {
       { text: '關於本站', link: '/about-site' },
     ],
     repo: 'taichunmin/blog',
-    editLinks: false
+    editLinks: false,
+    ga: 'UA-39556213-2'
   },
   configureWebpack: {
     plugins: [

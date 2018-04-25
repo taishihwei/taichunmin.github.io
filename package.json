@@ -8,8 +8,8 @@
   "license": "CC BY-NC-SA 3.0",
   "private": true,
   "scripts": {
-    "dev": "docker-compose down && docker-compose up -d && docker-compose ps",
-    "build": "docker-compose run node bash -c 'yarn && yarn vuepress build'"
+    "dev": "vuepress dev",
+    "build": "vuepress build"
   },
   "devDependencies": {
     "bootstrap": "^4.1.0",
@@ -20,6 +20,6 @@
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^7.0.1",
-    "vuepress": "^0.5.1"
+    "vuepress": "^0.8.4"
   }
 }
