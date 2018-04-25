@@ -15,8 +15,11 @@
     "bootstrap": "^4.1.0",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
+    "node-sass": "^4.8.3",
     "popper.js": "^1.14.3",
     "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^7.0.1",
     "vuepress": "^0.5.1"
   }
 }
