@@ -4,6 +4,7 @@
 
 <script>
 import NProgress from 'nprogress'
+import _ from 'lodash'
 export default {
   computed: {
     data () {
@@ -15,7 +16,8 @@ export default {
   },
   methods: {
     loaded () {
-      NProgress.done()
+      NProgress.set(0.9);
+      _.delay(() => NProgress.done(), 1000)
     }
   } 
 }
