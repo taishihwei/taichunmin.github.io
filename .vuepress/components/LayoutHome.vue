@@ -13,7 +13,7 @@
       </div>
       <NavLink class="action-button" :item="actionLink"/>
     </nav>
-    <Content custom/>
+    <Content/>
     <div class="footer" v-if="data.footer">
       {{ data.footer }}
     </div>
@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import NavLink from 'vuepress/lib/default-theme/NavLink.vue'
+import NavLink from '@default-theme/NavLink.vue'
 export default {
   components: { NavLink },
   computed: {

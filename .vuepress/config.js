@@ -15,14 +15,5 @@ module.exports = {
     repo: 'taichunmin/blog',
     editLinks: false,
     ga: 'UA-39556213-2'
-  },
-  configureWebpack: {
-    plugins: [
-      new webpack.ProvidePlugin({
-        '$': 'jquery',
-        'jQuery': 'jquery',
-        'Popper': 'popper.js'
-      })
-    ]
   }
 }
