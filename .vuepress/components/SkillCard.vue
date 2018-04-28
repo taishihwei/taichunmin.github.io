@@ -2,7 +2,7 @@
 .card.mb-3
   h5.card-header.bg-secondary.text-white #[span.fa.fa-fw(:class="'fa-' + skill.icon")] {{ skill.title }}
   .card-body
-    .row.mb-1(v-for="proficiency, name in sortedItems")
+    .row.mb-1(v-for="proficiency, name in sortedItems", :key="name")
       .col-3.pl-0.pr-1.text-nowrap.text-right(:title="name", data-placement="right", data-toggle="tooltip") {{ name }}
       .col-9.pl-1
         .progress

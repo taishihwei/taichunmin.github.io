@@ -16,7 +16,7 @@ skills:
       'C++': 3
       'Python 3': 2
       Bash: 1
-      C: 3
+      C: 2
       Node.js: 3
       PHP: 3
   - title: DevOps
