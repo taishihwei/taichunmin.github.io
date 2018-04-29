@@ -190,6 +190,10 @@ function updateMetaTags (meta, current) {
 </script>
 
 <style src="prismjs/themes/prism-tomorrow.css"></style>
-<style src="bootstrap/dist/css/bootstrap.css"></style>
 <style src="font-awesome/css/font-awesome.css"></style>
 <style src="@default-theme/styles/theme.styl" lang="stylus"></style>
+<style lang="sass">
+body
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif
+</style>
+

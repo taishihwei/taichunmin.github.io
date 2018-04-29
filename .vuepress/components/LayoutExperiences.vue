@@ -5,6 +5,7 @@
 <script>
 import NProgress from 'nprogress'
 import _ from 'lodash'
+
 export default {
   computed: {
     data () {

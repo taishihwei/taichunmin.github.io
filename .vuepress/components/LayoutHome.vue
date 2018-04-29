@@ -40,10 +40,8 @@ export default {
 
 <style lang="stylus">
 $accentColor = #3eaf7c
-@import '~font-awesome/css/font-awesome.css'
-body
-  font-family -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif
 .home
+  margin-top -3.6rem
   padding 0 2rem
 .socials
   display flex
