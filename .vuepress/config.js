@@ -10,7 +10,6 @@ module.exports = {
       { text: '經歷', link: '/experiences' },
       { text: '技能', link: '/skills' },
       { text: '作品集', link: '/works' },
-      { text: '關於本站', link: '/about-site' },
     ],
     repo: 'taichunmin/blog',
     editLinks: false,
