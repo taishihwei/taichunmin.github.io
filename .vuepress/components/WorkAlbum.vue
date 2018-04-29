@@ -4,7 +4,7 @@
       li(v-for="item, index in items", :key="item.img", :data-target="'#' + id", :data-slide-to="index", :class="{active: index === 0}")
     .carousel-inner
       .carousel-item(v-for="item, index in items", :key="item.img", :class="{active: index === 0}")
-        img.d-block.w-100(:src="item.img", :alt="item.alt || ''")
+        img.d-block.w-100(:src="$withBase(item.img)", :alt="item.alt || ''")
         .carousel-caption.d-none.d-md-block
           p(v-if="") {{ item.caption }}
     a.carousel-control-prev(:href="'#' + id", role="button", data-slide="prev", v-if="controlPrevNext")

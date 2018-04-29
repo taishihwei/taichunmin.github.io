@@ -26,5 +26,5 @@ export default {
 
 <style lang="sass">
 #iframe-experiences
-  height: calc(99vh - 60px)
+  height: calc(99vh - 56px)
 </style>

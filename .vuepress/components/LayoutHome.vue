@@ -4,15 +4,18 @@
       <img v-if="data.heroImage" :src="$withBase(data.heroImage)" alt="hero">
       <h1>{{ data.heroText || $site.title || 'Hello' }}</h1>
       <p class="description">
-        {{ data.tagline || $site.description || 'Welcome to your VuePress site' }}
+        {{ data.tagline || $site.description || 'Hello world!' }}
       </p>
     </div>
-    <nav class="socials" v-if="data.socials && data.socials.length">
-      <div class="social" v-for="social in data.socials">
-        <a :href="social.href" target="_blank"><i class="fa fa-2x fa-fw" :class="'fa-' + social.icon"></i></a>
+    <nav class="btn-toolbar justify-content-center" role="toolbar">
+      <div class="btn-group mr-2 mb-2" role="group" v-if="_.get(data, 'socials.length')">
+        <a v-for="social in data.socials" :href="social.href" target="_blank" class="btn btn-link btn-social"><i class="fa" :class="'fa-' + social.icon"></i></a>
       </div>
-      <NavLink class="action-button" :item="actionLink"/>
+      <div class="btn-group mb-2" role="group">
+        <a :href="$withBase(data.actionLink)" class="btn btn-primary btn-lg">{{ data.actionText }}</a>
+      </div>
     </nav>
+    
     <Content/>
     <div class="footer" v-if="data.footer">
       {{ data.footer }}
@@ -27,44 +30,19 @@ export default {
   computed: {
     data () {
       return this.$page.frontmatter
-    },
-    actionLink () {
-      return {
-        link: this.data.actionLink,
-        text: this.data.actionText
-      }
     }
   }
 }
 </script>
 
-<style lang="stylus">
-$accentColor = #3eaf7c
+<style lang="sass">
 .home
-  margin-top -3.6rem
-  padding 0 2rem
-.socials
-  display flex
-  flex-direction row
-  flex-wrap wrap
-  justify-content center
-  align-items center
-  .social
-    height 32px
-    margin 0 15px
-    &>a:hover
-      color lighten($accentColor, 10%)
-  .action-button
-    background-color $accentColor
-    border-bottom 1px solid darken($accentColor, 10%)
-    border-radius 4px
-    box-sizing border-box
-    color #fff
-    display inline-block
-    font-size 1.2rem
-    margin 0 15px
-    padding 0.8rem 1.6rem
-    transition background-color .1s ease
-    &:hover
-      background-color lighten($accentColor, 10%)
+  margin-top: 0rem
+  padding: 0 2rem
+.btn.btn-social
+  .fa
+    position: relative
+    margin: -6px -3px
+    font-size: 40px
+    top: 3px
 </style>

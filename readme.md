@@ -9,7 +9,7 @@ socials:
   - { icon: envelope, href: mailto:taichunmin@gmail.com }
   - { icon: facebook-square, href: https://facebook.com/taichunmin }
   - { icon: linkedin-square, href: https://www.linkedin.com/in/taichunmin/ }
-  - { icon: github, href: https://github.com/taichunmin }
+  - { icon: github-square, href: https://github.com/taichunmin }
 meta:
   - name: keywords
     content: taichunmin
