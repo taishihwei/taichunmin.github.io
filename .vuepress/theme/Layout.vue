@@ -26,6 +26,7 @@ import Sidebar from './Sidebar.vue'
 import { pathToComponentName } from '@app/util'
 import { resolveSidebarItems } from './util'
 import jQuery from 'jquery'
+import _ from 'lodash'
 
 export default {
   components: { Home, Page, Sidebar, Navbar },
@@ -122,6 +123,7 @@ export default {
     // jQuery
     window.$ = window.jQuery = jQuery
     import('bootstrap/dist/js/bootstrap.min.js')
+    window._ = _
   },
 
   beforeDestroy () {
