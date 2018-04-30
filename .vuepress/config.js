@@ -6,10 +6,12 @@ module.exports = {
   evergreen: true,
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
-      { text: '經歷', link: '/experiences' },
-      { text: '技能', link: '/skills' },
-      { text: '作品集', link: '/works' },
+      { text: 'Home', link: '/', icon: 'home' },
+      { text: '經歷', link: '/experiences', icon: 'history' },
+      { text: '技能', link: '/skills', icon: 'bar-chart-o' },
+      { text: '作品集', link: '/works', icon: 'file-code-o' },
+      { text: '部落格', link: '/articles/', icon: 'file-text' },
+      { text: 'GitHub', link: 'https://github.com/taichunmin/taichunmin.github.io/', icon: 'github' },
     ],
     repo: 'taichunmin/blog',
     editLinks: false,

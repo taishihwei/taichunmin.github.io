@@ -6,7 +6,7 @@ section.work-card
       h5.card-title {{ work.title }}
       p.card-text(v-html="work.desc")
       a.btn.btn-primary.mr-1(v-if="_.get(work, 'album.length', 0)", data-toggle="modal", :data-target="'#' + cardId") #[span.fa.fa-picture-o] 圖集
-      a.btn.btn-primary(v-if="work.url", :href="work.url", target="_blank") #[span.fa.fa-external-link] 網站
+      a.btn.btn-primary(v-if="work.url", :href="$withBase(work.url)", target="_blank") #[span.fa.fa-external-link] 網站
   .modal(tabindex="-1", role="dialog", :id="cardId")
     .modal-dialog.modal-dialog-centered.modal-lg(role="document")
       .modal-content
@@ -20,7 +20,7 @@ section.work-card
               li(v-for="item, index in work.album", :key="item.img", :data-target="'#' + albumId", :data-slide-to="index", :class="{active: index === 0}")
             .carousel-inner
               .carousel-item(v-for="item, index in work.album", :key="item.img", :class="{active: index === 0}")
-                img.d-block.w-100(:src="item.img", :alt="item.alt || ''")
+                img.d-block.w-100(:src="$withBase(item.img)", :alt="item.alt || ''")
                 .carousel-caption.rounded
                   p(v-if="", v-html="item.caption")
             a.carousel-control-prev(:href="'#' + albumId", role="button", data-slide="prev", v-if="controlPrevNext")

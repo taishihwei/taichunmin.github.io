@@ -35,7 +35,7 @@ skills:
       MySQL: 3
       Redis: 3
 ---
-# <span class="fa fa-bar-chart-o fa-rotate-90 fa-fw"></span> 技能
+# <span class="fa fa-bar-chart-o fa-fw"></span> 技能
 
 本頁列出了我學過的程式語言，並大略的分成三個熟悉程度：精通、中等及略懂。
 
