@@ -3,7 +3,7 @@ layout: LayoutHome
 heroImage: https://i.imgur.com/pLlxV0M.jpg
 heroText: 和風信使
 actionText: 部落格 →
-actionLink: /articles/
+actionLink: /blog/
 footer: CC BY-NC-SA 3.0 | Copyright © 2014-present taichunmin
 socials:
   - { icon: envelope, href: mailto:taichunmin@gmail.com }

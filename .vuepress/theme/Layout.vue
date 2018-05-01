@@ -122,7 +122,7 @@ export default {
 
     // jQuery
     window.$ = window.jQuery = jQuery
-    import('bootstrap/dist/js/bootstrap.min.js')
+    import('bootstrap')
     window._ = _
   },
 

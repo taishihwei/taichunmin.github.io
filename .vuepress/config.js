@@ -10,7 +10,7 @@ module.exports = {
       { text: '經歷', link: '/experiences', icon: 'history' },
       { text: '技能', link: '/skills', icon: 'bar-chart-o' },
       { text: '作品集', link: '/works', icon: 'file-code-o' },
-      { text: '部落格', link: '/articles/', icon: 'file-text' },
+      { text: '部落格', link: '/blog/', icon: 'file-text' },
       { text: 'GitHub', link: 'https://github.com/taichunmin/taichunmin.github.io/', icon: 'github' },
     ],
     repo: 'taichunmin/blog',
