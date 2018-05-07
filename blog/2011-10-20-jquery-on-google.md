@@ -1,8 +1,12 @@
 ---
 date: "2011-10-20 20:37"
-categories: Deprecated
+tags: ['Deprecated']
 ---
 # jQuery 在 google 的一些在線資源
+
+::: danger 已棄用 (Deprecated)
+此文章的內容已過時或已被取代，僅作為本人的文章歷史紀錄，您不應該採信這篇文章中的任何知識。
+:::
 
 jQuery 是一個不錯的Js庫，相信也用得比較多，但是大家不可能在每一台自己用的電腦都本地下載一個 jQuery 文件，而且 jQuery 更新也比較多，版本之間多少有一些偏差。所以這就讓我們有點頭痛了，但是其實我們可以藉用 GOOGLECODE 的在線資料。
 

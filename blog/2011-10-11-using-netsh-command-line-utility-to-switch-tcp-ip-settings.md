@@ -1,10 +1,14 @@
 ---
 date: "2011-10-11 01:44"
-categories: Deprecated
+tags: ['Deprecated']
 ---
 # 如何透過 netsh 指令快速切換 Windows 網路設定
 
 引用自：<http://blog.miniasp.com/post/2008/11/17/Using-Netsh-Command-Line-Utility-to-switch-TCP-IP-settings.aspx>
+
+::: danger 已棄用 (Deprecated)
+此文章的內容已過時或已被取代，僅作為本人的文章歷史紀錄，您不應該採信這篇文章中的任何知識。
+:::
 
 有時後帶著筆記型電腦到處跑時，時常都要切換網路卡的 `TCP/IP` 設定，每次都透過介面切換也實在很煩。例如說上週人在機房安裝主機時，因為網路切了 `vLan` 導致 Notebook 要搬來搬去的，每次都要改 IP 很麻煩，還好我寫了個批次檔幫我快速切換 IP 位址，果然省時、省力、又方便。
 
