@@ -1,9 +1,9 @@
 ---
-title: "mediawiki 中文繁簡轉換程式"
 date: "2014-09-25 11:41"
 categories: PHP
 tags: [PHP, mediawiki, zhtw, zhcn]
 ---
+# mediawiki 中文繁簡轉換程式
 
 1. 取得 `MediaWiki` 的辭庫，請到 <https://www.mediawiki.org/wiki/Download> 下載最新版的程式碼，並用 [`7-Zip`](http://www.7-zip.org/) 解壓縮。
 2. 將 `includes/ZHConversion.php` 另存新檔。

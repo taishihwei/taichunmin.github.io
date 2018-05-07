@@ -1,9 +1,10 @@
 ---
-title: "SPOJ 11. Factorial.py"
 date: "2014-03-07 01:09"
 categories: SPOJ
 tags: [SPOJ, python]
 ---
+# SPOJ 11. Factorial.py
+
 題目連結：[連結](http://www.spoj.com/problems/FCTRL/)
 
 給定一個 `$n$`，請算出 `$n!$` 的尾端會有幾個 `$0$`

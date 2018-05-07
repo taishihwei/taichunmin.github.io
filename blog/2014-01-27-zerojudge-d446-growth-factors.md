@@ -1,9 +1,10 @@
 ---
-title: "ZeroJudge d446. 生成因數"
 date: "2014-01-27 09:17"
 categories: ZeroJudge
 tags: [zerojudge, CPP]
 ---
+# ZeroJudge d446. 生成因數
+
 這題是在這個寒假，因為剛好寫到類似的題目，所以就順手完成的求因數程式。另外，這裡面還盡量讓自己使用 STL 來傳遞資料，看起來效率還不錯 :)
 
 ```cpp

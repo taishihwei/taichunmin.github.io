@@ -1,9 +1,10 @@
 ---
-title: "SPOJ 379. Ambiguous Permutations.py"
 date: "2014-03-09 06:25"
 categories: SPOJ
 tags: [SPOJ, python]
 ---
+# SPOJ 379. Ambiguous Permutations.py
+
 題目網址：[連結](http://www.spoj.com/problems/PERMUT2/)
 
 ## 解題報告

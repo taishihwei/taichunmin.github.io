@@ -1,9 +1,10 @@
 ---
-title: "SPOJ 4300. Rectangles.py"
 date: "2014-03-08 19:28"
 categories: SPOJ
 tags: [SPOJ, python]
 ---
+# SPOJ 4300. Rectangles.py
+
 題目網址：[連結](http://www.spoj.com/problems/AE00/)
 
 ## 解題報告

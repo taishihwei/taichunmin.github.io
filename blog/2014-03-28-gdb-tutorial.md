@@ -1,9 +1,9 @@
 ---
-title: "GDB 教學"
 date: "2014-03-28 11:42"
 categories: C
 tags: [C, gdb, debug]
 ---
+# GDB 教學
 
 老師給予一個測試程式：
 

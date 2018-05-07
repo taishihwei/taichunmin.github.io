@@ -1,9 +1,10 @@
 ---
-title: "PHP 型態比較與 empty, isset 判斷"
 date: "2014-03-12 10:47"
 categories: PHP
 tags: [PHP, empty, isset]
 ---
+# PHP 型態比較與 empty, isset 判斷
+
 這個是一個小程式，用來幫助釐清 PHP 內的型態比較，以及 `empty`, `isset` 的行為。
 
 ```php

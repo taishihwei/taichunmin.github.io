@@ -1,8 +1,8 @@
 ---
-title: "JSP 20111019 上課練習"
 date: "2011-10-19 20:18"
 categories: JSP
 ---
+# JSP 20111019 上課練習
 
 {% raw %}
 ```jsp

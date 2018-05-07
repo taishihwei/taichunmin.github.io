@@ -1,9 +1,9 @@
 ---
-title: "CPE 培訓 2014-02-18"
 date: "2014-03-18 10:42"
 categories: NCHUIT
 tags: [NCHUIT, CPE, ACM]
 ---
+# CPE 培訓 2014-02-18
 
 ## 杭州電子科技大學 HDU 帳號對應表
 

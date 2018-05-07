@@ -1,9 +1,9 @@
 ---
-title: "那些 Aaron Swartz 用生命告訴網路社會的事"
 date: "2013-04-22 01:50"
 categories: Diary
 tags: [Diary]
 ---
+# 那些 Aaron Swartz 用生命告訴網路社會的事
 
 　　Aaron Swartz，這個對台灣人來說，相對陌生的名字，最近卻在西方世界掀起軒然大波。他因不堪美國政府的追殺與壓迫，2013 年 1 月 11 日選擇在紐約家中自殺，年僅 26 歲。
 

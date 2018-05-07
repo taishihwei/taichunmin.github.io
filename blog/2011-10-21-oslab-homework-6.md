@@ -1,9 +1,9 @@
 ---
-title: "作業系統實驗 Lab6"
 date: "2011-10-21 20:21"
 categories: CPP
 tags: [CPP, oslab, homework]
 ---
+# 作業系統實驗 Lab6
 
 ```cpp
 #include<stdio.h>

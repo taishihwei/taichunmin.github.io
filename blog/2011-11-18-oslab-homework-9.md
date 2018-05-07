@@ -1,9 +1,9 @@
 ---
-title: "作業系統實驗 Lab9"
 date: "2011-11-18 20:01"
 categories: CPP
 tags: [CPP, oslab, homework]
 ---
+# 作業系統實驗 Lab9
 
 ```cpp
 /*

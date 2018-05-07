@@ -1,8 +1,8 @@
 ---
-title: "如何透過 netsh 指令快速切換 Windows 網路設定"
 date: "2011-10-11 01:44"
 categories: Deprecated
 ---
+# 如何透過 netsh 指令快速切換 Windows 網路設定
 
 引用自：<http://blog.miniasp.com/post/2008/11/17/Using-Netsh-Command-Line-Utility-to-switch-TCP-IP-settings.aspx>
 

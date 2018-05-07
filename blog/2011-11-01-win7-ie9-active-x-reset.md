@@ -1,8 +1,8 @@
 ---
-title: "IE9,Win7不會自動跳出ActiveX提示問題解決"
 date: "2011-11-01 20:07"
 categories: Deprecated
 ---
+# IE9, Win7 不會自動跳出 ActiveX 提示問題解決
 
 不知道從何時開始  
 我想要用 webATM 時，  

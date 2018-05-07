@@ -1,9 +1,9 @@
 ---
-title: "魏小亮：參加編程競賽對實際工作的用處"
 date: "2013-10-11 01:40"
 categories: Reprint
 tags: [reprint, acm]
 ---
+# 魏小亮：參加編程競賽對實際工作的用處
 
 來源：[魏小亮的博客](http://blog.sina.com.cn/s/blog_87f330d301019v0j.html) （作者是Facebook的移動技術總監）、<http://blog.jobbole.com/33834/>
 

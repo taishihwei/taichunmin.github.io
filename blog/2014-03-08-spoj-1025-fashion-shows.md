@@ -1,9 +1,10 @@
 ---
-title: "SPOJ 1025. Fashion Shows.py"
 date: "2014-03-08 02:28"
 categories: SPOJ
 tags: [SPOJ, python]
 ---
+# SPOJ 1025. Fashion Shows.py
+
 題目網址：[連結](http://www.spoj.com/problems/FASHION/)
 
 ## 解題報告

@@ -1,9 +1,10 @@
 ---
-title: "吳永輝老師培訓"
 date: "2014-01-18 23:09"
 categories: Diary
 tags: [C, CPP, diary]
 ---
+# 吳永輝老師培訓
+
 ## 第一章 程式設計技巧
 
  1. 簡單計算題

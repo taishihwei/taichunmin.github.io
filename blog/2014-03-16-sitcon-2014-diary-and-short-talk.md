@@ -1,9 +1,9 @@
 ---
-title: "SITCON 2014 參加心得 & 講師"
 date: "2014-03-16 22:49"
 categories: Conference
 tags: [conference, SITCON, diary]
 ---
+# SITCON 2014 參加心得 & 講師
 
 ![](https://ooo.0o0.ooo/2017/03/29/58dac8766b1df.png)
 

@@ -1,9 +1,9 @@
 ---
-title: "大開學長 Drupal 版型初分享"
 date: "2013-05-16 01:46"
 categories: Diary
 tags: [Drupal, CSS, Slideshow, colorbox, QuickTab, 'Display Suite']
 ---
+# 大開學長 Drupal 版型初分享
 
 今天在資訊社，聽了大開學長的Drupal分享  
 真的讓我的一個小小目標前進了一大步  

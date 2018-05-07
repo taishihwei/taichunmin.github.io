@@ -1,8 +1,8 @@
 ---
-title: "好文: 為什麼 GNU grep 這麼快"
 date: "2011-10-26 20:14"
 categories: Reprint
 ---
+# 好文: 為什麼 GNU grep 這麼快
 
 資料取自：<http://blog.longwin.com.tw/2011/10/paper-gnu-grep-fast-2011/>  
 

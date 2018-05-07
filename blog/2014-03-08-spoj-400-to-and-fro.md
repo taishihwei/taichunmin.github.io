@@ -1,9 +1,10 @@
 ---
-title: "SPOJ 400. To and Fro.py"
 date: "2014-03-08 02:20"
 categories: SPOJ
 tags: [SPOJ, python]
 ---
+# SPOJ 400. To and Fro.py
+
 題目連結：[連結](http://www.spoj.com/problems/TOANDFRO/)
 
 ## 解題報告

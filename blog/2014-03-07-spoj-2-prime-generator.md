@@ -1,9 +1,9 @@
 ---
-title: "SPOJ 2. Prime Generator.py"
 date: "2014-03-07 04:51"
 categories: SPOJ
 tags: [SPOJ, python]
 ---
+# SPOJ 2. Prime Generator.py
 
 題目連結：<http://www.spoj.com/problems/PRIME1/>
 給予 `$m$` and `$n$` `$(1 \le m \le n \le 10^9, n-m \le 10^5)$`，輸出這個範圍內的所有質數。

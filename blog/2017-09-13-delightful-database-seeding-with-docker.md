@@ -1,9 +1,10 @@
 ---
-title: "用 Docker 來製作優雅的 MongoDB Seeder"
 date: "2017-09-13 14:08"
 categories: Docker
 tags: [Docker, MongoDB, Seeding]
 ---
+# 用 Docker 來製作優雅的 MongoDB Seeder
+
 > 本篇是原文 [Delightful Database Seeding with Docker](https://ardoq.com/delightful-database-seeding-with-docker/) 的摘要
 
 流程總共區分為三個階段：

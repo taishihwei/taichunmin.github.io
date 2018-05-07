@@ -1,9 +1,9 @@
 ---
-title: "oslab homework 14"
 date: "2011-12-23 02:30"
 categories: CPP
 tags: [CPP, oslab, homework]
 ---
+# 作業系統實驗 14
 
 ```cpp
 #include<stdlib.h>

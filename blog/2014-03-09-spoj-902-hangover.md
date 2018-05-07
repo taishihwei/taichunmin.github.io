@@ -1,9 +1,10 @@
 ---
-title: "SPOJ 902. Hangover.py"
 date: "2014-03-09 03:54"
 categories: SPOJ
 tags: [SPOJ, python]
 ---
+# SPOJ 902. Hangover.py
+
 題目網址：[連結](http://www.spoj.com/problems/HANGOVER/)
 
 ## 解題報告

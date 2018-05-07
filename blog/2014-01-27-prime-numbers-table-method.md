@@ -1,9 +1,10 @@
 ---
-title: "產生質數 (建表法)"
 date: "2014-01-27 09:36"
 categories: CPP
 tags: [CPP, reference]
 ---
+# 產生質數 (建表法)
+
 這個只是自用的代碼庫。
 
 ```cpp

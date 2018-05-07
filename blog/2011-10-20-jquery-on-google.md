@@ -1,8 +1,8 @@
 ---
-title: "jQuery在google的一些在線資源"
 date: "2011-10-20 20:37"
 categories: Deprecated
 ---
+# jQuery 在 google 的一些在線資源
 
 jQuery 是一個不錯的Js庫，相信也用得比較多，但是大家不可能在每一台自己用的電腦都本地下載一個 jQuery 文件，而且 jQuery 更新也比較多，版本之間多少有一些偏差。所以這就讓我們有點頭痛了，但是其實我們可以藉用 GOOGLECODE 的在線資料。
 

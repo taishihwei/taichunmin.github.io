@@ -1,9 +1,9 @@
 ---
-title: "設定 Google Play Developer API Service Account"
 date: "2015-12-14 17:23"
 categories: Skycarpenter
 tags: [PHP, 'Google Play', 'In App Purchase', 'Google Developer Console', 'Google Play Developer Console']
 ---
+# 設定 Google Play Developer API Service Account
 
 <http://stackoverflow.com/questions/25481207/why-getting-error-the-project-id-used-to-call-the-google-play-developer-api-has>
 

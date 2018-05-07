@@ -1,9 +1,9 @@
 ---
-title: "幫我弟寫的小程式，新增演講至Google日曆"
 date: "2011-10-20 20:41"
 categories: PHP
 tags: [php, talk]
 ---
+# 新增演講至 Google 日曆
 
 這個PHP程式是幫我弟寫的  
 主要用途，就是從給予的成大公告網頁上，分析演講的訊息  

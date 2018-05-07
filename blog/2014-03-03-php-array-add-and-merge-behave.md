@@ -1,9 +1,9 @@
 ---
-title: "PHP array add and merge behave"
 date: "2014-03-03 20:02"
 categories: PHP
 tags: [PHP, array_merge]
 ---
+# PHP array add and merge behave
 
 ## Purpose
 

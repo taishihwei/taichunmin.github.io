@@ -1,9 +1,9 @@
 ---
-title: "oslab homework 10"
 date: "2011-11-25 19:58"
 categories: CPP
 tags: [CPP, oslab, homework]
 ---
+# 作業系統實驗 10
 
 ```cpp
 /*

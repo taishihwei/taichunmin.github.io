@@ -1,9 +1,10 @@
 ---
-title: "SPOJ 7974. What’s Next.py"
 date: "2014-03-08 20:04"
 categories: SPOJ
 tags: [SPOJ, python]
 ---
+# SPOJ 7974. What’s Next.py
+
 題目網址：[連結](http://www.spoj.com/problems/ACPC10A/)
 
 判斷等差或等比，並輸出下一項，本題公差和公比均為非 `$0$` 整數。

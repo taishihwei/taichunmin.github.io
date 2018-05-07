@@ -1,9 +1,9 @@
 ---
-title: "CPE 培訓 2014-02-25"
 date: "2014-03-25 17:33"
 categories: NCHUIT
 tags: [NCHUIT, CPE, ACM]
 ---
+# CPE 培訓 2014-02-25
 
 ## CPE 考試
 

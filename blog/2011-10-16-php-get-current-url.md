@@ -1,9 +1,9 @@
 ---
-title: "PHP 取得目前網頁的對外網址"
 date: "2011-10-16 01:36"
 categories: PHP
 tags: [PHP, URL]
 ---
+# PHP 取得目前網頁的對外網址
 
 轉載自：Google API 1.7.7
 

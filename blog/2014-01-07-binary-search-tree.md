@@ -1,9 +1,10 @@
 ---
-title: "Binary Search Tree"
 date: "2014-01-07 02:22"
 categories: C
 tags: [C, 'Binary Search Tree', algorithm, BST]
 ---
+# Binary Search Tree
+
 有學弟來問我怎麼寫資料結構的作業，題目就是在已知資料的出現次數時，找到該筆測資的最佳[二元搜尋樹](http://zh.wikipedia.org/wiki/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9)。所以我就順手寫了一個程式啦。只不過程式雖然是寫出來了，學弟他們當然還要自己轉成 Visual Basic 的程式碼囉～
 
 ![](https://ooo.0o0.ooo/2017/03/29/58dad6307e76a.png)
