@@ -1,13 +1,13 @@
 <template lang="pug">
-  .container#app
+  div
     h1 Black Jack #[small.text-muted Score: {{ score }}]
     .alert(:class="'alert-' + alertType", role="alert", v-html="alertMsg || 'No message.'")
-    .row.mb-3
-      .col
+    .row.mb-3.pl-3
+      .col.pl-0
         button.btn.btn-block.btn-success(@click="hit") Hit
-      .col
+      .col.pl-0
         button.btn.btn-block.btn-primary(@click="stand") Stand
-      .col
+      .col.pl-0
         button.btn.btn-block.btn-danger(@click="deal") Deal
     .card.mb-3
       .card-header.bg-success.text-white
