@@ -129,6 +129,10 @@ works:
     caption: 顯示用電量的歷史紀錄。
   - img: /images/works/前瞻無線資訊網路實驗室6.png
     caption: 使用 SMA 來預測接下來的用電量，以便關掉一些電器避免超出預算。
+- title: 撲克牌 21 點
+  img: /images/works/blackjack.png
+  desc: 練習 Vue.js 所寫的撲克牌 21 點小遊戲。
+  url: /blackjack.html
 ---
 # <span class="fa fa-file-code-o fa-fw"></span> 作品集
 
