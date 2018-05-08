@@ -2,7 +2,7 @@
 date: "2018-05-04 14:52"
 tags: [codility, C++, stack]
 ---
-# codility: StoneWall 石牆
+# Codility: StoneWall 石牆
 
 ::: tip
 這題的敘述如果改成在牆上貼瓷磚會比較貼切，所以我就直接用貼瓷磚來描述了。
@@ -30,5 +30,5 @@ H = [8, 8, 5, 7, 9, 8, 7, 4, 8]
 ![Imgur](https://i.imgur.com/PcZmeFK.png)
 
 ::: warning 這是我的解題結果 (含答案)
-https://app.codility.com/demo/results/training2XUR79-PZX/
+<https://app.codility.com/demo/results/training2XUR79-PZX/>
 :::
