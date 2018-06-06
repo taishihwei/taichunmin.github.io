@@ -22,6 +22,6 @@
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^7.0.1",
     "timelinejs3": "^3.4.0",
-    "vuepress": "^0.8.4"
+    "vuepress": "^0.10.0"
   }
 }
