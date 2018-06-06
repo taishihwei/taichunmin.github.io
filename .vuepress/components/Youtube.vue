@@ -1,6 +1,6 @@
 <template lang="pug">
-  iframe.component-youtube(src="", width="560", height="", frameborder="0", allow="autoplay; encrypted-media", allowfullscreen)
-  // <iframe width="560" height="315" :src="cpuSrc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  .container-youtube
+    iframe.component-youtube(:src="cpuSrc", frameborder="0", allow="autoplay; encrypted-media", allowfullscreen)
 </template>
 
 <script>
@@ -10,7 +10,7 @@ export default {
   props: ['src', 'start'],
   computed: {
     cpuSrc () {
-      let youtubeId = /([a-zA-Z0-9_-]{11})/.exec(this.src)
+      let youtubeId = /([a-zA-Z0-9_-]{11})/.exec(this.src)[1]
       let queries = []
       
       let start = _.parseInt(this.start)
@@ -23,6 +23,15 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-
+.container-youtube
+  position: relative
+  width: 100%
+  padding-top: calc(9 / 16 * 100%)
+  > iframe
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
 </style>
 
