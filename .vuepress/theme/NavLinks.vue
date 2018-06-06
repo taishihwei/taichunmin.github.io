@@ -12,13 +12,12 @@
 </template>
 
 <script>
-import OutboundLink from './OutboundLink.vue'
 import DropdownLink from './DropdownLink.vue'
 import { resolveNavLinkItem } from './util'
 import NavLink from './NavLink.vue'
 
 export default {
-  components: { OutboundLink, NavLink, DropdownLink },
+  components: { NavLink, DropdownLink },
   computed: {
     userNav () {
       return this.$themeLocaleConfig.nav || this.$site.themeConfig.nav || []
@@ -26,7 +25,7 @@ export default {
     nav () {
       const { locales } = this.$site
       if (locales && Object.keys(locales).length > 1) {
-        let currentLink = this.$page.path
+        const currentLink = this.$page.path
         const routes = this.$router.options.routes
         const themeLocales = this.$site.themeConfig.locales || {}
         const languageDropdown = {
@@ -54,11 +53,11 @@ export default {
       return this.userNav
     },
     userLinks () {
-      return (this.nav || []).map((link => {
+      return (this.nav || []).map(link => {
         return Object.assign(resolveNavLinkItem(link), {
           items: (link.items || []).map(resolveNavLinkItem)
         })
-      }))
+      })
     }
   }
 }
