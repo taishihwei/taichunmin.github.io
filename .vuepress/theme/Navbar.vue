@@ -14,7 +14,7 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" ref="navbar">
         <NavLinks/>
         <form class="form-inline mt-2 mt-md-0" submit.prevent>
           <AlgoliaSearchBox v-if="isAlgoliaSearch" :options="algolia"/>
@@ -30,9 +30,17 @@ import SidebarButton from './SidebarButton.vue'
 import AlgoliaSearchBox from '@AlgoliaSearchBox'
 import SearchBox from './SearchBox.vue'
 import NavLinks from './NavLinks.vue'
+import $ from 'jquery'
 
 export default {
   components: { SidebarButton, NavLinks, SearchBox, AlgoliaSearchBox },
+  mounted () {
+    let $navbar = $(this.$refs.navbar)
+    $navbar.on('click', '.nav-item', function () {
+      console.log('click .nav-item')
+      $navbar.removeClass('show')
+    })
+  },
   computed: {
     algolia () {
       return this.$themeLocaleConfig.algolia || this.$site.themeConfig.algolia || {}
