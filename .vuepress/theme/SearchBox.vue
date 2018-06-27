@@ -118,6 +118,9 @@ export default {
       }
     },
     go (i) {
+      if (!this.showSuggestions) {
+        return
+      }
       this.$router.push(this.suggestions[i].path)
       this.query = ''
       this.focusIndex = 0
@@ -196,6 +199,11 @@ export default {
         cursor text
         left 0
         width 10rem
+
+@media (max-width: $MQNarrow) and (min-width: $MQMobile)
+  .search-box
+    .suggestions
+      left 0
 
 @media (max-width: $MQMobile)
   .search-box
