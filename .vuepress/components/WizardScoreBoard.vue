@@ -26,11 +26,11 @@
             span.badge.badge-info {{ predictsSum[roundCur] }}
           th
             span.pr-2.align-middle 結果
-            span.badge.badge-info {{ resultsSum[roundCur] }}
+            span.badge(:class="(resultsSum[roundCur] === roundCur + 1) ? 'badge-success' : 'badge-danger'") {{ resultsSum[roundCur] }}
       tbody
         tr(v-for="player in players")
-          td.py-3 {{ player.name }}
-          td
+          td.align-middle(@click="playerRename(player)") {{ player.name }}
+          td.py-2.pl-0
             .input-group.input-group-sm(v-for="round in [ player.rounds[roundCur] ]")
               .input-group-prepend
                 button.btn.btn-outline-secondary(type="button", @click="round.result = --round.predict")
@@ -39,7 +39,7 @@
               .input-group-append
                 button.btn.btn-outline-secondary(type="button", @click="round.result = ++round.predict")
                   span.fa.fa-plus
-          td
+          td.py-2.pl-0
             .input-group.input-group-sm(v-for="round in [ player.rounds[roundCur] ]")
               .input-group-prepend
                 button.btn.btn-outline-secondary(type="button", @click="round.result--")
@@ -50,23 +50,23 @@
                   span.fa.fa-plus
     .card-body.p-2(v-if="curTab == 'input'")
       button.btn.btn-sm.btn-outline-secondary.mr-1(type="button", :disabled="roundCur <= 0", @click="roundCur--") #[span.fa.fa-arrow-left] 上一輪
-      button.btn.btn-sm.btn-outline-secondary(type="button", :disabled="roundCur >= roundMax - 1", @click="roundCur++") #[span.fa.fa-arrow-right] 下一輪
+      button.btn.btn-sm.mr-1(type="button", :disabled="roundCur >= roundMax - 1", @click="roundCur++", :class="'btn-outline' + inputResultColor") #[span.fa.fa-arrow-right] 下一輪
+      span.text-black-50.fs-dot8rem 點玩家名稱可以改名。
     .table-responsive(v-if="curTab == 'result' && !!roundMax")
-      table.table.table-striped.table-borderless.table-sm.mb-0.text-center.text-nowrap.text-monospace
+      table.table.table-striped.table-borderless.table-sm.mb-0.text-center.text-nowrap.text-monospace#result-table
         thead
           tr
             th #
             th(v-for="player, playerIdx in players")
-              span.pr-2.align-middle {{ player.name }}
               span.badge.badge-primary {{ playersScore[playerIdx] }}
+              br
+              span {{ player.name }}
         tbody
           tr(v-for="i in roundMax", :key="i")
             th {{ i }}
             td(v-for="player in players")
               template(v-if="roundsEnable[i-1]", v-for="round in [_.get(player, ['rounds', i-1])]")
-                template(v-for="score in [calculatePlayerRoundScore(round)]")
-                  span.round-score.pr-2.align-middle(:class="score > 0 ? 'text-success' : 'text-danger'") {{ score }}
-                span.badge.badge-secondary {{ _.get(round, 'predict', 0) }}
+                span.round-score.pr-2.align-middle(v-for="score in [calculatePlayerRoundScore(round)]", :class="score > 0 ? 'text-success' : 'text-danger'") {{ score }}
     .alert.alert-danger.mb-0(v-if="!roundMax") 神機妙算的人數限制為 3 人到 6 人。
 </template>
 
@@ -98,6 +98,13 @@
 .badge-info 
   color: #fff
   background-color: #17a2b8
+.badge-danger
+  color: #fff
+  background-color: #dc3545
+#result-table
+  letter-spacing: -1.5px
+.fs-dot8rem
+  font-size: .8rem
 </style>
 
 <script>
@@ -142,7 +149,10 @@ export default {
     },
     playersScore () {
       return _.map(this.players, this.playerScore)
-    }
+    },
+    inputResultColor () {
+      return (this.resultsSum[this.roundCur] === this.roundCur + 1) ? '-success' : '-danger'
+    },
   },
   methods: {
     gameRestart () {
@@ -156,6 +166,7 @@ export default {
           })
         ))
       })
+      this.roundCur = 0
     },
     calculatePlayerRoundScore (round) {
       let predict = _.get(round, 'predict', 0)
@@ -187,7 +198,7 @@ export default {
     },
     async playerAdd () {
       try {
-        let playerName = await this.promptPromise('請輸入新玩家的暱稱', `玩家 ${this.players.length + 1}`)
+        let playerName = await this.promptPromise('請輸入新玩家的暱稱', `${this.players.length + 1}P`)
         if (playerName == null) return
         this.players.push({ name: playerName })
         this.gameRestart()
@@ -201,6 +212,15 @@ export default {
         await this.confirmPromise(`確定要刪除玩家「${player.name}」嗎？\n（修改玩家人數都會自動重新開始遊戲）`)
         this.players.pop()
         this.gameRestart()
+      } catch (error) {
+        console.log(error)
+      }
+    },
+    async playerRename (player) {
+      try {
+        let playerName = await this.promptPromise(`請問要把玩家 ${this.players.indexOf(player) + 1} 的名字改成什麼？`, player.name)
+        if (playerName == null) return
+        this.$set(player, 'name', playerName)
       } catch (error) {
         console.log(error)
       }

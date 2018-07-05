@@ -12,6 +12,7 @@ module.exports = {
       { text: '作品集', link: '/works', icon: 'file-code-o' },
       { text: '部落格', link: '/blog/', icon: 'file-text' },
       { text: 'GitHub', link: 'https://github.com/taichunmin/taichunmin.github.io/', icon: 'github' },
+      { text: 'Travis CI', link: 'https://travis-ci.org/taichunmin/taichunmin.github.io', icon: 'tasks' },
     ],
     repo: 'taichunmin/blog',
     editLinks: false,
