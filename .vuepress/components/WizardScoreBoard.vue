@@ -20,7 +20,7 @@
     table.table.table-striped.table-borderless.text-nowrap.text-center.text-monospace.mb-0(v-if="curTab == 'input' && !!roundMax")
       thead
         tr
-          th {{ `${roundCur + 1}/${roundMax}` }}
+          th(colspan="2") {{ `${roundCur + 1}/${roundMax}` }}
           th
             span.pr-2.align-middle 預測
             span.badge.badge-info {{ predictsSum[roundCur] }}
@@ -28,8 +28,9 @@
             span.pr-2.align-middle 結果
             span.badge(:class="(resultsSum[roundCur] === roundCur + 1) ? 'badge-success' : 'badge-danger'") {{ resultsSum[roundCur] }}
       tbody
-        tr(v-for="player in players")
-          td.align-middle(@click="playerRename(player)") {{ player.name }}
+        tr(v-for="player, playerIdx in players")
+          td.align-middle.fs-dot8rem(@click="playerRename(player)", :class="playerIdx === dealer ? 'bg-success text-white' : ''") {{ player.name }}
+          td.align-middle.fs-dot8rem {{ playersScore[playerIdx] }}
           td.py-2.pl-0
             .input-group.input-group-sm(v-for="round in [ player.rounds[roundCur] ]")
               .input-group-prepend
@@ -153,6 +154,9 @@ export default {
     inputResultColor () {
       return (this.resultsSum[this.roundCur] === this.roundCur + 1) ? '-success' : '-danger'
     },
+    dealer () {
+      return this.roundCur % this.players.length
+    },
   },
   methods: {
     gameRestart () {
@@ -177,7 +181,7 @@ export default {
     playerScore (player) {
       let sum = 0
       _.each(player.rounds, (round, i) => {
-        if (this.predictsSum[i] <= 0) return
+        if (this.resultsSum[i] <= 0) return
         sum += this.calculatePlayerRoundScore(round)
       })
       return sum
