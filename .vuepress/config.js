@@ -1,9 +1,10 @@
-const webpack = require('webpack')
-
 module.exports = {
   title: '筆記國度',
   description: '目前任職於微程式資訊股份有限公司，從高中因為社團接觸 ACM，然後大學開始自學 PHP。主要是後端工程師，前端略有涉略，美工超級不擅長，請大家多多指教。',
   evergreen: true,
+  markdown: {
+    lineNumbers: true
+  },
   themeConfig: {
     nav: [
       { text: 'Home', link: '/', icon: 'home' },
@@ -16,6 +17,9 @@ module.exports = {
     ],
     repo: 'taichunmin/blog',
     editLinks: false,
-    ga: 'UA-39556213-2'
-  }
+    ga: 'UA-39556213-3'
+  },
+  head: [
+    ['link', {rel: 'shortcut icon', type: 'image/png', href: '/favicon.png'}]
+  ]
 }
