@@ -13,7 +13,7 @@ tags: [Nodejs, Docker]
 
 * 於專案目錄建立一個 `docker-compose.yml`
 
-```yml
+```yaml
 version: "2"
 services:
   node:
@@ -28,7 +28,7 @@ services:
 
 * 使用以下指令使用虛擬機
 
-```shell
+```bash
 # start
 $ docker-compose up -d
 
@@ -47,7 +47,7 @@ $ docker-compose exec node bash
 
 #### 搭配 express 4 使用
 
-```yml
+```yaml
 version: "2"
 services:
   node:
@@ -68,7 +68,7 @@ services:
 
 * 撰寫 `Dockerfile`
 
-```Dockerfile
+```docker
 # specify the node base image with your desired version node:<version>
 FROM node:6
 # replace this with your application's default port
@@ -77,7 +77,7 @@ EXPOSE 3000
 
 * 使用以下指令來 build 和執行
 
-```shell
+```bash
 # build
 $ docker build -t my-nodejs-app .
 # run

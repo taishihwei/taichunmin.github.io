@@ -26,7 +26,7 @@ tags: [Docker, MongoDB, Seeding]
 
 1. 撰寫一個 Seeder 的 Dockerfile 如下
 
-    ```Dockerfile
+    ```docker
     FROM mongo:3.0.1
     ADD clean-dump.tar.gz /work
     ADD attachments.tar.gz /work
@@ -40,7 +40,7 @@ tags: [Docker, MongoDB, Seeding]
 
 1. 使用兩個指令來分別匯入 db 資料和 attachments 如下：
 
-    ```shell
+    ```bash
     docker run --rm --link ardoq_mongodb_1:mongodb ardoq/demo-seed:latest mongorestore -h mongodb /work/demo_seed
     docker run --rm --volumes-from ardoq_mongodb_1 ardoq/demo-seed:latest cp -r /work/attachments /data
     ```

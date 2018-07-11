@@ -18,13 +18,13 @@ tags: ['Deprecated']
 2. 再利用記事本(Notepad)開啟一份新文件，並且命名為 SwitchToDHCP.bat
 3. 輸入以下指令碼（由於 Windows XP 與 Windows Vista 的指令有些差異，因此分開列表）
 
-```bat
+```batch
 ; Windows 2000 / XP / 2003
 netsh interface ip set address "區域連線" source=dhcp
 netsh interface ip set dns     "區域連線" source=dhcp
 ```
 
-```bat
+```batch
 ; Windows Vista / 2008
 netsh interface ip set address   "區域連線" source=dhcp
 netsh interface ip set dnsserver "區域連線" source=dhcp
@@ -36,13 +36,13 @@ netsh interface ip set dnsserver "區域連線" source=dhcp
 2. 再利用記事本(Notepad)開啟一份新文件，並且命名為 `SwitchTo 公司內部 IP.bat`
 3. 輸入以下指令碼（由於 Windows XP 與 Windows Vista 的指令有些差異，因此分開列表）
 
-```bat
+```batch
 ; Windows 2000 / XP / 2003
 netsh interface ip set address "區域連線" static 10.10.1.168 255.255.255.0 10.10.1.254 1
 netsh interface ip set dns     "區域連線" static 10.10.1.1 primary
 ```
 
-```bat
+```batch
 ; Windows Vista / 2008
 netsh interface ip set address   "區域連線" static 10.10.1.168 255.255.255.0 10.10.1.254 1
 netsh interface ip set dnsserver "區域連線" static 10.10.1.254 primary
@@ -50,13 +50,13 @@ netsh interface ip set dnsserver "區域連線" static 10.10.1.254 primary
 
 設定靜態 IP 時，標準的指令公式如下：
 
-```bat
+```batch
 ; Windows 2000 / XP / 2003
 netsh interface ip set address "<介面名稱>" static [IP] [子網路遮罩] [預設閘道] [閘道公制]
 netsh interface ip set dns     "<介面名稱>" static [名稱伺服器位址] primary
 ```
 
-```bat
+```batch
 ; Windows Vista / 2008
 netsh interface ip set address "<介面名稱>" static [IP] [子網路遮罩] [預設閘道] [閘道公制]
 netsh interface ip set dnsserver "<介面名稱>" static [名稱伺服器位址] primary
@@ -64,13 +64,13 @@ netsh interface ip set dnsserver "<介面名稱>" static [名稱伺服器位址]
 
 當然，這只是針對網路介面卡做基本的設定，如果要將你現有的網路設定「完整紀錄」下來的話，可以利用以下指令達成：
 
-```bat
+```batch
 netsh -c interface dump > netsh_office.cfg
 ```
 
 上面那個指令是將你現在的網路設定全部匯出(dump)到 `netsh_office.cfg` 檔案中。若下次要將設定還原，可以直接利用以下指令達成：
 
-```bat
+```batch
 netsh -f netsh_office.cfg
 ```
 

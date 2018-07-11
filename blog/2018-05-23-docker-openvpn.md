@@ -32,7 +32,7 @@ cd ~/ovpn
 nano docker-compose.yml # or vim
 ```
 
-```yml
+```yaml
 version: '2'
 
 services:
