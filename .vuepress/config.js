@@ -17,6 +17,7 @@ module.exports = {
     ga: 'UA-39556213-3'
   },
   head: [
-    ['link', {rel: 'shortcut icon', type: 'image/png', href: '/favicon.png'}]
+    ['link', {rel: 'shortcut icon', type: 'image/png', href: '/favicon.png'}],
+    ['meta', {property: 'og:site_name', content: '筆記國度'}],
   ]
 }

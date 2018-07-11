@@ -1,13 +1,19 @@
 ---
 title: 神機妙算記分板
 meta:
-  - name: author
-    content: 和風信使
-  - name: author-avatar-20
-    content: https://www.gravatar.com/avatar/8d9b432d861e4ac0e40954a800ae90a1
   - name: keywords
     content: 神機妙算,wizard,scorepad,scoreboard,boardgame
   - name: description
-    content: 桌遊神機妙算的記分板。
+    content: 使用這個記分板能夠快速記錄每位玩家的預測及贏得幾墩，並且幫您計算得分。
+  - property: og:title
+    content: 神機妙算記分板
+  - property: og:image
+    content: http://taichunmin.idv.tw/images/boardgame-wizard.jpg
+  - property: og:description
+    content: 使用這個記分板能夠快速記錄每位玩家的預測及贏得幾墩，並且幫您計算得分。
+  - property: og:locale
+    content: zh_TW
+  - property: og:site_name
+    content: 筆記國度
 ---
 <WizardScoreBoard/>
