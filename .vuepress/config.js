@@ -18,6 +18,7 @@ module.exports = {
   },
   head: [
     ['link', {rel: 'shortcut icon', type: 'image/png', href: '/favicon.png'}],
+    ['meta', {property: 'og:locale', content: 'zh_TW'}],
     ['meta', {property: 'og:site_name', content: '筆記國度'}],
   ]
 }
