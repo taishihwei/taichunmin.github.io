@@ -1,5 +1,5 @@
 <template lang="pug">
-.container(v-cloak)
+.container(v-cloak="")
   h1.text-center.my-3 神機妙算記分板
   .card.mb-3
     .card-header
