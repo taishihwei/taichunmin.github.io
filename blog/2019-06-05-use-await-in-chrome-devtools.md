@@ -28,4 +28,4 @@ console.log(await fn1())
 
 沒想到還真的可以用（歡呼
 
-無聊跑去追了一下，原來在 Chrome 60 就有支援這個功能了 [參考連結](https://www.reddit.com/r/javascript/comments/6tuaxj/toplevel_await_is_supported_inside_latest_chrome/)，看來我 LAG 了超級久阿XD
+無聊跑去追了一下，原來在 Chrome 55 就有支援這個功能了 [參考連結](https://developers.google.com/web/fundamentals/primers/async-functions?hl=zh-tw)，看來我 LAG 了超級久阿XD
