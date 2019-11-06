@@ -349,7 +349,7 @@ Run `npm config delete prefix` or `nvm use --delete-prefix v8.9.1 --silent` to u
 
 只要你找到了有問題的 npm 路徑，你就可以如下的指令來解析 symlink 並找到有問題的 node_modules：
 
-```bash=
+```bash
 ls -la /usr/local/bin | grep "np[mx]"
 ```
 
@@ -362,7 +362,7 @@ ls -la /usr/local/bin | grep "np[mx]"
 
 然後你就可以透過移除這些檔案並重開 VS Code 來解決這個錯誤：
 
-```bash=
+```bash
 rm -R /usr/local/bin/npm /usr/local/lib/node_modules/npm/bin/npm-cli.js
 rm -R /usr/local/bin/npx /usr/local/lib/node_modules/npm/bin/npx-cli.js
 ```
@@ -371,7 +371,7 @@ rm -R /usr/local/bin/npx /usr/local/lib/node_modules/npm/bin/npx-cli.js
 
 當然可以！你可以透過 `terminal.integrated.fontFamily` 設定來指定使用 [Powerline](https://powerline.readthedocs.io/) 字型。
 
-```json=
+```json
 "terminal.integrated.fontFamily": "Meslo LG M DZ for Powerline"
 ```
 
@@ -381,7 +381,7 @@ rm -R /usr/local/bin/npx /usr/local/lib/node_modules/npm/bin/npx-cli.js
 
 在 bash 中，你預設可以使用 ![](https://i.imgur.com/BCnoMmb.png) 和 ![](https://i.imgur.com/Z0Heyac.png) 的快捷鍵來讓你的游標跳單字，但是在 zsh 中你需要透過修改以下的設定才能達到一樣的效果：
 
-```json=
+```json
 {
   "key": "ctrl+left",
   "command": "workbench.action.terminal.sendSequence",
