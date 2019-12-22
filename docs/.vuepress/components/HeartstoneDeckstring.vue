@@ -10,7 +10,7 @@
     textarea.text-monospace.deckstrings.form-control(v-model="i.deckstrings")
   .btn-group(role="group")
     button.btn.btn-outline-primary(type="button", v-for="tmp in deckstrings.length", :key="tmp", @click="i.deckNo = tmp", :class="{active: (tmp === i.deckNo)}") {{ tmp }}
-  .row.py-2(:style="{ 'max-width': `${i.cardCol * 227 + 30}px` }")
+  .row.my-2(:style="{ 'max-width': `${i.cardCol * 227 + 30}px`, position: 'relative' }")
     .col-12
       .card-col(v-for="col in _.chunk(cards, Math.ceil(cards.length / i.cardCol))")
         .card-tile(v-for="card in col", :key="`${card.dbfId}-${card.num}`", :style="{'background-image': `linear-gradient(to left, rgba(0,0,0,0) 30%, rgba(0,0,0,1.0) 80%), url('https://art.hearthstonejson.com/v1/tiles/${card.id}.jpg')`}")
@@ -20,6 +20,7 @@
           .count(v-if="card.rarity===0") ★
     .col-12
       .deck-name {{ deckName }}
+    .screenshots
   textarea.form-control.my-3(readonly, @click="copy", ref="forcopy", :value="`${deckName}\n${deckstring}`")
 </template>
 
@@ -73,6 +74,12 @@ export default {
     }, { deep: true })
     this.db = await this.getHearthstoneDB()
     this.ready = true
+  },
+  watch: {
+    deckName (newVal, oldVal) {
+      if (newVal === oldVal) return
+      document.title = `${_.padStart(this.i.deckNo, 2, '0')} ${newVal}`
+    },
   },
   computed: {
     deckstrings () {
@@ -230,4 +237,10 @@ export default {
       background: #555555
     .gem-4
       background: #757575
+  .screenshots
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 15px
+    right: 15px
 </style>
