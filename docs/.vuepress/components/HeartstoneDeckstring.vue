@@ -1,6 +1,5 @@
 <template lang="pug">
-div
-  .container#app(v-cloak, v-if="ready")
+.container(v-cloak, v-if="ready")
   h1.my-3.text-center 爐石讀取牌組代碼
   .form-group
     .form-check.form-check-inline(v-for="tmp in 3", :key="tmp")
@@ -141,12 +140,6 @@ export default {
           ]);
         }
       }
-      // return {
-      //   format: ['', '開放', '標準'][format],
-      //   heroes: _.map(heroes, hero => _.get(this, ['db', hero])),
-      //   hero: _.get(this, ['db', heroes[0]]),
-      //   cards: cards,
-      // }
       return { format, heroes, cards }
     },
     copy () {
