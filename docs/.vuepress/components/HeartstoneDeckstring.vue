@@ -154,6 +154,7 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+  @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
   body
     font-family: SFMono-Regular, Menlo, Monaco, "Liberation Mono", "Courier New", monospace, 'Noto Sans TC', sans-serif
   [v-cloak]
