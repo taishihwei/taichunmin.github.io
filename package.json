@@ -8,7 +8,7 @@
   "license": "CC BY-NC-SA 3.0",
   "private": true,
   "devDependencies": {
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.4.1",
     "font-awesome": "^4.7.0",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
@@ -17,7 +17,7 @@
     "pug": "^2.0.4",
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^7.1.0",
-    "transliteration": "^2.1.7",
+    "transliteration": "^2.1.8",
     "vuepress": "^1.2.0"
   },
   "scripts": {
@@ -25,7 +25,8 @@
     "build": "vuepress build docs"
   },
   "dependencies": {
-    "bootstrap-vue": "^2.0.4",
-    "vue": "^2.6.10"
+    "axios": "^0.19.0",
+    "bootstrap-vue": "^2.1.0",
+    "vue": "^2.6.11"
   }
 }
