@@ -3,12 +3,12 @@
     Navbar(v-if="shouldShowNavbar", @toggle-sidebar="toggleSidebar")
     .sidebar-mask(@click="toggleSidebar(false)")
     Sidebar(:items="sidebarItems", @toggle-sidebar="toggleSidebar")
-      slot(name="sidebar-top", slot="top")
-      slot(name="sidebar-bottom", slot="bottom")
+      template(#top) #[slot(name="sidebar-top")]
+      template(#bottom) #[slot(name="sidebar-bottom")]
     Home(v-if="$page.frontmatter.home")
-    Page(v-else, :sidebar-items="sidebarItems", :class="$page.frontmatter.fluid ? 'container-fluid' : 'container my-3'")
-      slot(name="page-top", slot="top")
-      slot(name="page-bottom", slot="bottom")
+    Page(v-else, :sidebar-items="sidebarItems")
+      template(#top) #[slot(name="page-top")]
+      template(#bottom) #[slot(name="page-bottom")]
 </template>
 
 <script>
@@ -18,7 +18,13 @@ import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
 import { resolveSidebarItems } from '@parent-theme/util'
 export default {
-  components: { Home, Page, Sidebar, Navbar },
+  name: 'Layout',
+  components: {
+    Home,
+    Page,
+    Sidebar,
+    Navbar
+  },
   data () {
     return {
       isSidebarOpen: false
@@ -77,6 +83,7 @@ export default {
   methods: {
     toggleSidebar (to) {
       this.isSidebarOpen = typeof to === 'boolean' ? to : !this.isSidebarOpen
+      this.$emit('toggle-sidebar', this.isSidebarOpen)
     },
     // side swipe
     onTouchStart (e) {
