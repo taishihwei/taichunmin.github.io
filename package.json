@@ -16,7 +16,7 @@
     "prismjs": "^1.17.1",
     "pug": "^2.0.4",
     "pug-plain-loader": "^1.0.0",
-    "sass-loader": "^7.1.0",
+    "sass-loader": "^7.3.1",
     "transliteration": "^2.1.8",
     "vuepress": "^1.2.0"
   },
@@ -27,6 +27,7 @@
   "dependencies": {
     "axios": "^0.19.0",
     "bootstrap-vue": "^2.1.0",
+    "typeface-noto-sans-tc": "^0.0.71",
     "vue": "^2.6.11"
   }
 }

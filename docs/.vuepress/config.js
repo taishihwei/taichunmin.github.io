@@ -9,6 +9,7 @@ module.exports = {
   },
   themeConfig: {
     sidebarDepth: 0,
+    smoothScroll: true,
     nav: [
       {
         text: 'Home',
@@ -81,5 +82,10 @@ module.exports = {
       property: 'fb:app_id',
       content: '2133031763635285'
     }],
-  ]
+  ],
+  locales: {
+    '/': {
+      lang: 'zh-TW'
+    }
+  }
 }
