@@ -1,5 +1,5 @@
 <template lang="pug">
-  main(:class="`page my-3 container${$page.frontmatter.fluid ? '-fluid' : ''}`")
+  main(:class="`my-3 container${$frontmatter.fluid ? '-fluid' : ''}`")
     slot(name="top")
     Content
     PageNav(v-bind="{ sidebarItems }")

@@ -5,7 +5,7 @@
     Sidebar(:items="sidebarItems", @toggle-sidebar="toggleSidebar")
       template(#top) #[slot(name="sidebar-top")]
       template(#bottom) #[slot(name="sidebar-bottom")]
-    Home(v-if="$page.frontmatter.home")
+    Home(v-if="$frontmatter.home")
     Page(v-else, :sidebar-items="sidebarItems")
       template(#top) #[slot(name="page-top")]
       template(#bottom) #[slot(name="page-bottom")]
@@ -64,7 +64,7 @@ export default {
       )
     },
     pageClasses () {
-      const userPageClass = this.$page.frontmatter.pageClass
+      const userPageClass = this.$frontmatter.pageClass
       return [
         {
           'no-navbar': !this.shouldShowNavbar,

@@ -40,11 +40,11 @@ skills:
 
 <div class="row">
   <div class="col-md-6 p-md-2">
-    <SkillCard :skill="$page.frontmatter.skills[0]"/>
-    <SkillCard :skill="$page.frontmatter.skills[2]"/>
+    <SkillCard :skill="$frontmatter.skills[0]"/>
+    <SkillCard :skill="$frontmatter.skills[2]"/>
   </div>
   <div class="col-md-6 p-md-2">
-    <SkillCard :skill="$page.frontmatter.skills[1]"/>
-    <SkillCard :skill="$page.frontmatter.skills[3]"/>
+    <SkillCard :skill="$frontmatter.skills[1]"/>
+    <SkillCard :skill="$frontmatter.skills[3]"/>
   </div>
 </div>

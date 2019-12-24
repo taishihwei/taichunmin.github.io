@@ -142,5 +142,5 @@ works:
 包含網頁，小工具，程式作業以及其他作品。
 
 <div class="card-columns">
-  <WorkCard v-for="work in $page.frontmatter.works" :key="work.title" :work="work"/>
+  <WorkCard v-for="work in $frontmatter.works" :key="work.title" :work="work"/>
 </div>

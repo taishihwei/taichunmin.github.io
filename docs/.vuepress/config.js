@@ -18,8 +18,8 @@ module.exports = {
       },
       {
         text: '經歷',
-        link: '/experiences',
-        fa: 'history'
+        link: '/resume',
+        fa: 'user'
       },
       {
         text: '技能',
@@ -30,6 +30,11 @@ module.exports = {
         text: '作品集',
         link: '/works/',
         fa: 'file-code-o'
+      },
+      {
+        text: 'Timeline',
+        link: '/experiences',
+        fa: 'history'
       },
       {
         text: '部落格',

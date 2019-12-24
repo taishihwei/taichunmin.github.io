@@ -11,7 +11,7 @@ export default {
 
   computed: {
     data () {
-      return this.$page.frontmatter
+      return this.$frontmatter
     }
   },
 
