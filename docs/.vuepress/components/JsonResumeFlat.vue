@@ -121,10 +121,10 @@
       section.row#languages(v-if="resume.languages.length")
         aside.col-sm-3 #[h3 Languages]
         .col-sm-9
-          .row
-            .col-sm-6(v-for="language of resume.languages")
-              .language #[strong {{ language.language }}]
-              .fluency {{ language.fluency }}
+          .row.languages
+            .col-12.mb-2(v-for="language of resume.languages")
+              strong.language {{ language.language }}
+              span.fluency.ml-1 ({{ language.fluency }})
       section.row#interests(v-if="resume.interests.length")
         aside.col-sm-3 #[h3 Interests]
         .col-sm-9
