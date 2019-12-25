@@ -244,7 +244,7 @@ main.container-fluid.page
       &:before
         content: "\f0d7"
         font: 16px Octicons
-        margin-right: 6px
+        margin-right: 9px
     .studyType
       margin-left: 25px
   #awards, #publications
