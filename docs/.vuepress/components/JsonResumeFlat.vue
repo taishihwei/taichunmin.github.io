@@ -179,7 +179,7 @@ main.container-fluid.page
     margin-top: 10px
   h1, h2, h3, h4
     margin-top: 0
-    font-weight: 500
+    font-weight: bold
   h4
     font-size: 18px
   section
