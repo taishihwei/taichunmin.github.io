@@ -2,10 +2,10 @@
   #resume(v-if="resume")
     header#header
       .container
-        .row
-          .col-3
-            img.avatar.rounded-circle(:src="resume.basics.picture")
-          .col-9
+        .row.align-items-center
+          .col-sm-3.mb-4.mb-sm-0.text-center
+            img.avatar.img-fluid.rounded-circle(:src="resume.basics.picture")
+          .col-sm-9
             h1 {{ resume.basics.name }}
             h2 {{ resume.basics.label }}
     .container#content
@@ -25,7 +25,7 @@
                 a(target="_blank", :href="resume.basics.website") {{ resume.basics.website }}
       section.row#about
         aside.col-sm-3 #[h3 About]
-        .col-sm-9 {{ resume.basics.summary }}
+        .col-sm-9 #[p {{ resume.basics.summary }}]
       section.row#profiles(v-if="resume.basics.profiles.length")
         aside.col-sm-3 #[h3 Profiles]
         .col-sm-9
@@ -109,7 +109,7 @@
               .publisher
                 em.mr-1 Published by
                 strong {{ publication.publisher }}
-              .summary {{ publication.summary }}
+              .summary #[p {{ publication.summary }}]
       section.row#skills(v-if="resume.skills.length")
         aside.col-sm-3 #[h3 Skills]
         .col-sm-9
@@ -166,9 +166,7 @@ main.container-fluid.page
 #resume
   margin: -15px
   font-family: Lato, 'Noto Sans TC', sans-serif
-  img.avatar
-    width: 100%
-    margin: -25px 0
+  font-size: 14px
   a
     color: #2ecc71
     &:focus, &:hover
@@ -186,6 +184,8 @@ main.container-fluid.page
     font-size: 18px
   section
     margin-top: 30px
+  ul
+    padding-left: 40px
   li
     line-height: 1.8
     list-style: none
@@ -252,7 +252,7 @@ main.container-fluid.page
       margin-top: 8px
   #publications .website a:before
     content: attr(href)
-  @media (min-width: 480px)
+  @media (min-width: 576px)
     .strike-through
       border-top: 1px solid #f4f6f6
       height: 20px
@@ -279,7 +279,9 @@ main.container-fluid.page
       text-align: left
     #publications .website a:before
       content: "View publication"
-  @media (max-width: 480px)
+  @media (max-width: 576px)
+    img.avatar
+      width: 75%
     h1
       font-size: 26px
     .date
