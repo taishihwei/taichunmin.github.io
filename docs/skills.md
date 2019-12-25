@@ -4,35 +4,51 @@ skills:
     icon: chrome
     items:
       Bootstrap: 3
-      CSS: 2
       HTML: 3
-      JavaScript: 2
+      JavaScript: 3
       jQuery: 3
+      Pug: 3
       Vue.js: 3
+      CSS: 2
+      ESLint: 2
+      Jest: 2
+      VuePress: 2
+      Sass: 1
   - title: Backend
-    icon: floppy-o
-    items: 
-      'C++': 3
-      'Python 3': 2
-      Bash: 1
-      C: 2
-      Node.js: 3
-      PHP: 3
-  - title: DevOps
     icon: server
+    items: 
+      'Node.js': 3
+      Express: 3
+      MySQL: 3
+      PHP: 3
+      Redis: 3
+      'Python 3': 2
+      C: 2
+      Jest: 2
+      Yarn: 2
+      Bash: 1
+      MongoDB: 1
+  - title: DevOps
+    icon: check-square-o
     items:
-      Ansible: 1
-      Apache: 3
-      CentOS: 1
       Docker: 3
+      Git: 3
       Nginx: 3
       Ubuntu: 3
-  - title: Database
-    icon: database
+      'GitLab CI': 2
+      Apache: 2
+      AWS: 2
+      GCP: 2
+      GitLab: 2
+      Ansible: 1
+      CentOS: 1
+  - title: IoT
+    icon: hdd-o
     items:
-      MongoDB: 1
-      MySQL: 3
-      Redis: 3
+      'C++': 3
+      C: 2
+      'LINE Things': 1
+      Arduino: 1
 ---
 # <span class="fa fa-bar-chart-o fa-fw"></span> 技能
 

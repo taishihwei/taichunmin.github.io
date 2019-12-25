@@ -22,7 +22,7 @@
             .col-sm-6
               strong Website
               .website
-                a(target="_blank", :href="resume.basics.website") {{ resume.basics.website }}
+                a(target="_blank", :href="resume.basics.website") {{ trimProto(resume.basics.website) }}
       section.row#about
         aside.col-sm-3 #[h3 About]
         .col-sm-9 #[p {{ resume.basics.summary }}]
@@ -37,7 +37,7 @@
                   a(target="_blank", :href="profile.url") {{ profile.username }}
                 template(v-else) {{ profile.username }}
               .url(v-else-if="profile.url")
-                a(target="_blank", :href="profile.url") {{ profile.url }}
+                a(target="_blank", :href="profile.url") {{ trimProto(profile.url) }}
       section.row#work(v-if="resume.work.length")
         aside.col-sm-3 #[h3 Work]
         .col-sm-9
@@ -47,7 +47,7 @@
                 span {{ work.company }}
                 span.date {{ work.startDate }} — {{ work.endDate || '至今' }}
               .website.pull-right
-                a(target="_blank", :href="work.website") {{ work.website }}
+                a(target="_blank", :href="work.website") {{ trimProto(work.website) }}
               .position {{ work.position }}
               .summary #[p {{ work.summary }}]
               .mt-3(v-if="work.highlights.length")
@@ -63,7 +63,7 @@
                 span {{ volunteer.organization }}
                 span.date {{ volunteer.startDate }} — {{ volunteer.endDate || '至今' }}
               .website.pull-right
-                a(target="_blank", :href="volunteer.website") {{ volunteer.website }}
+                a(target="_blank", :href="volunteer.website") {{ trimProto(volunteer.website) }}
               .position {{ volunteer.position }}
               .summary #[p {{ volunteer.summary }}]
               .mt-3(v-if="volunteer.highlights.length")
@@ -105,7 +105,7 @@
                 span {{ publication.name }}
                 span.date {{ publication.releaseDate }}
               .website.pull-right
-                a(target="_blank", :href="publication.website") {{ publication.website }}
+                a(target="_blank", :href="publication.website") {{ trimProto(publication.website) }}
               .publisher
                 em.mr-1 Published by
                 strong {{ publication.publisher }}
@@ -152,8 +152,15 @@ export default {
     resume: null,
   }),
   async mounted () {
-    const res = await axios.get(this.src)
+    const url = new URL(this.src)
+    url.searchParams.set('cachebust', +new Date())
+    const res = await axios.get(url.href)
     this.$set(this, 'resume', res.data)
+  },
+  methods: {
+    trimProto (url) {
+      return url.replace(/^https?:\/\//, '')
+    },
   }
 }
 </script>
