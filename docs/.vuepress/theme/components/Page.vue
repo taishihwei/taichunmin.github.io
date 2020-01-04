@@ -7,7 +7,7 @@
 </template>
 
 <style lang="sass">
-main.page
+main.container
   img
     max-width: 100%
 </style>
