@@ -92,5 +92,13 @@ module.exports = {
     '/': {
       lang: 'zh-TW'
     }
-  }
+  },
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-39556213-3'
+      }
+    ]
+  ]
 }
