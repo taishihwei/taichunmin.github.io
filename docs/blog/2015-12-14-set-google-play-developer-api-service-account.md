@@ -3,11 +3,13 @@ date: "2015-12-14 17:23"
 categories: Skycarpenter
 tags: [PHP, 'Google Play', 'In App Purchase', 'Google Developer Console', 'Google Play Developer Console']
 ---
-# 設定 Google Play Developer API Service Account
+# PHP 驗證 Google Play In App Purchase
+
+## 設定 Google Play Developer API Service Account
 
 <http://stackoverflow.com/questions/25481207/why-getting-error-the-project-id-used-to-call-the-google-play-developer-api-has>
 
-## Google Developer Console
+### Google Developer Console
 
 <https://console.developers.google.com>
 
@@ -20,7 +22,7 @@ tags: [PHP, 'Google Play', 'In App Purchase', 'Google Developer Console', 'Googl
 * 應用程式類型 要點 服務帳戶
 * 最後按下建立用戶端 ID
 
-## Google Play Developer Console
+### Google Play Developer Console
 
 <https://play.google.com/apps/publish>
 
@@ -35,13 +37,13 @@ You should now get a correct response from the API.
 
 Good luck.
 
-## 給予 Service Account 驗證 IAP 的權限
+### 給予 Service Account 驗證 IAP 的權限
 
 * You must to connect your API with your app.
 * You must go to your [Google Play publish page](https://play.google.com/apps/publish) and invite a user with the service account email in `Settings` -> `User account & rights` -> `Invite new user`
 * give it the privileges of `View financial reports`.
 
-## 程式範例
+## 驗證程式
 
 <http://stackoverflow.com/questions/25054919/get-android-subscription-status-failed-with-403/25825907#25825907>
 
