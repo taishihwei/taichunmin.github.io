@@ -138,7 +138,7 @@ works:
   url: /works/wizard-scoreboard.html
 - title: 武漢肺炎藥局口罩地圖
   img: /images/works/ncov-mask-map.png
-  desc: 顯示您附近的藥局，方便您前往購買口罩，遠離武漢肺炎！
+  desc: 顯示您附近的藥局，並顯示口罩剩餘數量！
   url: /pug/ncov-mask-map.html
 ---
 # <span class="fa fa-file-code-o fa-fw"></span> 作品集
