@@ -1,5 +1,23 @@
 ---
-tags: LINE
+date: "2020-04-06 00:00"
+title: 輔助開發 LINE Flex 訊息的工具
+description: 在官方模擬器看到的結果，不一定跟手機上面的相同，可以使用這個小工具來幫助你喔！
+meta:
+- name: keywords
+  content: LINE,Flex Message,Simulator
+- name: og:url
+  content: https://taichunmin.idv.tw/blog/2020-04-06-line-devbot.html
+- name: og:title
+  content: 輔助開發 LINE Flex 訊息的工具
+- name: og:description
+  content: 在官方模擬器看到的結果，不一定跟手機上面的相同，可以使用這個小工具來幫助你喔！
+- name: og:image
+  content: https://i.imgur.com/3vUdhWw.png
+- name: og:type
+  content: article
+- name: og:locale
+  content: zh_TW
+tags: ["LINE"]
 ---
 
 # 輔助開發 LINE Flex 訊息的工具
@@ -12,7 +30,7 @@ tags: LINE
 
 ![](https://i.imgur.com/gLaoyur.png)
 
-> 由於後端採用 Google Cloud Function，為了避免用量過高被收錢，所以有鎖執行上限，如果無回應直接重新傳送訊息即可。
+> 由於後端採用 Google Cloud Function，為了避免用量過高被收錢，所以有鎖執行上限，如果無回應的話，可以考慮建立自己專用的機器人或是重新傳送訊息試試喔！
 
 ## 直接把 message 回傳
 

@@ -12,6 +12,18 @@
     tags: ['文章的標籤']
     title: 當前頁面的標題
     meta:
-      - name: keywords
-        content: 給 SEO 使用的 keywords，以空格分隔
+    - name: keywords
+      content: LINE,Flex Message,Simulator
+    - name: og:url
+      content: https://taichunmin.idv.tw/blog/2020-04-06-line-devbot.html
+    - name: og:title
+      content: 輔助開發 LINE Flex 訊息的工具
+    - name: og:description
+      content: 在官方模擬器看到的結果，不一定跟手機上面的相同，可以使用這個小工具來幫助你喔！
+    - name: og:image
+      content: https://i.imgur.com/3vUdhWw.png
+    - name: og:type
+      content: article
+    - name: og:locale
+      content: zh_TW
     ```
