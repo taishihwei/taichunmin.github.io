@@ -24,6 +24,4 @@
       content: https://i.imgur.com/3vUdhWw.png
     - name: og:type
       content: article
-    - name: og:locale
-      content: zh_TW
     ```
