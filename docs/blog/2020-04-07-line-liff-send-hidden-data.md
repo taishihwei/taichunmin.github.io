@@ -1,6 +1,6 @@
 ---
 date: "2020-04-07 00:00"
-title: 在 LIFF 傳送隱藏資料
+title: 如何在 LIFF 傳送隱藏資料給機器人
 description: Postback 可以附帶隱藏資料，但是如何在 LIFF 做到類似的事呢？
 meta:
 - name: keywords
@@ -8,7 +8,7 @@ meta:
 - property: og:url
   content: https://taichunmin.idv.tw/blog/2020-04-07-line-liff-send-hidden-data.html
 - property: og:title
-  content: 在 LIFF 傳送隱藏資料
+  content: 如何在 LIFF 傳送隱藏資料給機器人
 - property: og:description
   content: Postback 可以附帶隱藏資料，但是如何在 LIFF 做到類似的事呢？
 - property: og:image
