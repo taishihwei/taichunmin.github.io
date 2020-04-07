@@ -46,7 +46,7 @@ tags: ["LINE"]
 
 <img src="https://i.imgur.com/eFTDnjy.jpg" style="width: 480px; display: block; margin: 1.5rem auto">
 
-如果你把這段文字複製到[「輔助開發 LINE Flex 訊息的工具」](https://taichunmin.idv.tw/blog/2020-04-06-line-devbot.html)：
+如果你把這段文字複製到[「輔助開發 LINE Flex 訊息的工具」](https://taichunmin.idv.tw/blog/2020-04-06-line-devbot.html)文章裡面所介紹的「DEMO 開發 Flex」機器人中：
 
 <img src="https://i.imgur.com/yDPv0rG.jpg" style="width: 480px; display: block; margin: 1.5rem auto">
 
