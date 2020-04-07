@@ -24,9 +24,11 @@ tags: ["LINE"]
 
 # 如何在 LIFF 傳送隱藏資料給機器人
 
-在 LINE 的聊天機器人中，如果你希望使用者按下按鈕後看不到你傳的資料，你可以使用 postback 這個 action 來傳送隱藏資料，同時你也會拿到一個 replyToken 讓你回傳訊息。但是在 LIFF 中該怎麼做到類似的事情呢？
+Hi 大家好，我今天來分享一個小技巧，讓你可以在 LIFF 中傳送隱藏資料給聊天機器人，並且還可以免費回覆訊息，很適合做出很漂亮的 LIFF 給使用者選擇東西喔！
 
-我們直接先用範例程式來試玩看看吧！
+在 LINE 的聊天機器人中，如果你希望使用者按下按鈕後看不到你傳的資料，你可以使用 postback 這個 action 來傳送隱藏資料，同時你也會拿到一個 replyToken 讓你回傳訊息。
+
+但是在 LIFF 中該怎麼做到類似的事情呢？我們直接先用範例程式來試玩看看吧！
 
 [![](https://i.imgur.com/VsOitU7.png)](https://line.me/R/ti/p/%40336zwcug)
 
@@ -106,7 +108,11 @@ await liff.sendMessages([{
 
 ## 原始碼及參考連結
 
-* 後端: https://gist.github.com/taichunmin/684839958fed6ff9b4f368c3d23a385b
-* LIFF 網頁: https://taichunmin.idv.tw/pug/line-liff-20200406.html
+::: tip
+本文範例程式的原始碼授權為 MIT License。
+:::
+
+* Webhook 原始碼: https://gist.github.com/taichunmin/684839958fed6ff9b4f368c3d23a385b
+* LIFF 原始碼: https://taichunmin.idv.tw/pug/line-liff-20200406.html
 * [輔助開發 LINE Flex 訊息的工具](https://taichunmin.idv.tw/blog/2020-04-06-line-devbot.html) by 戴均民
 * [使用 Icon Switch 來變更聊天機器人的暱稱與圖示](https://engineering.linecorp.com/zh-hant/blog/chatbot-icon-switch/) by Evan Lin
