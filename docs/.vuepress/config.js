@@ -77,7 +77,7 @@ module.exports = {
     }],
     ['meta', {
       property: 'og:locale',
-      content: 'zh_tw'
+      content: 'zh_TW'
     }],
     ['meta', {
       property: 'og:site_name',
