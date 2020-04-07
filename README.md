@@ -21,7 +21,7 @@
     - property: og:description
       content: 在官方模擬器看到的結果，不一定跟手機上面的相同，可以使用這個小工具來幫助你喔！
     - property: og:image
-      content: https://i.imgur.com/3vUdhWw.png
+      content: https://i.imgur.com/3vUdhWw.png (最佳比例 1.91:1)
     - property: og:type
       content: article
     ```
