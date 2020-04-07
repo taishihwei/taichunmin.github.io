@@ -46,11 +46,11 @@ tags: ["LINE"]
 
 <img src="https://i.imgur.com/eFTDnjy.jpg" style="width: 480px; display: block; margin: 1.5rem auto">
 
-如果你把這個 LIFF 在[「輔助開發 LINE Flex 訊息的工具」](https://taichunmin.idv.tw/blog/2020-04-06-line-devbot.html)裡面打開的話：
+如果你把這段文字複製到[「輔助開發 LINE Flex 訊息的工具」](https://taichunmin.idv.tw/blog/2020-04-06-line-devbot.html)：
 
 <img src="https://i.imgur.com/yDPv0rG.jpg" style="width: 480px; display: block; margin: 1.5rem auto">
 
-你還可以成功看到這個 LIFF 到底送出了什麼隱藏內容喔！
+並且在這個工具裡面打開 LIFF 選擇 sender 的話，你還可以成功看到這個 LIFF 到底送出了什麼隱藏內容喔！
 
 <img src="https://i.imgur.com/G43kCFA.jpg" style="width: 480px; display: block; margin: 1.5rem auto">
 
