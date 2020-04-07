@@ -12,7 +12,11 @@ meta:
 - property: og:description
   content: Postback 可以附帶隱藏資料，但是如何在 LIFF 做到類似的事呢？
 - property: og:image
-  content: https://i.imgur.com/eypFnfy.png
+  content: https://i.imgur.com/kocTL0R.png
+- property: og:image:width
+  content: 600
+- property: og:image:height
+  content: 314
 - property: og:type
   content: article
 tags: ["LINE"]
@@ -26,9 +30,29 @@ tags: ["LINE"]
 
 [![](https://i.imgur.com/VsOitU7.png)](https://line.me/R/ti/p/%40336zwcug)
 
-> 由於後端採用 Google Cloud Function，為了避免用量過高被收錢，所以有鎖執行上限，如果無回應的話，可以考慮建立自己專用的機器人或是重新傳送訊息試試喔！
+> 由於後端採用 Google Cloud Function，為了避免用量過高被收錢，所以有鎖執行上限，如果無回應的話，可以重新傳送訊息試試喔！
 
 ## 範例程式
+
+加入這個聊天機器人後，你應該就能看到這個畫面：
+
+<img src="https://i.imgur.com/iOLMwZo.jpg" style="width: 480px; display: block; margin: 1.5rem auto">
+
+然後請點選第一個選擇 sender 的 LIFF 連結，點下去以後就會出現 Brown、Cony 和 Sally 給你選擇：
+
+<img src="https://i.imgur.com/mA9LzOn.jpg" style="width: 480px; display: block; margin: 1.5rem auto">
+
+如果我們點選 Brown 以後，你就會看到聊天機器人用[最新的 Icon Switch 功能](https://engineering.linecorp.com/zh-hant/blog/chatbot-icon-switch/)來跟你打招呼囉！
+
+<img src="https://i.imgur.com/eFTDnjy.jpg" style="width: 480px; display: block; margin: 1.5rem auto">
+
+如果你把這個 LIFF 在[「輔助開發 LINE Flex 訊息的工具」](https://taichunmin.idv.tw/blog/2020-04-06-line-devbot.html)裡面打開的話：
+
+<img src="https://i.imgur.com/yDPv0rG.jpg" style="width: 480px; display: block; margin: 1.5rem auto">
+
+你還可以成功看到這個 LIFF 到底送出了什麼隱藏內容喔！
+
+<img src="https://i.imgur.com/G43kCFA.jpg" style="width: 480px; display: block; margin: 1.5rem auto">
 
 ## 運作原理
 
@@ -49,8 +73,8 @@ https://i.imgur.com/WN88L3I.png?sender=Brown
 ```js
 await liff.sendMessages([{
   type: 'image',
-  originalContentUrl: 'https://i.imgur.com/WN88L3I.png?a=1&b=2',
-  previewImageUrl: 'https://i.imgur.com/WN88L3I.png?a=1&b=2'
+  originalContentUrl: 'https://i.imgur.com/WN88L3I.png?sender=Brown',
+  previewImageUrl: 'https://i.imgur.com/WN88L3I.png?sender=Brown'
 }])
 ```
 
@@ -80,7 +104,9 @@ await liff.sendMessages([{
 
 這時候聊天機器人就可以把 `event.message.contentProvider.originalContentUrl` 資料解析出來處理，並且還有 replyToken 可以使用喔！
 
-## 原始碼
+## 原始碼及參考連結
 
 * 後端: https://gist.github.com/taichunmin/684839958fed6ff9b4f368c3d23a385b
 * LIFF 網頁: https://taichunmin.idv.tw/pug/line-liff-20200406.html
+* [輔助開發 LINE Flex 訊息的工具](https://taichunmin.idv.tw/blog/2020-04-06-line-devbot.html) by 戴均民
+* [使用 Icon Switch 來變更聊天機器人的暱稱與圖示](https://engineering.linecorp.com/zh-hant/blog/chatbot-icon-switch/) by Evan Lin
