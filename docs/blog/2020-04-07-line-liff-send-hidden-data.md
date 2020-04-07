@@ -12,7 +12,7 @@ meta:
 - property: og:description
   content: Postback 可以附帶隱藏資料，但是如何在 LIFF 做到類似的事呢？
 - property: og:image
-  content: https://i.imgur.com/Eds7xtf.jpg
+  content: https://i.imgur.com/eypFnfy.png
 - property: og:type
   content: article
 tags: ["LINE"]
@@ -25,6 +25,8 @@ tags: ["LINE"]
 我們直接先用範例程式來試玩看看吧！
 
 [![](https://i.imgur.com/VsOitU7.png)](https://line.me/R/ti/p/%40336zwcug)
+
+> 由於後端採用 Google Cloud Function，為了避免用量過高被收錢，所以有鎖執行上限，如果無回應的話，可以考慮建立自己專用的機器人或是重新傳送訊息試試喔！
 
 ## 範例程式
 
