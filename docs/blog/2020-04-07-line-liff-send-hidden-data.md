@@ -38,23 +38,33 @@ Hi 大家好，我今天來分享一個小技巧，讓你可以在 LIFF 中傳�
 
 加入這個聊天機器人後，你應該就能看到這個畫面：
 
-<img src="https://i.imgur.com/iOLMwZo.jpg" style="width: 480px; display: block; margin: 1.5rem auto">
+| Android | iOS |
+| :-----: | :-: |
+| ![](https://i.imgur.com/iOLMwZo.jpg) | ![](https://i.imgur.com/5wwTX3o.png) |
 
 然後請點選第一個選擇 sender 的 LIFF 連結，點下去以後就會出現 Brown、Cony 和 Sally 給你選擇：
 
-<img src="https://i.imgur.com/mA9LzOn.jpg" style="width: 480px; display: block; margin: 1.5rem auto">
+| Android | iOS |
+| :-----: | :-: |
+| ![](https://i.imgur.com/mA9LzOn.jpg) | ![](https://i.imgur.com/7peCe3Q.png) |
 
 如果我們點選 Brown 以後，你就會看到聊天機器人用[最新的 Icon Switch 功能](https://engineering.linecorp.com/zh-hant/blog/chatbot-icon-switch/)來跟你打招呼囉！
 
-<img src="https://i.imgur.com/eFTDnjy.jpg" style="width: 480px; display: block; margin: 1.5rem auto">
+| Android | iOS |
+| :-----: | :-: |
+| ![](https://i.imgur.com/eFTDnjy.jpg) | ![](https://i.imgur.com/cuNeo7l.png) |
 
 如果你把這段文字複製到[「輔助開發 LINE Flex 訊息的工具」](https://taichunmin.idv.tw/blog/2020-04-06-line-devbot.html)文章裡面所介紹的「DEMO 開發 Flex」機器人中：
 
-<img src="https://i.imgur.com/yDPv0rG.jpg" style="width: 480px; display: block; margin: 1.5rem auto">
+| Android | iOS |
+| :-----: | :-: |
+| ![](https://i.imgur.com/yDPv0rG.jpg) | ![](https://i.imgur.com/c4nkN1J.png) |
 
 並且在這個工具裡面打開 LIFF 選擇 sender 的話，你就可以成功看到這個 LIFF 到底送出了什麼隱藏內容喔！
 
-<img src="https://i.imgur.com/G43kCFA.jpg" style="width: 480px; display: block; margin: 1.5rem auto">
+| Android | iOS |
+| :-----: | :-: |
+| ![](https://i.imgur.com/G43kCFA.jpg) | ![](https://i.imgur.com/ejkdQkt.png) |
 
 ## 運作原理
 
@@ -113,6 +123,6 @@ await liff.sendMessages([{
 :::
 
 * [Webhook 原始碼](https://gist.github.com/taichunmin/684839958fed6ff9b4f368c3d23a385b)
-* [LIFF 原始碼](https://taichunmin.idv.tw/pug/line-liff-20200406.html)
+* [LIFF 原始網址](https://taichunmin.idv.tw/pug/line-liff-20200406.html)
 * [輔助開發 LINE Flex 訊息的工具](https://taichunmin.idv.tw/blog/2020-04-06-line-devbot.html) by 戴均民
 * [使用 Icon Switch 來變更聊天機器人的暱稱與圖示](https://engineering.linecorp.com/zh-hant/blog/chatbot-icon-switch/) by Evan Lin
