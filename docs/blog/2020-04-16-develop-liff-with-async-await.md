@@ -2,6 +2,7 @@
 date: "2020-04-16 00:00"
 title: 你可以用 async/await 來開發 LINE LIFF
 description: 使用 async/await 來進行開發，讓你遠離 Promise 地獄！
+tags: ["LINE"]
 meta:
 - name: keywords
   content: LINE,LIFF,async,await
@@ -29,18 +30,18 @@ meta:
 > 下圖取自 [Node 7.6 + Koa 2: asynchronous flow control made right](https://medium.com/ninjadevs/node-7-6-koa-2-asynchronous-flow-control-made-right-b0d41c6ba570)
 > ![](https://i.imgur.com/ykrMHMK.png)
 
-雖然 LINE LIFF 的官方文件都是用 Promise 來寫範例，但是你知道 LINE 的 LIFF API 也可以使用 `async/await` 來進行開發嗎？
+雖然 LINE LIFF 的官方文件都是用 Promise 來寫範例，但是你知道 LINE LIFF 的 sdk 也可以使用 `async/await` 來進行開發嗎？
 
 ## async/await 其實只是 Promise 的[語法糖](https://zh.wikipedia.org/wiki/%E8%AF%AD%E6%B3%95%E7%B3%96)
 
-你只要看到
+當你看到
 
-1. 你想要用的 API 跟你說它會回傳 `Promise`
+1. 你想要用的 Function 跟你說它會回傳 `Promise`
 2. 範例程式碼中，使用了 `.then()` 的寫法
 
 基本上就代表你可以無痛改用 `async/await`。以下我們將 `setTimeout` 包成 Promise：
 
-```js=
+```js
 function sleep(t) {
   return new Promise(function (resolve, reject) {
     setTimeout(resolve, t)
@@ -50,7 +51,7 @@ function sleep(t) {
 
 如果你要等候 `sleep()` 結束，用 Promise 的寫法是這樣：
 
-```js=
+```js
 console.log('before sleep')
 sleep(1000).then(function () {
   console.log('after sleep')
@@ -59,7 +60,7 @@ sleep(1000).then(function () {
 
 然後你也可以使用 `async/await` 的寫法：
 
-```js=
+```js
 async function main() {
   console.log('before sleep')
   await sleep(1000)
@@ -82,7 +83,7 @@ main() // 最後別忘記要執行 main
 
 <https://developers.line.biz/en/reference/liff/#initialize-liff-app>
 
-```js=
+```js
 async function main () {
   try {
     await liff.init({
@@ -102,7 +103,7 @@ main() // 最後別忘記要執行 main
 
 <https://developers.line.biz/en/docs/liff/developing-liff-apps/#getting-environment>
 
-```js=
+```js
 async function main () {
   await liff.init({
     liffId: "1234567890-abcedfgh" // 請用自己的 liffId
@@ -123,7 +124,7 @@ main() // 最後別忘記要執行 main
 
 通常我都會把 `liff.init()` 和 `liff.login()` 搭配，讓我能夠在 PC 上面用瀏覽器開發：
 
-```js=
+```js
 async function main () {
   await liff.init({ liffId: '1234567890-abcedfgh' }) // 請用自己的 liffId
   // 從這裡開始使用 liff 的 API
@@ -140,7 +141,7 @@ main() // 最後別忘記要執行 main
 
 <https://developers.line.biz/en/docs/liff/developing-liff-apps/#getting-access-token>
 
-```js=
+```js
 async function main () {
   try {
     await liff.init({
@@ -167,7 +168,7 @@ main() // 最後別忘記要執行 main
 
 這個 API 所回傳的 Promise 會包含 `profile` 資料，如果用 `async/await` 來寫會像是這樣：
 
-```js=
+```js
 async function main () {
   try {
     await liff.init({
@@ -195,7 +196,7 @@ main() // 最後別忘記要執行 main
 
 傳送訊息的 API 只能在聊天視窗內打開的 LIFF 中使用，所以我會多檢查 context。
 
-```js=
+```js
 async function main () {
   try {
     await liff.init({
@@ -221,7 +222,7 @@ main() // 最後別忘記要執行 main
 
 如果希望 `liff.sendMessages()` 等到使用者點擊後才進行，可以改寫成這樣：
 
-```js=
+```js
 liff.init({
   liffId: "1234567890-abcedfgh" // 請用自己的 liffId
 })
@@ -251,4 +252,4 @@ document.getElementById('sendMessageButton').addEventListener('click', sendMessa
 
 在我的上一篇文章[「如何在 LIFF 傳送隱藏資料給機器人」](https://taichunmin.idv.tw/blog/2020-04-07-line-liff-send-hidden-data.html)中，LIFF 的程式都是用 `async/await` 的寫法 [(LIFF 原始碼)](https://github.com/taichunmin/pug/blob/master/src/line-liff-20200406.pug)，如果想要參考我是怎麼寫的朋友可以去看看。
 
-另外，如果想要知道其他沒寫的 LIFF API 要如何改寫成 `async/await` 可以直接告訴我，如果同時很多人想知道的話，我就會補在這篇文章裡面喔！
+另外，如果想要知道其他沒提到的 LIFF Function 要如何改寫成 `async/await` 可以直接告訴我，如果同時很多人想知道的話，我就會補在這篇文章裡面喔！
