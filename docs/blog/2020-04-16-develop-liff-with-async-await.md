@@ -25,7 +25,9 @@ meta:
 
 最近 js 的世界在非同步執行的部分，經歷了三個主要世代：`callback`、`Promise` 以及 `async/await`，其中使用 `async/await` 來開發的程式碼是其中最容易維護的。
 
-> 如果想知道為什麼，可以搜尋關鍵字 `callback hell` 以及 `promise hell`
+> * 如果還不熟悉 Promise 可以看 [使用 Promise](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Guide/Using_promises)
+> * 如果還不熟悉 async/await 可以看 [異步函數 - 提高 Promise 的易用性](https://developers.google.com/web/fundamentals/primers/async-functions)
+> * 如果想知道 callback 和 promise 為什麼不好維護，可以搜尋關鍵字 `callback hell` 以及 `promise hell`
 > 
 > 下圖取自 [Node 7.6 + Koa 2: asynchronous flow control made right](https://medium.com/ninjadevs/node-7-6-koa-2-asynchronous-flow-control-made-right-b0d41c6ba570)
 > ![](https://i.imgur.com/ykrMHMK.png)
