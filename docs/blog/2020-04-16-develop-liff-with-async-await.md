@@ -15,9 +15,9 @@ meta:
 - property: og:image
   content: https://i.imgur.com/SPHXp8d.png
 - property: og:image:width
-  content: 600
+  content: 1200
 - property: og:image:height
-  content: 314
+  content: 630
 - property: og:type
   content: article
 ---
