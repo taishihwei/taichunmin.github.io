@@ -74,7 +74,7 @@ Location: https://example.com/liff/full?lp=%2Freferral&inviter=U118213b77e8b7d7a
 
 上線前務必親自測試，到底什麼參數能夠成功帶過去，特別注意 iOS 和 Android 平台最好都測試過。
 
-### 務必使用同一個 Provider 來建立 LINE Login 已及 LIFF
+### 務必使用同一個 Provider 來建立 LINE Login 及官方帳號
 
 不然在 `liff.getProfile()` 會抓到不同的 userId 喔！
 
