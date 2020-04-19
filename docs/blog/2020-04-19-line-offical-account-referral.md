@@ -15,9 +15,9 @@ meta:
 - property: og:image
   content: https://i.imgur.com/ZkfbVn5.png
 - property: og:image:width
-  content: 1200
+  content: 600
 - property: og:image:height
-  content: 630
+  content: 315
 - property: og:type
   content: article
 ---
