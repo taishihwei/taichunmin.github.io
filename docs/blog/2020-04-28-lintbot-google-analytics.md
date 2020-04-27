@@ -7,7 +7,7 @@ meta:
 - name: keywords
   content: LINE,Google Analytics
 - property: og:url
-  content: https://taichunmin.idv.tw/blog/2020-04-28-lintbot-google-analytics.md
+  content: https://taichunmin.idv.tw/blog/2020-04-28-lintbot-google-analytics.html
 - property: og:title
   content: 讓聊天機器人也能看 Google Analytics (1)
 - property: og:description
