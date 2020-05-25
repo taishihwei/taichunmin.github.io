@@ -98,7 +98,7 @@ const transformLineId = lineId => ({
   cid: lineId.replace(/^U(\w{8})(\w{4})(\w{4})(\w{4})(\w{12})$/, '$1-$2-$3-$4-$5'),
 })
 
-function gaScreenView (lineId, name, overrides = {}) => {
+function gaScreenView (lineId, name, overrides = {}) {
   return axios.post('https://www.google-analytics.com/collect', httpBuildQuery({
     ...PAYLOAD_DEFAULT,
     ...overrides,
@@ -133,7 +133,7 @@ const transformLineId = lineId => ({
   cid: lineId.replace(/^U(\w{8})(\w{4})(\w{4})(\w{4})(\w{12})$/, '$1-$2-$3-$4-$5'),
 })
 
-function gaEventLabel (lineId, category, action, label, overrides = {}) => {
+function gaEventLabel (lineId, category, action, label, overrides = {}) {
   return axios.post('https://www.google-analytics.com/collect', httpBuildQuery({
     ...PAYLOAD_DEFAULT,
     ...overrides,
