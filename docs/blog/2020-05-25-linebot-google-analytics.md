@@ -1,7 +1,7 @@
 ---
 date: "2020-05-25 00:00"
 title: 讓聊天機器人也能看 Google Analytics (2)
-description: 介紹在 LINE 官方帳號中如何批次送出使用者資料來避免浪費伺服器的效能！
+description: 分享如何在 LINE Chatbot 的後端 (Node.js) 批次送出使用者資料！
 tags: ["LINE"]
 meta:
 - name: keywords
@@ -11,7 +11,7 @@ meta:
 - property: og:title
   content: 讓聊天機器人也能看 Google Analytics (2)
 - property: og:description
-  content: 介紹在 LINE 官方帳號中如何批次送出使用者資料來避免浪費伺服器的效能！
+  content: 分享如何在 LINE Chatbot 的後端 (Node.js) 批次送出使用者資料！
 - property: og:image
   content: https://i.imgur.com/iyqwacH.png
 - property: og:image:width
