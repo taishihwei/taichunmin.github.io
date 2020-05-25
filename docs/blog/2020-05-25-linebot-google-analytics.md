@@ -267,7 +267,7 @@ exports.gaScreenView = (lineId, name, overrides = {}) => {
 /**
  * 送出 GA 的 Event (Label)
  */
-exports.gaEventLabel (lineId, category, action, label, overrides = {}) => {
+exports.gaEventLabel = (lineId, category, action, label, overrides = {}) => {
   return exports.hit({
     ...overrides,
     ...exports.transformLineId(lineId),
