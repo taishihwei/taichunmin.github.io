@@ -34,8 +34,8 @@ meta:
 所以每當資料進來後，我們就應該幫資料標上現在的時間，然後使用資料庫把資料暫時存下來，盡可能的一次送出一堆資料給 GA，最後在送出資料前，透過 GA 的 `qt=` 參數來告訴 GA 這筆資料是多久以前的。
 
 ```js
-// _.throttle 是用來限制一秒內只能執行一次
-exports.flushThrottle = _.throttle(() => queue.add('flush', {}), 1000, { leading: false })
+// _.throttle 是用來限制 3 秒內只能執行 1 次
+exports.flushThrottle = _.throttle(() => queue.add('flush', {}), 3000, { leading: false })
 
 exports.hit = async payload => {
   payload.z = +new Date()
@@ -117,7 +117,7 @@ const queue = new Bull('ga', {
 })
 ```
 
-## 完整程式碼
+## 完整範例程式碼
 
 ```js
 const _ = require('lodash')
@@ -222,18 +222,20 @@ queue.process('flush', async job => {
   }
 })
 
-// 每隔一分鐘執行一次 queue 的 flush 工作
-// 並且帶入 force = 1 強制清空 Redis
+/**
+ * 每隔一分鐘執行一次 queue 的 flush 工作
+ * 並且帶入 force = 1 強制清空 Redis
+ */
 queue.add('flush', { force: 1 }, {
   jobId: 'flush',
   repeat: { cron: '* * * * *' },
 })
 
 /**
- * 每秒最多只能在 queue 中新增 1 個 flush 工作
- * _.throttle 是用來限制一秒內只能執行一次
+ * 限制 3 秒內最多只能在 queue 中新增 1 個 flush 工作
+ * _.throttle 是用來限制 3 秒內只能執行 1 次
  */
-exports.flushThrottle = _.throttle(() => queue.add('flush', {}), 1000, { leading: false })
+exports.flushThrottle = _.throttle(() => queue.add('flush', {}), 3000, { leading: false })
 
 /**
  * 每次有資料要送給 GA 的時候就要呼叫這個函式
