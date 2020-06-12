@@ -1,7 +1,7 @@
 ---
 date: "2020-06-13 00:00"
 title: 用 localtunnel 幫 chatbot 上 https
-description: 用 localtunnel 幫開發用的後端伺服器變成 https 連線
+description: 用 localtunnel 幫開發 LINE chatbot 用的後端伺服器變成 https 連線
 tags: ["LINE"]
 meta:
 - name: keywords
@@ -11,7 +11,7 @@ meta:
 - property: og:title
   content: 用 localtunnel 幫 chatbot 上 https
 - property: og:description
-  content: 用 localtunnel 幫開發用的後端伺服器變成 https 連線
+  content: 用 localtunnel 幫開發 LINE chatbot 用的後端伺服器變成 https 連線
 - property: og:image
   content: https://i.imgur.com/zg2yDJp.png
 - property: og:image:width
