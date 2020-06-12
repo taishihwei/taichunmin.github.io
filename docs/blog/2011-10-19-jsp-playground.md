@@ -5,7 +5,7 @@ categories: JSP
 # JSP 20111019 上課練習
 
 {% raw %}
-```jsp
+```
 <%@page contentType="text/html; charset=utf8" import="java.util.*" %>
 <%@ include file="20111019_DBSetup.jsp" %>
 <%
@@ -51,7 +51,7 @@ else
 %>
 ```
 
-```jsp
+```
 <%@page contentType="text/html; charset=utf8" import="java.util.*" %>
 <%@ include file="2011.10.19_DBSetup.jsp" %>
 <html>
@@ -79,7 +79,7 @@ else
 </html>
 ```
 
-```jsp
+```
 <%@page contentType="text/html; charset=utf8" import="java.util.*" %>
 <%@ include file="20111019_DBSetup.jsp" %>
 <%
@@ -88,7 +88,7 @@ else
 %>
 ```
 
-```jsp
+```
 <%@page contentType="text/html; charset=utf8" import="java.util.*" %>
 <%@ include file="20111019_DBSetup.jsp" %>
 <%
@@ -137,7 +137,7 @@ else
 </body></html>
 ```
 
-```jsp
+```
 <%@page contentType="text/html; charset=utf8" import="java.util.*" %>
 <%@ include file="20111019_DBSetup.jsp" %>
 <%
@@ -175,7 +175,7 @@ if( request.getParameter("username") != null )
 </body></html>
 ```
 
-```jsp
+```
 <%@page contentType="text/html; charset=utf8" import="java.util.*" %>
 <%@ include file="20111019_DBSetup.jsp" %>
 <%
@@ -199,7 +199,7 @@ if( request.getParameter("username") != null )
 </body></html>
 ```
 
-```jsp
+```
 <%@ page import="java.sql.*" %>
 <%!
     Connection conn;

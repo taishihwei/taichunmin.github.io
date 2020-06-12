@@ -1,4 +1,6 @@
 const { slugify } = require('transliteration')
+const fiber = require('fibers')
+const sass = require('sass')
 
 module.exports = {
   description: '目前任職於微程式資訊股份有限公司，從高中因為社團接觸 ACM，然後大學開始自學 PHP。主要是後端工程師，前端略有涉略，設計方面超級不擅長，請大家多多指教。',
@@ -100,5 +102,24 @@ module.exports = {
         'ga': 'UA-39556213-3'
       }
     ]
-  ]
+  ],
+  chainWebpack(config, isServer) {
+    for (const lang of ["sass", "scss"]) {
+      for (const name of ["modules", "normal"]) {
+        const rule = config.module.rule(lang).oneOf(name)
+        rule.uses.delete("sass-loader")
+
+        rule
+          .use("sass-loader")
+          .loader("sass-loader")
+          .options({
+            implementation: sass,
+            sassOptions: {
+              fiber,
+              indentedSyntax: lang === "sass"
+            }
+          })
+      }
+    }
+  }
 }
