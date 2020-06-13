@@ -10,6 +10,11 @@
 main.container
   img
     max-width: 100%
+    border: 1px solid black
+    &.screenshot-mobile
+      display: block
+      margin: 0 auto
+      max-width: 480px
 </style>
 
 <script>
