@@ -1,7 +1,7 @@
 ---
 date: "2020-06-15 00:00"
 title: 能使用變數的 LINE 訊息推送小工具
-description: 可以從 CSV 讀取資料，對每個使用者推送專屬訊息！
+description: 可以從 CSV 讀取資料，對每個 LINE 使用者推送專屬訊息！
 tags: ["LINE"]
 meta:
 - name: keywords
@@ -11,7 +11,7 @@ meta:
 - property: og:title
   content: 能使用變數的 LINE 訊息推送小工具
 - property: og:description
-  content: 可以從 CSV 讀取資料，對每個使用者推送專屬訊息！
+  content: 可以從 CSV 讀取資料，對每個 LINE 使用者推送專屬訊息！
 - property: og:image
   content: https://i.imgur.com/MtBpKAr.png
 - property: og:image:width
@@ -85,6 +85,8 @@ meta:
 把剛剛上面的東西都準備好以後，我們就可以開始推送訊息啦：
 
 訊息推送工具網址：<https://taichunmin.idv.tw/pug/line-push-template.html>
+
+> 再次提醒：這個小工具會透過 [CORS Anywhere](https://github.com/Rob--W/cors-anywhere) 來呼叫 LINE pushMessage API，如果擔心 Access Token 外洩的話請不要使用此工具。
 
 ![](https://i.imgur.com/2qFHdsW.png)
 
