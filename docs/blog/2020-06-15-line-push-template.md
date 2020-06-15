@@ -99,7 +99,7 @@ meta:
 
 這些欄位都填完以後，就可以按下左下的「推送訊息」按鈕囉！以下是本文送出的擲骰結果範例：
 
-<img src="https://i.imgur.com/OuqBL2f.jpg" class="img-center" style="width: 480px">
+<img src="https://i.imgur.com/OuqBL2f.jpg" style="width: 480px">
 
 ## 原始碼及相關連結
 

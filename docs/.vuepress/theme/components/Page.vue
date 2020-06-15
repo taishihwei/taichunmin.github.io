@@ -9,11 +9,14 @@
 <style lang="sass">
 main.container
   img
-    max-width: 100%
     border: 1px solid black
-    &.img-center
-      display: block
-      margin: 0 auto
+    display: block
+    margin: 0 auto
+    max-width: 100%
+  h1, h2
+    margin-top: 1rem
+  h3, h4, h5, h6
+    margin-top: .5rem
 </style>
 
 <script>
