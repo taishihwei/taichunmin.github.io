@@ -80,6 +80,22 @@ meta:
 
 ![](https://i.imgur.com/MUtSjBT.png)
 
+> 這個工具支援 [JSON5 格式](https://json5.org/)喔！
+> ```json5
+> {
+>   // comments
+>   unquoted: 'and you can quote me on that',
+>   singleQuotes: 'I can use "double quotes" here',
+>   lineBreaks: "Look, Mom! \
+> No \\n's!",
+>   hexadecimal: 0xdecaf,
+>   leadingDecimalPoint: .8675309, andTrailing: 8675309.,
+>   positiveSign: +1,
+>   trailingComma: 'in objects', andIn: ['arrays',],
+>   "backwardsCompatible": "with JSON",
+> }
+> ```
+
 ### 訊息推送工具
 
 把剛剛上面的東西都準備好以後，我們就可以開始推送訊息啦：
