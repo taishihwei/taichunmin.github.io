@@ -82,7 +82,7 @@ queue.add('flush', { force: 1 }, {
 queue.process('flush', async job => {
   let size, payloads, results
   try {
-    const force = _.get(job, 'data.force', 0) // 是否為每隔一分鐘強制送出
+    const force = _.get(job, 'data.force', 0) // 是否為強制送出
 
     while (true) {
       size = await redis.llen(REDIS_BUFFER_KEY)
@@ -202,7 +202,7 @@ queue.process('batch', async job => {
 queue.process('flush', async job => {
   let size, payloads, results
   try {
-    const force = _.get(job, 'data.force', 0) // 是否為每隔一分鐘強制送出
+    const force = _.get(job, 'data.force', 0) // 是否為強制送出
 
     while (true) {
       size = await redis.llen(REDIS_BUFFER_KEY)
@@ -283,4 +283,4 @@ exports.gaEventLabel = (lineId, category, action, label, overrides = {}) => {
 
 ## 預告
 
-這系列的下一篇文章，預計將會分享如何使用 LIFF 中使用 Google Analytics，敬請期待！
+這系列的下一篇文章，預計將會分享如何在 LIFF 中使用 Google Analytics，敬請期待！
