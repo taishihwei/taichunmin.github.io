@@ -78,7 +78,7 @@ meta:
 
 在此我們把使用者的名稱使用 `${nick_name}` 帶入，然後在每顆骰子的擲骰結果內寫上亂數函式 `${_.random(1,4)}`，寫好以後我們就可以從右上角的「View as JSON」複製寫好的 JSON！[(本文範例 JSON 在此)](https://gist.github.com/taichunmin/725af44befc5366962d83d380a74f564)
 
-<img src="https://i.imgur.com/MUtSjBT.png" class="screenshot-mobile">
+![](https://i.imgur.com/MUtSjBT.png)
 
 ### 訊息推送工具
 
@@ -99,7 +99,7 @@ meta:
 
 這些欄位都填完以後，就可以按下左下的「推送訊息」按鈕囉！以下是本文送出的擲骰結果範例：
 
-<img src="https://i.imgur.com/OuqBL2f.jpg" class="screenshot-mobile">
+<img src="https://i.imgur.com/OuqBL2f.jpg" class="img-center" style="width: 480px">
 
 ## 原始碼及相關連結
 
