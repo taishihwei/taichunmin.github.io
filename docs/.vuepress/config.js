@@ -101,7 +101,22 @@ module.exports = {
       {
         'ga': 'UA-39556213-3'
       }
-    ]
+    ],
+    [
+      'robots',
+      {
+        host: "https://taichunmin.idv.tw", // You have to provide the host URL
+        disallowAll: false,
+        allowAll: true,
+        sitemap: "/sitemap.xml",
+      },
+    ],
+    [
+      'sitemap',
+      {
+        hostname: 'https://taichunmin.idv.tw'
+      },
+    ],
   ],
   chainWebpack(config, isServer) {
     for (const lang of ["sass", "scss"]) {
