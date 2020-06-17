@@ -127,7 +127,7 @@ function gaScreenView (lineId, name) {
 
 然後就可以透過[這篇文章](https://taichunmin.idv.tw/blog/2020-06-15-line-push-template.html)介紹過的工具來推給使用者囉！
 
-![](https://i.imgur.com/kXN1J5n.png)
+![](https://i.imgur.com/9nWGiUD.jpg)
 
 > [請點此查看完整的 template](https://gist.github.com/taichunmin/cf896614f97546e981d83aa1cde080e0)，並記得把 `tid` 換成自己的追蹤 ID
 
