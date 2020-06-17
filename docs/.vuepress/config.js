@@ -109,6 +109,12 @@ module.exports = {
         disallowAll: false,
         allowAll: true,
         sitemap: "/sitemap.xml",
+        policies: [
+          {
+            userAgent: '*',
+            allow: ['/']
+          }
+        ]
       },
     ],
     [
