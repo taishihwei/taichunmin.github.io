@@ -68,16 +68,16 @@ Hi 大家好，我今天來分享一個小技巧，讓你可以在 LIFF 中傳�
 
 ## 運作原理
 
-首先，我們需要準備一張 `2x1` 的透明 png 圖：
+首先，我們需要準備一張 `3x1` 的透明 png 圖：
 
 ```
-https://i.imgur.com/WN88L3I.png
+https://i.imgur.com/MwS42AE.png
 ```
 
 然後把隱藏資料放在 Image 的網址中：
 
 ```
-https://i.imgur.com/WN88L3I.png?sender=Brown
+https://i.imgur.com/MwS42AE.png?sender=Brown
 ```
 
 接著，就可以在 LIFF 中呼叫 `liff.sendMessages()` 來把 Image 送給機器人：
@@ -85,8 +85,8 @@ https://i.imgur.com/WN88L3I.png?sender=Brown
 ```js
 await liff.sendMessages([{
   type: 'image',
-  originalContentUrl: 'https://i.imgur.com/WN88L3I.png?sender=Brown',
-  previewImageUrl: 'https://i.imgur.com/WN88L3I.png?sender=Brown'
+  originalContentUrl: 'https://i.imgur.com/MwS42AE.png?sender=Brown',
+  previewImageUrl: 'https://i.imgur.com/MwS42AE.png?sender=Brown'
 }])
 ```
 
@@ -107,8 +107,8 @@ await liff.sendMessages([{
     "id": "11738027154079",
     "contentProvider": {
       "type": "external",
-      "originalContentUrl": "https://i.imgur.com/WN88L3I.png?sender=Brown",
-      "previewImageUrl": "https://i.imgur.com/WN88L3I.png?sender=Brown"
+      "originalContentUrl": "https://i.imgur.com/MwS42AE.png?sender=Brown",
+      "previewImageUrl": "https://i.imgur.com/MwS42AE.png?sender=Brown"
     }
   }
 }
