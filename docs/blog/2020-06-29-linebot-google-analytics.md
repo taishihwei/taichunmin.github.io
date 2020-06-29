@@ -80,7 +80,7 @@ function gaScreenView (lineId, name, overrides = {}) {
 }
 
 exports.main = async (req, res) => {
-  res.set('Cache-Control', 'public, max-age=63072000, s-maxage=63072000')
+  res.set('Cache-Control', 'public, max-age=31536000, s-maxage=31536000')
   res.redirect(301, 'https://i.imgur.com/5KWq1al.png')
   await gaScreenView(req.query.line_id, req.query.name)
 }
@@ -106,7 +106,7 @@ exports.main = async (req, res) => {
 如果你想要自己寫後端來實做這個程式的話，需要特別注意的地方有幾個：
 
 1. 使用 HTTP 301 跳轉到圖床來避免從 Cloud Function 直接送出圖片，造成巨大的網路流量費用。
-2. 加上 `Cache-Control: public, max-age=63072000, s-maxage=63072000` 的 header 來避免使用者的裝置重複讀取圖片，造成瀏覽次數重複計算的狀況，在本文中我直接設定快取 730 天。(實測如果沒使用 `Cache-Control` 會導致瀏覽數被重複計算超過 10 倍以上)
+2. 加上 `Cache-Control: public, max-age=31536000, s-maxage=31536000` 的 header 來避免使用者的裝置重複讀取圖片，造成瀏覽次數重複計算的狀況，在本文中我直接設定快取 365 天。(實測如果沒使用 `Cache-Control` 會導致瀏覽數被重複計算超過 10 倍以上)
 3. 送資料給 Google Analytics 時一定要加上 `aip` 這個參數，因為使用者的瀏覽資料是後端程式代替送出的，所以後端程式的 IP 沒有意義。
 4. 請記得將 `tid` 換成自己的 Google Analytics 的 ID。
 
