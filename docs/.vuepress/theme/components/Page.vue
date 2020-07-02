@@ -1,13 +1,13 @@
 <template lang="pug">
   main(:class="`my-3 container${$frontmatter.fluid ? '-fluid' : ''}`")
     slot(name="top")
-    Content
+    Content(:class="contentClass")
     PageNav(v-bind="{ sidebarItems }")
     slot(name="bottom")
 </template>
 
 <style lang="sass">
-main.container
+.blog
   img
     border: 1px solid black
     display: block
@@ -24,6 +24,13 @@ import PageEdit from '@theme/components/PageEdit.vue'
 import PageNav from '@theme/components/PageNav.vue'
 export default {
   components: { PageEdit, PageNav },
-  props: ['sidebarItems']
+  props: ['sidebarItems'],
+  computed: {
+    contentClass () {
+      const classes = []
+      if (/^\/blog\//.test(this.$page.path)) classes.push('blog')
+      return classes
+    }
+  }
 }
 </script>
