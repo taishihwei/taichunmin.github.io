@@ -1,6 +1,10 @@
 ---
 title: 作品集
 works:
+- title: GOGORO 電池交換站地圖
+  img: https://i.imgur.com/Zrn0KyP.png
+  desc: 顯示您附近的 GOGORO 電池交換站
+  url: /pug/gogoro-maps.html
 - title: 武漢肺炎藥局口罩地圖
   img: /images/works/ncov-mask-map.png
   desc: 顯示您附近的藥局及口罩剩餘數量
