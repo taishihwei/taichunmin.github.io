@@ -151,3 +151,12 @@ function gaEventLabel (lineId, category, action, label, overrides = {}) {
 ## 預告
 
 這系列的下一篇文章，我預計將會分享如何使用 Node.js 批次送出資料，敬請期待！
+
+## 原始碼及參考連結
+
+::: tip
+本文範例程式的原始碼授權為 MIT License。
+:::
+
+* [當初在台中 chatbot.tw 分享的投影片](https://hackmd.io/@taichunmin/B1C4Glg9r)
+* [讓聊天機器人也能看 Google Analytics (2)](https://taichunmin.idv.tw/blog/2020-05-25-linebot-google-analytics.html)

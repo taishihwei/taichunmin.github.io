@@ -117,7 +117,11 @@ meta:
 
 <img src="https://i.imgur.com/OuqBL2f.jpg" style="width: 480px">
 
-## 原始碼及相關連結
+## 原始碼及參考連結
+
+::: tip
+本文範例程式的原始碼授權為 MIT License。
+:::
 
 * [推送小工具原始碼](https://github.com/taichunmin/pug/blob/master/src/line-push-template.pug)
 * [CORS Anywhere](https://github.com/Rob--W/cors-anywhere)

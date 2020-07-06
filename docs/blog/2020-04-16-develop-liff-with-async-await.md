@@ -255,3 +255,9 @@ document.getElementById('sendMessageButton').addEventListener('click', sendMessa
 在我的上一篇文章[「如何在 LIFF 傳送隱藏資料給機器人」](https://taichunmin.idv.tw/blog/2020-04-07-line-liff-send-hidden-data.html)中，LIFF 的程式都是用 `async/await` 的寫法 [(LIFF 原始碼)](https://github.com/taichunmin/pug/blob/master/src/line-liff-20200406.pug)，如果想要參考我是怎麼寫的朋友可以去看看。
 
 另外，如果想要知道其他沒提到的 LIFF Function 要如何改寫成 `async/await` 可以直接告訴我，如果同時很多人想知道的話，我就會補在這篇文章裡面喔！
+
+## 原始碼及參考連結
+
+::: tip
+本文範例程式的原始碼授權為 MIT License。
+:::

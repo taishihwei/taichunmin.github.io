@@ -131,7 +131,12 @@ function gaScreenView (lineId, name) {
 
 > [請點此查看完整的 template](https://gist.github.com/taichunmin/cf896614f97546e981d83aa1cde080e0)，並記得把 `tid` 換成自己的追蹤 ID
 
-## 參考連結
+## 原始碼及參考連結
 
+::: tip
+本文範例程式的原始碼授權為 MIT License。
+:::
+
+* [追蹤 LINE Notify 的閱讀率 (開信率)](https://taichunmin.idv.tw/blog/2020-06-29-linebot-google-analytics.html)
 * [Google Analytics 追蹤 Email 與點擊成效](https://www.oxxostudio.tw/articles/201706/google-analytics-tracking-email.html)
 * [LINE Developer Meetup #12 開發者小聚活動後分享](https://engineering.linecorp.com/zh-hant/blog/line-developer-meetup-12/)

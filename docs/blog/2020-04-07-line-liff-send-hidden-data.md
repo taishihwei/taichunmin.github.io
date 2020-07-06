@@ -124,5 +124,7 @@ await liff.sendMessages([{
 
 * [Webhook 原始碼](https://gist.github.com/taichunmin/684839958fed6ff9b4f368c3d23a385b)
 * [LIFF 原始網址](https://taichunmin.idv.tw/pug/line-liff-20200406.html)
-* [輔助開發 LINE Flex 訊息的工具](https://taichunmin.idv.tw/blog/2020-04-06-line-devbot.html) by 戴均民
+* [2020/05 在台中 chatbot.tw 分享的投影片](https://hackmd.io/@taichunmin/chatbot-tw-202005)
+* [2020/05 在台中 chatbot.tw 分享的錄影檔](https://youtu.be/PuGOObhI5oA)
+* [輔助開發 LINE Flex 訊息的工具](https://taichunmin.idv.tw/blog/2020-04-06-line-devbot.html)
 * [使用 Icon Switch 來變更聊天機器人的暱稱與圖示](https://engineering.linecorp.com/zh-hant/blog/chatbot-icon-switch/) by Evan Lin

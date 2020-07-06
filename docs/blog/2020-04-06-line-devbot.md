@@ -92,3 +92,11 @@ tags: ["LINE"]
 | ![](https://i.imgur.com/IL4NbGe.jpg) | ![](https://i.imgur.com/t9Aeh2n.png) |
 
 有發現哪裡不太對勁嗎？大家來找碴吧！
+
+## 相關連結
+
+::: tip
+本文範例程式的原始碼授權為 MIT License。
+:::
+
+* [2020/05 在台中 chatbot.tw 分享的錄影檔](https://youtu.be/PuGOObhI5oA?t=560)

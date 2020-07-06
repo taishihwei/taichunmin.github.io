@@ -284,3 +284,12 @@ exports.gaEventLabel = (lineId, category, action, label, overrides = {}) => {
 ## 預告
 
 這系列的下一篇文章，預計將會分享如何在 LIFF 中使用 Google Analytics，敬請期待！
+
+## 原始碼及參考連結
+
+::: tip
+本文範例程式的原始碼授權為 MIT License。
+:::
+
+* [當初在台中 chatbot.tw 分享的投影片](https://hackmd.io/@taichunmin/B1C4Glg9r)
+* [追蹤使用者有沒有看 LINE 訊息 (開信率)](https://taichunmin.idv.tw/blog/2020-06-17-linebot-google-analytics.html)
