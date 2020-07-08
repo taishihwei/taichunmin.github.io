@@ -84,7 +84,7 @@ meta:
 
 # 有關 deeplink
 
-LINE 雖然目前仍然支援使用 `line://` 開頭的網址，透過這個網址可以讓使用者開啟聊天機器人時少一個「以 LINE 開啟」的頁面，但是 [LINE 先前已經宣布這種格式的網址已經不建議使用](https://developers.line.biz/en/news/2020/03/25/line-url-scheme-deprecation/)。
+LINE 雖然目前仍然支援使用 `line://` 開頭的網址，透過這個網址可以讓使用者開啟聊天機器人時少一個「啟動 LINE 應用程式」的頁面，但是 [LINE 先前已經宣布這種格式的網址已經不建議使用](https://developers.line.biz/en/news/2020/03/25/line-url-scheme-deprecation/)。
 
 另外 Android 上面還有 [`intent://` 開頭的網址](https://developer.chrome.com/multidevice/android/intents)，iOS 上面則是有 [Universal Link](https://developer.apple.com/ios/universal-links/)，如果需要讓使用者體驗更好，可以考慮去研究看看，但是手機作業系統支援度的問題就需要自己研究以及排除，如果沒有心力測試多台手機的話，還是乖乖使用 LINE 現在所提供的建議網址吧！
 
