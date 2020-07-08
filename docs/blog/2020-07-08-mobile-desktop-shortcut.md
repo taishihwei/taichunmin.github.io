@@ -46,25 +46,25 @@ meta:
 
 | Android | iOS |
 | :-----: | :-: |
-| ![](https://i.imgur.com/yoXIiey.jpg) | ![](https://i.imgur.com/PUvthnb.png) |
+| ![](https://i.imgur.com/yoXIiey.jpg) | ![](https://i.imgur.com/KlH1skO.png) |
 
 然後就依照網頁上的教學，按一下「加到主畫面」：
 
 | Android | iOS |
 | :-----: | :-: |
-| ![](https://i.imgur.com/gjPNqRe.jpg) | ![](https://i.imgur.com/0ZdBhtT.png) |
+| ![](https://i.imgur.com/gjPNqRe.jpg) | ![](https://i.imgur.com/bDHs40N.png) |
 
-然後接下來是允許使用者自己改捷徑的名字：
+然後接下來手機會詢問使用者要把改捷徑設定成什麼名字：
 
 | Android | iOS |
 | :-----: | :-: |
-| ![](https://i.imgur.com/Gy0wdxH.jpg) | ![](https://i.imgur.com/XB6n20a.png) |
+| ![](https://i.imgur.com/Gy0wdxH.jpg) | ![](https://i.imgur.com/DGXgT67.png) |
 
 最後就成功加到主畫面上啦：
 
 | Android | iOS |
 | :-----: | :-: |
-| ![](https://i.imgur.com/crsBDJ8.jpg) | ![](https://i.imgur.com/CBd0Sj9.png) |
+| ![](https://i.imgur.com/crsBDJ8.jpg) | ![](https://i.imgur.com/KeyAjHw.png) |
 
 # 從主畫面開啟捷徑
 
@@ -72,13 +72,13 @@ meta:
 
 | Android | iOS |
 | :-----: | :-: |
-| ![](https://i.imgur.com/W0SzCOd.jpg) | ![](https://i.imgur.com/kWZ9dXm.png) |
+| ![](https://i.imgur.com/W0SzCOd.jpg) | ![](https://i.imgur.com/Aw2RQYm.png) |
 
 使用者會需要多按一下，才能順利跳到聊天機器人視窗內：
 
 | Android | iOS |
 | :-----: | :-: |
-| ![](https://i.imgur.com/PvmgSKk.jpg) | ![](https://i.imgur.com/FsZRVVa.png) |
+| ![](https://i.imgur.com/PvmgSKk.jpg) | ![](https://i.imgur.com/60mF7h2.png) |
 
 # 有關 deeplink
 
