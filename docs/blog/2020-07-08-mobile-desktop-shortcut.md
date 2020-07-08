@@ -26,7 +26,9 @@ meta:
 
 在使用 LINE 購物的時候，看到商店頁面上有一顆按鈕，可以把商店的捷徑加到主畫面上，於是我就想到，也可以把聊天機器人加到使用者的手機主畫面，讓使用者可以更方便打開聊天機器人喔！
 
-<img src="https://i.imgur.com/VcrGDj2.jpg" style="width: 480px">
+| Step 1 | Step 2 |
+| :-----: | :-: |
+| ![](https://i.imgur.com/Io4B18E.jpg) | ![](https://i.imgur.com/e4Y4Lws.png) |
 
 ## 產生捷徑到手機主畫面
 
