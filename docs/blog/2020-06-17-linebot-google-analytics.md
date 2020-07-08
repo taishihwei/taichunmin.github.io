@@ -91,7 +91,6 @@ function gaScreenView (lineId, name) {
 
 <img src="https://i.imgur.com/KFz1lgo.jpg" style="width: 480px">
 
-
 然後在手機內瀏覽後，要能在 Google Analytics 的即時頁面看到追蹤資訊：
 
 ![](https://i.imgur.com/US2GHTI.png)
