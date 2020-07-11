@@ -12,7 +12,7 @@
     display: block
     margin: 0 auto
     max-width: 100%
-  :not(td) > img
+  :not(td) > img, &>img
     border: 1px solid black
   h1, h2
     margin-top: 1rem
