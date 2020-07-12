@@ -68,7 +68,7 @@ meta:
 在把資料更換成變數的時候，有幾個需要注意的地方：
 
 1. 程式第一步會使用 [Lodash 的 `_.template` 函式](https://lodash.com/docs/4.17.15#template) 來處理變數，所以你必須使用這個函式所支援的語法。
-2. 程式會額外將 [`_` (Lodash)](https://lodash.com/docs/) 以及 [`Qs`](https://github.com/ljharb/qs) 放到樣板編譯的環境變數中，所以你也能在樣板中使用這兩個函式庫。
+2. 程式會額外將 [`_` (Lodash)](https://lodash.com/docs/) 以及 [`Qs`](https://github.com/ljharb/qs) 函式庫放到名片樣板的環境變數中，所以你也能在名片樣板中使用這兩個函式庫。
 3. 名片樣板在經過 `_.template` 函式處理過後，會使用 `JSON5.parse` 解析，所以你可以放心使用 [JSON5 的語法](https://json5.org/)喔！
 4. 程式會讀取 CSV 網址中的資料，然後找出相同的 `uuid`，並將筆資料放到 `vcard` 這個環境變數中，所以如果你要取得 CSV 網址中的 `uuid` 欄位，你需要輸入 `${vcard.uuid}`，其他欄位依此類推。
 
@@ -84,7 +84,7 @@ meta:
 
 ## 產生可以分享名片的連結
 
-在準備好了 CSV 的資料和樣板以後，接下來我們就是要把這幾個東西組合起來，讓同事可以用一個網址來開啟 LIFF，並透過 LINE 來傳送數位版名片給好友囉！
+在準備好了 CSV 資料和名片樣板以後，接下來我們就是要把這幾個東西組合起來，讓同事可以用一個網址來開啟 LIFF，並透過 LINE 來傳送數位版名片給好友囉！
 
 請開啟這個 [數位版名片 LIFF 網頁程式](https://taichunmin.idv.tw/pug/liff-businesscard.html)：
 
@@ -116,11 +116,13 @@ UUID 這個欄位是用來決定要使用哪一筆名片資料，這讓你只需
 | -------- | -------- |
 | ![](https://i.imgur.com/bZS9V2y.png) | ![](https://i.imgur.com/wG4fLQM.png) |
 
+> 如果要分享資料到社群 (OpenChat)，訊息裡面還是不能帶有任何個人資訊喔，不然訊息還是會被刪除。
+
 通常我把名片連結給同事以後，還會順便提醒對方記得把連結放到 LINE Keep 中，以便隨時可以分享名片喔！
 
 ## 如何追蹤有多少裝置看過？
 
-因為我們的名片可以使用 Flex 訊息格式來製作，所以也可以用[我寫過的 Google Analytics 文章](https://taichunmin.idv.tw/blog/2020-06-17-linebot-google-analytics.html)來追蹤到底有多少人看過你的名片，由於使用 GA 的 Measurement Protocol，所以需要一個 uuid 當作裝置 ID，在此建議直接使用 CSV 欄位中的 UUID 來當作裝置 ID，由於 LINE 會幫圖片進行快娶，所以我們只要看瀏覽次數就能知道到底有多少裝置看過名片喔！
+因為我們的名片可以使用 Flex 訊息格式來製作，所以也可以用[我寫過的 Google Analytics 文章](https://taichunmin.idv.tw/blog/2020-06-17-linebot-google-analytics.html)來追蹤到底有多少人看過你的名片，由於使用 GA 的 Measurement Protocol，所以需要一個 uuid 當作裝置 ID，在此建議直接使用 CSV 欄位中的 UUID 來當作裝置 ID，由於 LINE 會幫圖片進行快取，所以我們只要看瀏覽次數就能知道到底有多少裝置看過名片喔！
 
 ![](https://i.imgur.com/mZyF9z6.png)
 
@@ -175,8 +177,8 @@ function gaScreenView (vcard) {
 * 程式及原始碼
   * [數位版名片 LIFF 網頁程式](https://taichunmin.idv.tw/pug/liff-businesscard.html)
   * [數位版名片 LIFF 網頁程式原始碼](https://github.com/taichunmin/pug/blob/master/src/liff-businesscard.pug)
-  * [LINE 數位版名片範例 (CSV 及樣板)](https://gist.github.com/taichunmin/c8b32a95ded28cf79a92e251e319101c)
-  * [微程式數位版名片範例 (CSV 及樣板)](https://gist.github.com/taichunmin/e6123d3ece7c8c88c6064fb9a69857bf)
+  * [LINE 數位版名片範例 (CSV 及名片樣板)](https://gist.github.com/taichunmin/c8b32a95ded28cf79a92e251e319101c)
+  * [微程式數位版名片範例 (CSV 及名片樣板)](https://gist.github.com/taichunmin/e6123d3ece7c8c88c6064fb9a69857bf)
 * 相關連結
   * [跨來源資源共用（CORS）](https://developer.mozilla.org/zh-TW/docs/Web/HTTP/CORS)
   * [Flex Message Simulator 工具](https://developers.line.biz/flex-simulator/)
