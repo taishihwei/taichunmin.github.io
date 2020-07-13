@@ -91,7 +91,7 @@ LINE Develpers console：https://developers.line.biz/console/
 
 然後輸入「test」確認 Webhook 設定成功。
 
-![](https://i.imgur.com/gNmI2kH.jpg)
+<img src="https://i.imgur.com/gNmI2kH.jpg" style="width: 480px">
 
 > 1. 我提供的 Webhook 是放在 Google Cloud Function 上面，原始碼：<https://github.com/taichunmin/gcf-line-devbot>
 > 2. 以上的 Access Token 均已在截圖後更換
@@ -232,7 +232,7 @@ LINE Simple Beacon Hardware ID，簡稱「硬體 ID」，是 LINE 為了識別�
 
 如果您的手機收到以下的訊息，恭喜你已經成功完成這個工作坊啦！
 
-![](https://i.imgur.com/gD34XhQ.jpg)
+<img src="https://i.imgur.com/gD34XhQ.jpg" style="width: 480px">
 
 ## 參考資料
 
