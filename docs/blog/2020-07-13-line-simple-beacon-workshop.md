@@ -26,7 +26,8 @@ meta:
 
 作者：戴均民 [(taichunmin)](https://github.com/taichunmin)
 
-投影片：<https://hackmd.io/@taichunmin/chatbot-tw-202002>
+* 投影片：<https://hackmd.io/@taichunmin/chatbot-tw-202002>
+* 共筆：<https://hackmd.io/@chatbot-tw/chatbots-taichung-007>
 
 ## 事前準備
 
