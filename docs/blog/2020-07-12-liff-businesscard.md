@@ -36,7 +36,7 @@ meta:
 
 ![](https://i.imgur.com/jLSOm4o.png)
 
-> 取得 GitHub Gist 的 Raw 網址 (右上角「Raw」按鈕) 時，請記得把網址內的版本參數 `VERSION_ID` 刪除，也就是將 `https://gist.github.com/taichunmin/{GIST_ID}/raw/{VERSION_ID}/line.csv` 改成 `https://gist.github.com/taichunmin/{GIST_ID}/raw/line.csv` 就行了。
+> 取得 GitHub Gist 的 Raw 網址 (右上角「Raw」按鈕) 時，請記得把網址內的版本參數 `VERSION_ID` 刪除，也就是將 `https://gist.github.com/taichunmin/{GIST_ID}/raw/{VERSION_ID}/microprogram.csv` 改成 `https://gist.github.com/taichunmin/{GIST_ID}/raw/microprogram.csv` 就行了。
 
 如果以後這份名單是要交給不會寫 csv 的同事維護，也可以考慮改用 Google Sheets，然後取得 CSV 的公開網址喔！
 
@@ -55,15 +55,11 @@ meta:
 
 直接使用 LINE 提供的 [Flex Message Simulator](https://developers.line.biz/flex-simulator/) 來製作名片：
 
-| 微程式範例 | LINE 範例 |
-| -------- | -------- |
-| ![](https://i.imgur.com/eZSX3yP.png) | ![](https://i.imgur.com/OhAOa5V.png) |
+<img src="https://i.imgur.com/eZSX3yP.png" style="width: 480px">
 
 製作完成以後，就要來把相關的資料欄位換成變數：
 
-| 微程式範例 | LINE 範例 |
-| -------- | -------- |
-| ![](https://i.imgur.com/sSHSEUa.png) | ![](https://i.imgur.com/AQwDZWX.png) |
+<img src="https://i.imgur.com/sSHSEUa.png" style="width: 480px">
 
 在把資料更換成變數的時候，有幾個需要注意的地方：
 
@@ -112,9 +108,7 @@ UUID 這個欄位是用來決定要使用哪一筆名片資料，這讓你只需
 
 「傳送到目前聊天視窗」則是可以把名片傳送到目前的聊天視窗，換句話說，你需要先把連結貼到聊天視窗內，然後才能打開網址送出名片，這可以用來突破 OpenChat 以及好友沒有「外部應用程式存取」權限的問題，但是如果你不希望別人拿到網址，就要記得趕快把訊息收回喔！
 
-| 微程式範例 | LINE 範例 |
-| -------- | -------- |
-| ![](https://i.imgur.com/bZS9V2y.png) | ![](https://i.imgur.com/wG4fLQM.png) |
+<img src="https://i.imgur.com/bZS9V2y.jpg" style="width: 480px">
 
 > 如果要分享資料到社群 (OpenChat)，訊息裡面還是不能帶有任何個人資訊喔，不然訊息還是會被刪除。
 
@@ -177,7 +171,6 @@ function gaScreenView (vcard) {
 * 程式及原始碼
   * [數位版名片 LIFF 網頁程式](https://taichunmin.idv.tw/pug/liff-businesscard.html)
   * [數位版名片 LIFF 網頁程式原始碼](https://github.com/taichunmin/pug/blob/master/src/liff-businesscard.pug)
-  * [LINE 數位版名片範例 (CSV 及名片樣板)](https://gist.github.com/taichunmin/c8b32a95ded28cf79a92e251e319101c)
   * [微程式數位版名片範例 (CSV 及名片樣板)](https://gist.github.com/taichunmin/e6123d3ece7c8c88c6064fb9a69857bf)
 * 相關連結
   * [跨來源資源共用（CORS）](https://developer.mozilla.org/zh-TW/docs/Web/HTTP/CORS)
