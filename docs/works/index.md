@@ -1,6 +1,10 @@
 ---
 title: 作品集
 works:
+- title: 玩命賽道 DOWNFORCE
+  img: https://i.imgur.com/9NM2MKW.png
+  desc: 「玩命賽道 DOWNFORCE」的電子計分紙
+  url: /pug/boardgame-downforce.html
 - title: GOGORO 電池交換站地圖
   img: https://i.imgur.com/Zrn0KyP.png
   desc: 顯示您附近的 GOGORO 電池交換站
