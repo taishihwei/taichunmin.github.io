@@ -70,7 +70,7 @@ GitHub 原始碼：<https://github.com/taichunmin/liff-businesscard>
 
 ![](https://i.imgur.com/grMRd57.png)
 
-```bash=
+```bash
 git clone <your-repo-url>
 cd liff-businesscard
 yarn install
