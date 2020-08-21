@@ -68,6 +68,6 @@ meta:
 
 | 「WeMo」預設勾選 | 「停車大檸檬」預設沒有勾選 |
 | :-----: | :-: |
-| ![](https://i.imgur.com/t748FNI.jpg) | ![](https://i.imgur.com/3efsMmM.png) |
+| ![](https://i.imgur.com/EE9MmRu.jpg) | ![](https://i.imgur.com/3efsMmM.png) |
 
 > 臉書討論串：<https://www.facebook.com/groups/linebot/permalink/2582938952036675/>
