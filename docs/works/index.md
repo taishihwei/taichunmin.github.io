@@ -1,6 +1,10 @@
 ---
 title: 作品集
 works:
+- title: 猜數字遊戲與求解
+  img: https://i.imgur.com/M47nczC.png
+  desc: 1A2B 猜數字遊戲與求解答程式
+  url: /pug/bulls-and-cows.html
 - title: 玩命賽道 DOWNFORCE
   img: https://i.imgur.com/8UvRZfY.png
   desc: 桌遊「玩命賽道 DOWNFORCE」的電子計分紙
