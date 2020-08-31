@@ -3,7 +3,7 @@ const fiber = require('fibers')
 const sass = require('sass')
 
 module.exports = {
-  description: '目前任職於微程式資訊股份有限公司，以 Node.js 開發 LINE Chatbot 超過兩年，是「YouBike Today - 小幫手」的開發者之一，主要是後端工程師，前端略有涉略，請大家多多指教。',
+  description: '目前任職於微程式資訊股份有限公司，以 Node.js 開發 LINE 聊天機器人超過兩年，曾在開源人年會（COSCUP）多次擔任講者，更於 2020 年獲得 LINE API Expert 的榮譽，是 LINE 聊天機器人「YouBike 微笑單車」的開發者之一，主要是網站後端工程師，網站前端略有涉略，請大家多多指教。',
   evergreen: true,
   title: '筆記國度',
   markdown: {
