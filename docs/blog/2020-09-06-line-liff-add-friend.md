@@ -24,10 +24,13 @@ meta:
 
 ## DEMO
 
-這個活動在 2020/9/7 到 2020/9/30 之間舉辦，這個活動也是我第一次實做這個機制，歡迎大家點這個連結來試玩看看：
+我最近在開發公司專案的活動中，是我第一次實做這個機制，歡迎大家點這個連結來試玩看看：
 
-> 「微笑小學堂」活動邀請連結：（活動結束後不保證能執行）
-> https://liff.line.me/1654198613-pV2QdV5Q/atvt200821-quest?inviter=Ud9c999fc1fe73e1460bfb1303bc80c94
+::: tip 「微笑小學堂」活動
+* 活動說明：[https://kadacha.work/qUXoy](https://kadacha.work/qUXoy?openExternalBrowser=1)
+* 活動期間：2020/9/7 到 2020/9/30（活動結束後不保證能執行）
+* [這是我的活動邀請連結](https://liff.line.me/1654198613-pV2QdV5Q/atvt200821-quest?inviter=Ud9c999fc1fe73e1460bfb1303bc80c94)
+:::
 
 首先，為了模擬用戶只授權 LIFF 但是沒有加入官方帳號，所以我在授權頁面的第一頁按下「許可」，在第二頁的時候按下「取消」：
 
