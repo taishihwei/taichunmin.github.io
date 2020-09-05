@@ -24,7 +24,7 @@ meta:
 
 ## DEMO
 
-這是我第一次實做這個機制，歡迎大家點下方「活動邀請連結」來試玩看看：
+這是我第一次實作這個機制，歡迎大家點下方「活動邀請連結」來試玩看看：
 
 ::: tip 「微笑小學堂」活動
 * 活動說明：[https://kadacha.work/qUXoy](https://kadacha.work/qUXoy?openExternalBrowser=1)
