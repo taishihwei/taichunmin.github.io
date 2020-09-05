@@ -18,6 +18,8 @@
     margin-top: 1rem
   h3, h4, h5, h6
     margin-top: .5rem
+  .custom-block .custom-block-title
+    margin: 1rem 0
 </style>
 
 <script>
