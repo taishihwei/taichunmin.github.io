@@ -1,5 +1,5 @@
 ---
-date: "2020-09-06 00:00"
+date: "2020-09-07 10:00"
 title: 如何在 LINE LIFF 中確保用戶把官方帳號加為好友
 description: 在 LIFF 使用 Bot Link 功能時，用戶可能會選擇不加好友，如何確保用戶成為好友呢？
 tags: ["LINE"]
