@@ -14,6 +14,7 @@
     max-width: 100%
   :not(td) > img, &>img
     border: 1px solid black
+    margin-bottom: 1rem
   h1, h2
     margin-top: 1rem
   h3, h4, h5, h6
