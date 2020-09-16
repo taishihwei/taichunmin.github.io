@@ -31,7 +31,7 @@ meta:
 :::
 
 ::: tip
-如果看完這篇文章以後，還是沒有辦法做出 LINE 數位版名片的話，也可以直接透過 [Facebook](https://facebook.com/taichunmin) 直接跟我聯繫，讓我有機會為你服務喔！
+如果您不會寫程式，你可以看我寫的另一篇文章「[不用寫程式也能做 LINE 數位版名片](https://taichunmin.idv.tw/blog/2020-07-21-liff-businesscard.html)」，你也可以直接透過 [Facebook](https://facebook.com/taichunmin) 直接跟我聯繫，讓我有機會為你服務喔！
 :::
 
 ## 準備名片的資料
