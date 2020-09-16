@@ -40,13 +40,7 @@ meta:
 
 ![](https://i.imgur.com/jLSOm4o.png)
 
-> 取得 GitHub Gist 的 Raw 網址 (右上角「Raw」按鈕) 時，請記得把網址內的版本參數 `VERSION_ID` 刪除，也就是將 `https://gist.github.com/taichunmin/{GIST_ID}/raw/{VERSION_ID}/microprogram.csv` 改成 `https://gist.github.com/taichunmin/{GIST_ID}/raw/microprogram.csv` 就行了。
-
-如果以後這份名單是要交給不會寫 csv 的同事維護，也可以考慮改用 Google Sheets，然後取得 CSV 的公開網址喔！
-
-[要如何取得 Google Sheets 的 CSV 公開網址？請點此查看我之前寫過的文章](https://taichunmin.idv.tw/blog/2020-06-15-line-push-template.html#qu-de-csv-de-gong-kai-wang-zhi)
-
-> Google Sheets CSV 的重新發布頻率限制為 5 分鐘一次，如果遇到資料沒更新，請耐心等候。
+> 取得 GitHub Gist 的 Raw 網址 (右上角「Raw」按鈕) 時，請記得把網址內的版本參數 `VERSION_ID` 刪除，也就是將 `https://gist.githubusercontent.com/taichunmin/{GIST_ID}/raw/{VERSION_ID}/microprogram.csv` 改成 `https://gist.githubusercontent.com/taichunmin/{GIST_ID}/raw/microprogram.csv` 就行了。
 
 在準備這份名單的時候，有幾個需要注意的地方：
 
@@ -175,7 +169,7 @@ function gaScreenView (vcard) {
 * 程式及原始碼
   * [數位版名片 LIFF 網頁程式](https://taichunmin.idv.tw/pug/liff-businesscard.html)
   * [數位版名片 LIFF 網頁程式原始碼](https://github.com/taichunmin/pug/blob/master/src/liff-businesscard.pug)
-  * [微程式數位版名片範例 (CSV 及名片樣板)](https://gist.github.com/taichunmin/e6123d3ece7c8c88c6064fb9a69857bf)
+  * [微程式數位版名片範例 (CSV 及名片樣板)](https://gist.githubusercontent.com/taichunmin/e6123d3ece7c8c88c6064fb9a69857bf)
 * 相關連結
   * [跨來源資源共用（CORS）](https://developer.mozilla.org/zh-TW/docs/Web/HTTP/CORS)
   * [Flex Message Simulator 工具](https://developers.line.biz/flex-simulator/)
