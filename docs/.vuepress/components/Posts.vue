@@ -33,12 +33,10 @@ export default {
       // generate this.posts
       let posts = this.$site.pages || []
       const blogRegex = /^\/blog\/(\d{4}-\d{1,2}-\d{1,2})-(.*)\.html/i
-      const now = moment()
       posts = _.filter(posts, post => {
         if (!blogRegex.test(post.path)) return false
         // date
         post.date = _.has(post, 'frontmatter.date') ? moment(post.frontmatter.date) : moment(post.path.match(blogRegex)[1])
-        if (post.date > now) return false
         return true
       })
       return _.orderBy(posts, ['date', 'path'], ['desc', 'asc'])
