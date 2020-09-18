@@ -1,5 +1,5 @@
 ---
-date: "2014-03-16 22:49"
+date: "2014-03-16T22:49:00+08"
 categories: Conference
 tags: [conference, SITCON, diary]
 ---

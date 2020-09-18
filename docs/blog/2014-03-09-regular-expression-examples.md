@@ -1,5 +1,5 @@
 ---
-date: "2014-03-09 00:47"
+date: "2014-03-09T00:47:00+08"
 categories: Reference
 tags: [reference, regexp]
 ---

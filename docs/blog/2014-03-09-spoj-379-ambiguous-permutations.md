@@ -1,5 +1,5 @@
 ---
-date: "2014-03-09 06:25"
+date: "2014-03-09T06:25:00+08"
 categories: SPOJ
 tags: [SPOJ, python]
 ---

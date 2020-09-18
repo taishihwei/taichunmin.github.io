@@ -1,5 +1,5 @@
 ---
-date: "2018-05-08 14:15"
+date: "2018-05-08T14:15:00+08"
 tags: [codility, C++, stack]
 ---
 # Codility: Fish 魚

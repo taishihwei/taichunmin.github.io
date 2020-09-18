@@ -1,5 +1,5 @@
 ---
-date: "2014-09-25 11:41"
+date: "2014-09-25T11:41:00+08"
 categories: PHP
 tags: [PHP, mediawiki, zhtw, zhcn]
 ---

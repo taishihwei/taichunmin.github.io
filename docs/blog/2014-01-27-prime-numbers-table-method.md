@@ -1,5 +1,5 @@
 ---
-date: "2014-01-27 09:36"
+date: "2014-01-27T09:36:00+08"
 categories: CPP
 tags: [CPP, reference]
 ---

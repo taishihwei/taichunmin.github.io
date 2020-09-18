@@ -1,5 +1,5 @@
 ---
-date: "2014-03-03 20:02"
+date: "2014-03-03T20:02:00+08"
 categories: PHP
 tags: [PHP, array_merge]
 ---

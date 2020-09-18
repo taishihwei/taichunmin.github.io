@@ -1,25 +1,18 @@
 ---
-date: "2020-04-16 00:00"
+date: "2020-04-16T00:00:00+08"
 title: 你可以用 async/await 來開發 LINE LIFF
 description: 使用 async/await 來進行開發，讓你遠離 Promise 地獄！
-tags: ["LINE"]
+image: https://i.imgur.com/SPHXp8d.png
+tags:
+  - LINE
+  - LIFF
+  - async
+  - await
 meta:
-- name: keywords
-  content: LINE,LIFF,async,await
-- property: og:url
-  content: https://taichunmin.idv.tw/blog/2020-04-16-develop-liff-with-async-await.html
-- property: og:title
-  content: 你可以用 async/await 來開發 LINE LIFF
-- property: og:description
-  content: 使用 async/await 來進行開發，讓你遠離 Promise 地獄！
-- property: og:image
-  content: https://i.imgur.com/SPHXp8d.png
-- property: og:image:width
-  content: 600
-- property: og:image:height
-  content: 315
-- property: og:type
-  content: article
+  - property: og:image:width
+    content: 1200
+  - property: og:image:height
+    content: 630
 ---
 # 你可以用 async/await 來開發 LINE LIFF
 

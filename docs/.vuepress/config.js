@@ -123,6 +123,24 @@ module.exports = {
         hostname: 'https://taichunmin.idv.tw'
       },
     ],
+    [
+      'autometa',
+      {
+        image: true,
+        twitter: false,
+        og: true,
+        schema: true,
+        canonical_base: 'https://taichunmin.idv.tw',
+        author: {
+          name: '戴均民',
+          twitter: 'taichunmin',
+        },
+        site: {
+          name: '筆記國度',
+          twitter: 'taichunmin',
+        },
+      }
+    ],
   ],
   chainWebpack(config, isServer) {
     for (const lang of ["sass", "scss"]) {

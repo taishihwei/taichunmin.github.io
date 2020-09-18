@@ -1,5 +1,5 @@
 ---
-date: "2011-12-23 02:30"
+date: "2011-12-23T02:30:00+08"
 categories: CPP
 tags: [CPP, oslab, homework]
 ---

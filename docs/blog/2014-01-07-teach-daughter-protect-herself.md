@@ -1,5 +1,5 @@
 ---
-date: "2014-01-07 05:25"
+date: "2014-01-07T05:25:00+08"
 categories: Reprint
 tags: [daughter, story]
 ---

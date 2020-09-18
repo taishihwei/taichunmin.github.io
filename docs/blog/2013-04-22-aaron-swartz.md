@@ -1,5 +1,5 @@
 ---
-date: "2013-04-22 01:50"
+date: "2013-04-22T01:50:00+08"
 categories: Diary
 tags: [Diary]
 ---

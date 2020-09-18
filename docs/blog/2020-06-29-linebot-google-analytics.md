@@ -1,25 +1,16 @@
 ---
-date: "2020-06-29 00:00"
+date: "2020-06-29T00:00:00+08"
 title: 追蹤 LINE Notify 的閱讀率 (開信率)
 description: 示範如何在 LINE Notify 中追蹤使用者的閱讀率（開信率）！
-tags: ["LINE"]
+image: https://i.imgur.com/5DLua0G.png
+tags:
+  - LINE
+  - Google Analytics
 meta:
-- name: keywords
-  content: LINE,Google Analytics
-- property: og:url
-  content: https://taichunmin.idv.tw/blog/2020-06-29-linebot-google-analytics.html
-- property: og:title
-  content: 追蹤 LINE Notify 的閱讀率 (開信率)
-- property: og:description
-  content: 示範如何在 LINE Notify 中追蹤使用者的閱讀率（開信率）！
-- property: og:image
-  content: https://i.imgur.com/5DLua0G.png
-- property: og:image:width
-  content: 600
-- property: og:image:height
-  content: 315
-- property: og:type
-  content: article
+  - property: og:image:width
+    content: 1200
+  - property: og:image:height
+    content: 630
 ---
 
 # 追蹤 LINE Notify 的閱讀率 (開信率)

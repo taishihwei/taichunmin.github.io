@@ -1,5 +1,5 @@
 ---
-date: "2013-10-11 01:40"
+date: "2013-10-11T01:40:00+08"
 categories: Reprint
 tags: [reprint, acm]
 ---

@@ -1,5 +1,5 @@
 ---
-date: "2014-03-21 00:16"
+date: "2014-03-21T00:16:00+08"
 categories: Reference
 tags: [reference, dns]
 ---

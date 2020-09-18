@@ -1,5 +1,5 @@
 ---
-date: "2011-10-20 20:41"
+date: "2011-10-20T20:41:00+08"
 categories: PHP
 tags: [php, talk]
 ---

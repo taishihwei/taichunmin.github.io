@@ -19,7 +19,8 @@
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^10.0.2",
     "transliteration": "^2.1.11",
-    "vuepress": "^1.5.4"
+    "vuepress": "^1.5.4",
+    "vuepress-plugin-autometa": "^0.1.13"
   },
   "scripts": {
     "dev": "vuepress dev docs",

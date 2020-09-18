@@ -1,5 +1,5 @@
 ---
-date: "2018-05-23 22:00"
+date: "2018-05-23T22:00:00+08"
 tags: [docker, docker-compose, openvpn, ubuntu]
 ---
 # 透過 Docker 快速建立 openvpn 伺服器

@@ -1,25 +1,16 @@
 ---
-date: "2020-05-25 00:00"
+date: "2020-05-25T00:00:00+08"
 title: 讓聊天機器人也能看 Google Analytics (2)
 description: 分享如何在 LINE Chatbot 的後端 (Node.js) 批次送出使用者資料！
-tags: ["LINE"]
+image: https://i.imgur.com/iyqwacH.png
+tags:
+  - LINE
+  - Google Analytics
 meta:
-- name: keywords
-  content: LINE,Google Analytics
-- property: og:url
-  content: https://taichunmin.idv.tw/blog/2020-05-25-linebot-google-analytics.html
-- property: og:title
-  content: 讓聊天機器人也能看 Google Analytics (2)
-- property: og:description
-  content: 分享如何在 LINE Chatbot 的後端 (Node.js) 批次送出使用者資料！
-- property: og:image
-  content: https://i.imgur.com/iyqwacH.png
-- property: og:image:width
-  content: 600
-- property: og:image:height
-  content: 315
-- property: og:type
-  content: article
+  - property: og:image:width
+    content: 1200
+  - property: og:image:height
+    content: 630
 ---
 # 讓聊天機器人也能看 Google Analytics (2)
 

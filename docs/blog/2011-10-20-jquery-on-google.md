@@ -1,5 +1,5 @@
 ---
-date: "2011-10-20 20:37"
+date: "2011-10-20T20:37:00+08"
 tags: ['Deprecated']
 ---
 # jQuery 在 google 的一些在線資源

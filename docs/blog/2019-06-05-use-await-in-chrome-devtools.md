@@ -1,5 +1,5 @@
 ---
-date: "2019-06-05 10:44"
+date: "2019-06-05T10:44:00+08"
 tags: [javascript]
 ---
 # 在 Chrome 的 devtools 可以直接用 await

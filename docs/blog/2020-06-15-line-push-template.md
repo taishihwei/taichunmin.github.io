@@ -1,25 +1,19 @@
 ---
-date: "2020-06-15 00:00"
+date: "2020-06-15T00:00:00+08"
 title: 能使用變數的 LINE 訊息推送小工具
 description: 可以從 CSV 讀取資料，對每個 LINE 使用者推送專屬訊息！
-tags: ["LINE"]
+image: https://i.imgur.com/MtBpKAr.png
+tags:
+  - LINE
+  - pushMessage
+  - csv
+  - template
+  - Lodash
 meta:
-- name: keywords
-  content: LINE,pushMessage,csv,template,lodash
-- property: og:url
-  content: https://taichunmin.idv.tw/blog/2020-06-15-line-push-template.html
-- property: og:title
-  content: 能使用變數的 LINE 訊息推送小工具
-- property: og:description
-  content: 可以從 CSV 讀取資料，對每個 LINE 使用者推送專屬訊息！
-- property: og:image
-  content: https://i.imgur.com/MtBpKAr.png
-- property: og:image:width
-  content: 600
-- property: og:image:height
-  content: 315
-- property: og:type
-  content: article
+  - property: og:image:width
+    content: 1200
+  - property: og:image:height
+    content: 630
 ---
 
 # 能使用變數的 LINE 訊息推送小工具

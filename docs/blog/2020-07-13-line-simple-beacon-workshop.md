@@ -1,25 +1,17 @@
 ---
-date: "2020-07-13 00:00"
+date: "2020-07-13T00:00:00+08"
 title: LINE Simple Beacon for ESP32 工作坊
-description: 用 ESP32-DevKitC 來做一個自己的 LINE Simple Beacon 吧！ 
-tags: ["LINE"]
+description: 用 ESP32-DevKitC 來做一個自己的 LINE Simple Beacon 吧！
+image: https://i.imgur.com/39XtRgF.png
+tags:
+  - LINE
+  - Beacon
+  - workshop
 meta:
-- name: keywords
-  content: LINE,beacon,workshop
-- property: og:url
-  content: https://taichunmin.idv.tw/blog/2020-07-13-line-simple-beacon-workshop.html
-- property: og:title
-  content: LINE Simple Beacon for ESP32 工作坊
-- property: og:description
-  content: 用 ESP32-DevKitC 來做一個自己的 LINE Simple Beacon 吧！ 
-- property: og:image
-  content: https://i.imgur.com/39XtRgF.png
-- property: og:image:width
-  content: 600
-- property: og:image:height
-  content: 315
-- property: og:type
-  content: article
+  - property: og:image:width
+    content: 1200
+  - property: og:image:height
+    content: 630
 ---
 
 # LINE Simple Beacon for ESP32 工作坊 (Windows 10)

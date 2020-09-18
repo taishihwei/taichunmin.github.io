@@ -1,5 +1,5 @@
 ---
-date: "2014-01-27 09:17"
+date: "2014-01-27T09:17:00+08"
 categories: ZeroJudge
 tags: [zerojudge, CPP]
 ---

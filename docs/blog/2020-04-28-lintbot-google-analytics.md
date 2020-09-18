@@ -1,25 +1,16 @@
 ---
-date: "2020-04-28 00:00"
+date: "2020-04-28T00:00:00+08"
 title: 讓聊天機器人也能看 Google Analytics (1)
 description: 介紹在 LINE 官方帳號中使用 Google Analytics 追蹤使用者行為！
-tags: ["LINE"]
+image: https://i.imgur.com/m86anNp.png
+tags:
+  - LINE
+  - Google Analytics
 meta:
-- name: keywords
-  content: LINE,Google Analytics
-- property: og:url
-  content: https://taichunmin.idv.tw/blog/2020-04-28-lintbot-google-analytics.html
-- property: og:title
-  content: 讓聊天機器人也能看 Google Analytics (1)
-- property: og:description
-  content: 介紹在 LINE 官方帳號中使用 Google Analytics 追蹤使用者行為！
-- property: og:image
-  content: https://i.imgur.com/m86anNp.png
-- property: og:image:width
-  content: 600
-- property: og:image:height
-  content: 315
-- property: og:type
-  content: article
+  - property: og:image:width
+    content: 1200
+  - property: og:image:height
+    content: 630
 ---
 # 讓聊天機器人也能看 Google Analytics (1)
 

@@ -1,31 +1,16 @@
 ---
-date: "2020-09-18 00:00"
+date: '2020-09-18T00:00:00+08'
 title: 透過三個 LINE LIFF ID 創造出無限的 LIFF
 description: 讓你只需要在專案中建立三個大小的 LIFF ID 就能產生出無限多的 LIFF
-tags: ["LINE"]
+image: https://i.imgur.com/MwR2Cwk.png
+tags:
+  - LINE
+  - LIFF
 meta:
-- name: keywords
-  content: LINE,LIFF
-- property: og:type
-  content: article
-- property: og:title
-  content: 透過三個 LINE LIFF ID 創造出無限的 LIFF
-- property: og:description
-  content: 讓你只需要在專案中建立三個大小的 LIFF ID 就能產生出無限多的 LIFF
-- property: og:url
-  content: https://taichunmin.idv.tw/blog/2020-09-18-line-three-size-liff.html
-- property: og:image
-  content: https://i.imgur.com/MwR2Cwk.png
-- property: og:image:width
-  content: 1280
-- property: og:image:height
-  content: 640
-- property: article:tag
-  content: LINE
-- property: article:tag
-  content: LIFF
-- property: article:published_time
-  content: '2020-09-18T00:00:00+08:00'
+  - property: og:image:width
+    content: 1280
+  - property: og:image:height
+    content: 640
 ---
 
 # 透過三個 LINE LIFF ID 創造出無限的 LIFF

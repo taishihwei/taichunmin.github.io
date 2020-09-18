@@ -1,21 +1,17 @@
 ---
-date: "2020-07-21 00:00"
+date: "2020-07-21T00:00:00+08"
 title: 不用寫程式也能做 LINE 數位版名片
 description: 不用寫程式也能輕鬆製作數位版名片，會寫 LINE Flex 訊息的人也能自己做名片樣板
-tags: ["LINE"]
+image: https://i.imgur.com/ME1YLcg.png
+tags:
+  - LINE
+  - LIFF
+  - businesscard
 meta:
-- name: keywords
-  content: LINE,LIFF,businesscard
-- property: og:url
-  content: https://taichunmin.idv.tw/blog/2020-07-21-liff-businesscard.html
-- property: og:title
-  content: 不用寫程式也能做 LINE 數位版名片
-- property: og:description
-  content: 不用寫程式也能輕鬆製作數位版名片，會寫 LINE Flex 訊息的人也能自己做名片樣板
-- property: og:image
-  content: https://i.imgur.com/ME1YLcg.png
-- property: og:type
-  content: article
+  - property: og:image:width
+    content: 1280
+  - property: og:image:height
+    content: 640
 ---
 
 # 不用寫程式也能做 LINE 數位版名片

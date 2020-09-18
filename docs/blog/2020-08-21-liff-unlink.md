@@ -1,21 +1,16 @@
 ---
-date: "2020-08-21 00:00"
+date: "2020-08-21T00:00:00+08"
 title: 如何重新看到 LINE LIFF v2 的授權畫面
 description: 在開發 LIFF 的 bot link 功能時，如何才能重新顯示授權畫面，方便測試或截圖？
-tags: ["LINE"]
+image: https://i.imgur.com/olKIvVH.png
+tags:
+  - LINE
+  - LIFF
 meta:
-- name: keywords
-  content: LINE,LIFF
-- property: og:url
-  content: https://taichunmin.idv.tw/blog/2020-08-21-liff-unlink.html
-- property: og:title
-  content: 如何重新看到 LINE LIFF v2 的授權畫面
-- property: og:description
-  content: 在開發 LIFF 的 bot link 功能時，如何才能重新顯示授權畫面，方便測試或截圖？
-- property: og:image
-  content: https://i.imgur.com/olKIvVH.png
-- property: og:type
-  content: article
+  - property: og:image:width
+    content: 1280
+  - property: og:image:height
+    content: 640
 ---
 
 # 如何重新看到 LINE LIFF v2 的授權畫面？

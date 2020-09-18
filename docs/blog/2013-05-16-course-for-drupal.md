@@ -1,5 +1,5 @@
 ---
-date: "2013-05-16 01:46"
+date: "2013-05-16T01:46:00+08"
 categories: Diary
 tags: [Drupal, CSS, Slideshow, colorbox, QuickTab, 'Display Suite']
 ---

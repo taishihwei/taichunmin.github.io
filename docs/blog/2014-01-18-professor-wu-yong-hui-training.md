@@ -1,5 +1,5 @@
 ---
-date: "2014-01-18 23:09"
+date: "2014-01-18T23:09:00+08"
 categories: Diary
 tags: [C, CPP, diary]
 ---

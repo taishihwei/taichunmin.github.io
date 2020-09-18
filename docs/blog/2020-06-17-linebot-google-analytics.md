@@ -1,25 +1,16 @@
 ---
-date: "2020-06-17 00:00"
+date: "2020-06-17T00:00:00+08"
 title: 追蹤使用者有沒有看 LINE 訊息 (開信率)
 description: 在 LINE chatbot 中透過 Google Analytics 來追蹤使用者是否有打開聊天室並看到 Flex 訊息！
-tags: ["LINE"]
+image: https://i.imgur.com/FHbjXQm.png
+tags:
+  - LINE
+  - Google Analytics
 meta:
-- name: keywords
-  content: LINE,Google Analytics
-- property: og:url
-  content: https://taichunmin.idv.tw/blog/2020-06-17-linebot-google-analytics.html
-- property: og:title
-  content: 追蹤使用者有沒有看 LINE 訊息 (開信率)
-- property: og:description
-  content: 在 LINE chatbot 中透過 Google Analytics 來追蹤使用者是否有打開聊天室並看到 Flex 訊息！
-- property: og:image
-  content: https://i.imgur.com/FHbjXQm.png
-- property: og:image:width
-  content: 600
-- property: og:image:height
-  content: 315
-- property: og:type
-  content: article
+  - property: og:image:width
+    content: 1200
+  - property: og:image:height
+    content: 630
 ---
 
 # 追蹤使用者有沒有看 LINE 訊息 (開信率)

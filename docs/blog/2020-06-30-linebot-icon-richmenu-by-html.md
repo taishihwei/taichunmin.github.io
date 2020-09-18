@@ -1,25 +1,15 @@
 ---
-date: "2020-06-30 00:00"
+date: "2020-06-30T00:00:00+08"
 title: 用 HTML 為機器人製作簡易圖示與主選單
 description: 這篇文章是寫給和我一樣不會畫圖的工程師
-tags: ["LINE"]
+image: https://i.imgur.com/izqPy3H.png
+tags:
+  - LINE
 meta:
-- name: keywords
-  content: LINE,Chrome,devtools
-- property: og:url
-  content: https://taichunmin.idv.tw/blog/2020-06-30-linebot-icon-richmenu-by-html.html
-- property: og:title
-  content: 用 HTML 為機器人製作簡易圖示與主選單
-- property: og:description
-  content: 這篇文章是寫給和我一樣不會畫圖的工程師
-- property: og:image
-  content: https://i.imgur.com/izqPy3H.png
-- property: og:image:width
-  content: 600
-- property: og:image:height
-  content: 315
-- property: og:type
-  content: article
+  - property: og:image:width
+    content: 1200
+  - property: og:image:height
+    content: 630
 ---
 
 # 用 HTML 為機器人製作簡易圖示與主選單

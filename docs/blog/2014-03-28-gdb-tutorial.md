@@ -1,5 +1,5 @@
 ---
-date: "2014-03-28 11:42"
+date: "2014-03-28T11:42:00+08"
 categories: C
 tags: [C, gdb, debug]
 ---

@@ -1,5 +1,5 @@
 ---
-date: "2017-09-13 14:08"
+date: "2017-09-13T14:08:00+08"
 categories: Docker
 tags: [Docker, MongoDB, Seeding]
 ---

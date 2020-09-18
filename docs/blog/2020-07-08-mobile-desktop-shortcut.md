@@ -1,25 +1,16 @@
 ---
-date: "2020-07-08 00:00"
+date: "2020-07-08T00:00:00+08"
 title: 讓聊天機器人佔領手機主畫面
 description: 把聊天機器人加到使用者的手機主畫面，讓使用者可以更方便打開聊天機器人喔！
-tags: ["LINE"]
+image: https://i.imgur.com/SiyFKsh.png
+tags:
+  - LINE
+  - desktop shortcut
 meta:
-- name: keywords
-  content: LINE,desktop shortcut
-- property: og:url
-  content: https://taichunmin.idv.tw/blog/2020-07-08-mobile-desktop-shortcut.html
-- property: og:title
-  content: 讓聊天機器人佔領手機主畫面
-- property: og:description
-  content: 把聊天機器人加到使用者的手機主畫面，讓使用者可以更方便打開聊天機器人喔！
-- property: og:image
-  content: https://i.imgur.com/SiyFKsh.png
-- property: og:image:width
-  content: 600
-- property: og:image:height
-  content: 315
-- property: og:type
-  content: article
+  - property: og:image:width
+    content: 1200
+  - property: og:image:height
+    content: 630
 ---
 
 # 讓聊天機器人佔領手機主畫面

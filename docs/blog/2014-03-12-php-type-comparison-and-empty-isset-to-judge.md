@@ -1,5 +1,5 @@
 ---
-date: "2014-03-12 10:47"
+date: "2014-03-12T10:47:00+08"
 categories: PHP
 tags: [PHP, empty, isset]
 ---

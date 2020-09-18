@@ -1,25 +1,17 @@
 ---
-date: "2020-04-19 00:00"
+date: "2020-04-19T00:00:00+08"
 title: 如何追蹤使用者從哪裡加入 LINE 官方帳號
 description: 追蹤使用者從哪個管道加入的需求，可以很容易的用 LIFF v2 來達成！
-tags: ["LINE"]
+image: https://i.imgur.com/ZkfbVn5.png
+tags:
+  - LINE
+  - LIFF
+  - referral
 meta:
-- name: keywords
-  content: LINE,LIFF,referral
-- property: og:url
-  content: https://taichunmin.idv.tw/blog/2020-04-19-line-offical-account-referral.html
-- property: og:title
-  content: 如何追蹤使用者從哪裡加入 LINE 官方帳號
-- property: og:description
-  content: 追蹤使用者從哪個管道加入的需求，可以很容易的用 LIFF v2 來達成！
-- property: og:image
-  content: https://i.imgur.com/ZkfbVn5.png
-- property: og:image:width
-  content: 600
-- property: og:image:height
-  content: 315
-- property: og:type
-  content: article
+  - property: og:image:width
+    content: 1200
+  - property: og:image:height
+    content: 630
 ---
 # 如何追蹤使用者從哪裡加入 LINE 官方帳號
 

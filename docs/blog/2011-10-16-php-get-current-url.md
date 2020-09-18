@@ -1,5 +1,5 @@
 ---
-date: "2011-10-16 01:36"
+date: "2011-10-16T01:36:00+08"
 categories: PHP
 tags: [PHP, URL]
 ---

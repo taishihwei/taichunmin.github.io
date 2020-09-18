@@ -1,21 +1,17 @@
 ---
-date: "2020-04-06 00:00"
+date: "2020-04-06T00:00:00+08"
 title: 輔助開發 LINE Flex 訊息的工具
 description: 在官方模擬器看到的結果，不一定跟手機上面的相同，可以使用這個小工具來幫助你喔！
+image: https://i.imgur.com/3vUdhWw.png
+tags:
+  - LINE
+  - Flex Message
+  - Simulator
 meta:
-- name: keywords
-  content: LINE,Flex Message,Simulator
-- property: og:url
-  content: https://taichunmin.idv.tw/blog/2020-04-06-line-devbot.html
-- property: og:title
-  content: 輔助開發 LINE Flex 訊息的工具
-- property: og:description
-  content: 在官方模擬器看到的結果，不一定跟手機上面的相同，可以使用這個小工具來幫助你喔！
-- property: og:image
-  content: https://i.imgur.com/3vUdhWw.png
-- property: og:type
-  content: article
-tags: ["LINE"]
+  - property: og:image:width
+    content: 1200
+  - property: og:image:height
+    content: 630
 ---
 
 # 輔助開發 LINE Flex 訊息的工具

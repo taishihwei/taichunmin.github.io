@@ -1,25 +1,19 @@
 ---
-date: "2020-06-13 00:00"
+date: "2020-06-13T00:00:00+08"
 title: 用 localtunnel 幫 chatbot 上 https
 description: 用 localtunnel 幫開發 LINE chatbot 用的後端伺服器變成 https 連線
-tags: ["LINE"]
+image: https://i.imgur.com/zg2yDJp.png
+tags:
+  - LINE
+  - https
+  - development
+  - backend
+  - webhook
 meta:
-- name: keywords
-  content: LINE,https,development,backend,webhook
-- property: og:url
-  content: https://taichunmin.idv.tw/blog/2020-06-13-linebot-localtunnel-https.html
-- property: og:title
-  content: 用 localtunnel 幫 chatbot 上 https
-- property: og:description
-  content: 用 localtunnel 幫開發 LINE chatbot 用的後端伺服器變成 https 連線
-- property: og:image
-  content: https://i.imgur.com/zg2yDJp.png
-- property: og:image:width
-  content: 600
-- property: og:image:height
-  content: 315
-- property: og:type
-  content: article
+  - property: og:image:width
+    content: 1200
+  - property: og:image:height
+    content: 630
 ---
 
 # 用 localtunnel 幫 chatbot 上 https

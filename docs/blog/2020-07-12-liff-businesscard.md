@@ -1,25 +1,15 @@
 ---
-date: "2020-07-12 00:00"
+date: "2020-07-12T00:00:00+08"
 title: 看起來很專業的 LINE 數位版名片
 description: 可以用這種方式來幫公司做名片，讓公司的同事都可以有看起來很強大很專業的 LINE 數位版名片！
-tags: ["LINE"]
+image: https://i.imgur.com/PqLcIKj.png
+tags:
+  - LINE
 meta:
-- name: keywords
-  content: LINE,LIFF,businesscard
-- property: og:url
-  content: https://taichunmin.idv.tw/blog/2020-07-12-liff-businesscard.html
-- property: og:title
-  content: 看起來很專業的 LINE 數位版名片
-- property: og:description
-  content: 可以用這種方式來幫公司做名片，讓公司的同事都可以有看起來很強大很專業的 LINE 數位版名片！
-- property: og:image
-  content: https://i.imgur.com/PqLcIKj.png
-- property: og:image:width
-  content: 600
-- property: og:image:height
-  content: 315
-- property: og:type
-  content: article
+  - property: og:image:width
+    content: 1200
+  - property: og:image:height
+    content: 630
 ---
 
 # 看起來很專業的 LINE 數位版名片

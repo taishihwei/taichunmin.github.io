@@ -1,5 +1,5 @@
 ---
-date: "2014-03-18 10:42"
+date: "2014-03-18T10:42:00+08"
 categories: NCHUIT
 tags: [NCHUIT, CPE, ACM]
 ---

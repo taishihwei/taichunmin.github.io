@@ -1,21 +1,16 @@
 ---
-date: "2020-09-07 10:00"
+date: "2020-09-07T10:00:00+08"
 title: 如何在 LINE LIFF 中確保用戶把官方帳號加為好友
 description: 在 LIFF 使用 Bot Link 功能時，用戶可能會選擇不加好友，如何確保用戶成為好友呢？
-tags: ["LINE"]
+image: https://i.imgur.com/Gq03jPM.png
+tags:
+  - LINE
+  - LIFF
 meta:
-- name: keywords
-  content: LINE,LIFF
-- property: og:url
-  content: https://taichunmin.idv.tw/blog/2020-09-06-line-liff-add-friend.html
-- property: og:title
-  content: 如何在 LINE LIFF 中確保用戶把官方帳號加為好友
-- property: og:description
-  content: 在 LIFF 使用 Bot Link 功能時，用戶可能會選擇不加好友，如何確保用戶成為好友呢？
-- property: og:image
-  content: https://i.imgur.com/Gq03jPM.png
-- property: og:type
-  content: article
+  - property: og:image:width
+    content: 1280
+  - property: og:image:height
+    content: 640
 ---
 
 # 如何在 LINE LIFF 中確保用戶把官方帳號加為好友

@@ -1,5 +1,5 @@
 ---
-date: "2011-10-26 20:14"
+date: "2011-10-26T20:14:00+08"
 categories: Reprint
 ---
 # 好文: 為什麼 GNU grep 這麼快

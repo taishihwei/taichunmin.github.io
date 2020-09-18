@@ -1,5 +1,5 @@
 ---
-date: "2018-05-04 14:52"
+date: "2018-05-04T14:52:00+08"
 tags: [codility, C++, stack]
 ---
 # Codility: StoneWall 石牆
