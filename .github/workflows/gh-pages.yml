@@ -15,7 +15,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-        check-latest: true
 
     - name: 取得 yarn 的快取資料夾路徑
       id: yarn-cache-dir-path
