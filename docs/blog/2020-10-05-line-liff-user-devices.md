@@ -1,7 +1,7 @@
 ---
 date: '2020-10-05T00:00:00+08'
-title: LINE LIFF 使用者裝置分析圖表
-description: 在 2020-09-07 至 2020-09-30 的活動中使用者裝置分析圖表。
+title: LINE LIFF 裝置支援度分析
+description: 在 2020-09-07 至 2020-09-30 的活動中 LINE LIFF 裝置支援度分析。
 image: https://i.imgur.com/RWPllHT.png
 tags:
   - LINE
@@ -13,9 +13,9 @@ meta:
     content: 640
 ---
 
-# LINE LIFF 使用者裝置分析圖表
+# LINE LIFF 裝置支援度分析
 
-2020-09-07 至 2020-09-30 這段期間，在公司的某個聊天機器人專案中舉辦了一個活動，這份圖表是在這段期間透過 LIFF 埋入 Google Analytics 所製作的使用者裝置分析。
+2020-09-07 至 2020-09-30 這段期間，在公司的某個聊天機器人專案中舉辦了一個活動，這份圖表是在這段期間透過 LIFF 埋入 Google Analytics 所製作的使用者裝置支援度分析。
 
 ::: danger 免責聲明
 由於以下幾點因素，圖表的內容可能會有所誤差，僅供參考：
