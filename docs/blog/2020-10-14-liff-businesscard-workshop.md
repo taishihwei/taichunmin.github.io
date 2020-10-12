@@ -1,5 +1,5 @@
 ---
-date: '2020-10-05T00:00:00+08'
+date: '2020-10-14T00:00:00+08'
 title: LINE 數位版名片工作坊
 description: 加入新朋友的 LINE 帳號以後，要傳數位版名片才夠潮，來工作坊教你現場製作！
 image: https://i.imgur.com/nswDEvY.png
