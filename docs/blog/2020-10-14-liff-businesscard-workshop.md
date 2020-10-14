@@ -260,3 +260,13 @@ function imgStar (isGold) {
   "url": "${imgStar(vcard.rating > 0)}"
 }
 ```
+
+## 原始碼與相關連結
+
+::: tip
+本文範例程式的原始碼授權為 MIT License，若您有任何疑惑，你可以直接舉手發問或是透過 [Facebook](https://www.facebook.com/taichunmin) 與我聯繫。
+:::
+
+* [數位版名片 免費樣版網站](https://taichunmin.idv.tw/liff-businesscard/)
+* [看起來很專業的 LINE 數位版名片](https://taichunmin.idv.tw/blog/2020-07-12-liff-businesscard.html)
+* [不用寫程式也能做 LINE 數位版名片](https://taichunmin.idv.tw/blog/2020-07-21-liff-businesscard.html)
