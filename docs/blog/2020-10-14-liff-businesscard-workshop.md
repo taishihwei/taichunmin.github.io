@@ -17,9 +17,9 @@ meta:
 # LINE 數位版名片工作坊
 
 ::: tip 相關連結
-* 投影片：<https://hackmd.io/@taichunmin/chatbot-tw-202002>
+* 開場投影片：<https://hackmd.io/@taichunmin/chatbot-tw-202010>
 * 共筆：<https://hackmd.io/@chatbot-tw/chatbots-meetup-in-central-taiwan-010>
-* 作者：戴均民 [(taichunmin)](https://github.com/taichunmin)
+* 作者：戴均民 [(taichunmin)](https://taichunmin.idv.tw/)
 :::
 
 在你認識一個新朋友，並且加入對方的 LINE 帳號以後，應該要打招呼還是傳貼圖呢？都不對！要傳數位版名片才夠潮，讓對方點一下就能直接「打開網站」、「開地圖導航」、「撥電話」還有「傳電子郵件」！
@@ -29,11 +29,13 @@ meta:
 1. 透過講者的免費樣板網站製作數位版名片
 2. 透過 Flex 訊息模擬器製作 LINE 數位版名片
 
+## 目錄
+
 [[TOC]]
 
 ## 透過講者的免費樣板網站製作名片
 
-::: tip 數位版名片
+::: tip 數位版名片 免費樣版網站
 <https://taichunmin.idv.tw/liff-businesscard/>
 :::
 
@@ -85,7 +87,7 @@ meta:
 |:------------------------------------:|:------------------------------------:|
 | ![](https://i.imgur.com/qp7RfX2.png) | ![](https://i.imgur.com/ygty7QH.png) |
 
-## 使用自己的 CSV 製作範例名片
+## 製作範例名片並帶入自己的 CSV 資料
 
 ### 準備 CSV 資料
 
@@ -152,8 +154,8 @@ CSV 檔案匯出以後，我們需要把這個 CSV 檔案放到網路上可以�
 ### 填寫 CSV 網址並製作範例名片
 
 ::: tip 相關連結
-* [製作名片網頁](https://taichunmin.idv.tw/liff-businesscard/forms/csv.html)
-* [議程名片樣板](https://taichunmin.idv.tw/liff-businesscard/cards/chatbot-tw-coscup-2020.txt): `https://taichunmin.idv.tw/liff-businesscard/cards/chatbot-tw-coscup-2020.txt`
+* [製作 CSV 名片](https://taichunmin.idv.tw/liff-businesscard/forms/csv.html)
+* [COSCUP 議程名片樣板](https://taichunmin.idv.tw/liff-businesscard/cards/chatbot-tw-coscup-2020.txt): `https://taichunmin.idv.tw/liff-businesscard/cards/chatbot-tw-coscup-2020.txt`
 :::
 
 請打開上方的「製作名片網頁」連結，打開以後你應該會看到這個畫面：
@@ -168,7 +170,7 @@ CSV 檔案匯出以後，我們需要把這個 CSV 檔案放到網路上可以�
 
 資料填寫完畢後，點一下「建立名片」按鈕，就可以成功建立名片啦！
 
-## Flex 訊息製作教學
+## 製作客製化名片樣版
 
 這一個部份的練習會需要比較多的程式基礎，如果不是程式背景出身的可以快速看過就好。
 
@@ -184,6 +186,10 @@ LINE 所支援的 Flex 訊息可以做出千變萬化的版面，但由於每個
 <img src="https://i.imgur.com/eZSX3yP.png" style="width: 480px">
 
 ### 改善使用者體驗
+
+::: tip 相關連結
+* [Google Maps 網址文件](https://developers.google.com/maps/documentation/urls/guide)
+:::
 
 數位版名片跟紙本最不一樣的地方就是，可以放超連結！我們可以在合適的地方放上相對應的超連結，以增加使用者體驗：
 
@@ -210,6 +216,12 @@ id,name,image,image_ratio,rating,place,time,tel,website
 
 ### 將資料使用變數替換
 
+::: tip 相關連結
+* 完整範例：[card1](https://gist.github.com/taichunmin/ce55953ba0199052cd6e871b61b60cdb)、[card2](https://gist.github.com/taichunmin/6b8138bca07224dc560ca7711dbe3797)
+* [Lodash 的 `_.template` 函式](https://lodash.com/docs/4.17.15#template)
+* [JSON5 的語法](https://json5.org/)
+:::
+
 CSV 製作完成後，我們就要把樣板中的資料使用變數替換掉。
 
 <img src="https://i.imgur.com/sSHSEUa.png" style="width: 480px">
@@ -228,11 +240,11 @@ CSV 製作完成後，我們就要把樣板中的資料使用變數替換掉。
 }
 ```
 
-> 完整範例請點此查看：
-> 1. [card1](https://gist.github.com/taichunmin/ce55953ba0199052cd6e871b61b60cdb)
-> 2. [card2](https://gist.github.com/taichunmin/6b8138bca07224dc560ca7711dbe3797)
-
 ### 透過 JS 的函式讓樣板更彈性
+
+::: tip 相關連結
+* 完整範例：[card3](https://gist.github.com/taichunmin/fd6c330f77c611d31558ccba1c9c6f21)
+:::
 
 這個 `_.template` 函式也支援 JS 函式與運算式，為了要處理這個樣板中的星星，我們可以在樣板中透過 JS 函式來實現這功能：
 
@@ -248,5 +260,3 @@ function imgStar (isGold) {
   "url": "${imgStar(vcard.rating > 0)}"
 }
 ```
-
-> 完整範例請點此查看：[card3](https://gist.github.com/taichunmin/fd6c330f77c611d31558ccba1c9c6f21)
