@@ -1,6 +1,10 @@
 ---
 title: 作品集
 works:
+- title: 詭影尋蹤線索紙
+  img: https://i.imgur.com/2IvjP82.png
+  desc: 桌遊「詭影尋蹤」的線索紙
+  url: /pug/boardgame-cryptid.html
 - title: 猜數字遊戲與求解
   img: https://i.imgur.com/M47nczC.png
   desc: 1A2B 猜數字遊戲與求解答程式
