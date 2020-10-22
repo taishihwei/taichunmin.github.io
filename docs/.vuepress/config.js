@@ -44,8 +44,8 @@ module.exports = {
         fa: 'file-text'
       },
       {
-        text: 'Travis CI',
-        link: 'https://travis-ci.org/taichunmin/taichunmin.github.io',
+        text: 'CI',
+        link: 'https://github.com/taichunmin/taichunmin.github.io/actions',
         fa: 'tasks'
       },
       {
