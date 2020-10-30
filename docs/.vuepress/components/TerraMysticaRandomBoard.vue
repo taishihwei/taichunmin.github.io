@@ -106,7 +106,7 @@ export default {
       return 12 + (ty + this.firstType) % 2
     },
     async resetBoard () {
-      let board = _.get(this, ['presets', this.inputPreset, 'board']).replace(/ /g, '')
+      let board = _.get(this, ['presets', this.inputPreset, 'board']).replaceAll(' ', '')
       this.board = await fillBoard(board, this.firstType)
     }
   }
