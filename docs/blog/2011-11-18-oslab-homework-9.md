@@ -1,7 +1,10 @@
 ---
-date: "2011-11-18T20:01:00+08"
-categories: CPP
-tags: [CPP, oslab, homework]
+title: "作業系統實驗 Lab9"
+date: 2011-11-18T04:20:00+08
+tags:
+  - CPP
+  - oslab
+  - homework
 ---
 # 作業系統實驗 Lab9
 
@@ -53,7 +56,7 @@ int main()
 
 struct sigaction newact;
 
-/* here is the signal handler */
+/* here is the signal handler */ 
 void catch_alarm_2(int sig_num)   /* the argument is signal number  */
 {   
     /* re-set the signal handler again to catch_int, for next time */

@@ -1,6 +1,8 @@
 ---
-date: "2011-10-26T20:14:00+08"
-categories: Reprint
+title: "好文: 為什麼 GNU grep 這麼快"
+date: 2011-10-26T02:00:00+08
+tags:
+  - 轉貼
 ---
 # 好文: 為什麼 GNU grep 這麼快
 
@@ -13,4 +15,4 @@ Linux shell 常常會用到 grep, 為何 grep 可以那麼快的找到我們要�
 
 * 技巧1： GNU grep之所以快是因為它並不會去“檢查”輸入中的每一個位元組
 * 技巧2： GNU grep之所以快是因為它只對每個它要檢查的位元組執行非常少的操作
-* GNU grep使用了非常著名的 Boyer-Moore 演算法，它會從目標字元串的最後一個字元開始查找，並且配合一個查找表，它可以在發現一個不匹配字元之後，計算出應該跳過後續輸入中的多少個字元並繼續查找
+* GNU grep使用了非常著名的 [Boyer-Moore](http://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm) 演算法，它會從目標字元串的最後一個字元開始查找，並且配合一個查找表，它可以在發現一個不匹配字元之後，計算出應該跳過後續輸入中的多少個字元並繼續查找

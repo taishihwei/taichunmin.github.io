@@ -1,6 +1,8 @@
 ---
-date: "2011-11-01T20:07:00+08"
-tags: ['Deprecated']
+title: IE9,Win7不會自動跳出ActiveX提示問題解決
+date: 2011-11-01T01:26:00+08
+tags:
+  - Deprecated
 ---
 # IE9, Win7 不會自動跳出 ActiveX 提示問題解決
 

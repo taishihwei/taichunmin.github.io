@@ -1,7 +1,10 @@
 ---
-date: "2011-11-04T20:04:00+08"
-categories: CPP
-tags: [CPP, oslab, homework]
+title: "作業系統實驗 Lab8"
+date: 2011-11-04T02:52:00+08
+tags:
+  - CPP
+  - oslab
+  - homework
 ---
 # 作業系統實驗 Lab8
 
@@ -22,7 +25,7 @@ void *PrintHello(void *arg)
     //printf("Argument: %d\n",*(int*)arg);
     pthread_exit(NULL);
 }
-
+ 
 int main()
 {
     pthread_t thread;
@@ -47,21 +50,21 @@ int main()
 /*
 Compile Command:
     gcc -o b b.c -pthread
-
+ 
 Questions:
 #   Observe all of the results you got, and think about what
     problem does it have? (10pts.)
 #   Compare to fork() process by doing all the same thing to
     the global variable, can you figure out what’s the
     difference between them? (10pts.)
-
+ 
 */
 #include<pthread.h>
 #include<stdio.h>
 #include<stdlib.h>
-
+ 
 int count = 0;
-
+ 
 void *PrintHello(void *arg)
 {
     int ia=250000;
@@ -75,7 +78,7 @@ void *PrintHello(void *arg)
     printf("Thread %d: ID %lu Completed.\n",(int)arg,pthread_self());
     pthread_exit(NULL);
 }
-
+ 
 int main()
 {
     pthread_t thread[4];
@@ -107,7 +110,7 @@ int main()
 /*
 Compile Command:
     gcc -o c c.c -pthread
-
+ 
 */
 #include<pthread.h>
 #include<unistd.h>
@@ -118,10 +121,10 @@ Compile Command:
 #include<sys/msg.h>
 #include<stdlib.h>
 #include "msg_que.h"
-
+ 
 long int ProgramID = 1; // 1 or 2
 int closeMsgQue = 0;
-
+ 
 void *MsgSend(void *arg)
 {
     key_t key=0x1234;
@@ -157,7 +160,7 @@ void *MsgGet(void *arg)
         }
     pthread_exit(NULL);
 }
-
+ 
 int main()
 {
     pthread_t thread[2];

@@ -1,7 +1,10 @@
 ---
-date: "2011-12-09T19:56:00+08"
-categories: CPP
-tags: [CPP, oslab, homework]
+title: "作業系統實驗 Lab12"
+date: 2011-12-16T11:38:00+08
+tags:
+  - CPP
+  - oslab
+  - homework
 ---
 # 作業系統實驗 Lab12
 

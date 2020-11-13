@@ -1,9 +1,12 @@
 ---
-date: "2011-11-25T19:58:00+08"
-categories: CPP
-tags: [CPP, oslab, homework]
+title: "作業系統實驗 Lab10"
+date: 2011-11-25T00:11:00+08
+tags:
+  - CPP
+  - oslab
+  - homework
 ---
-# 作業系統實驗 10
+# 作業系統實驗 Lab10
 
 ```cpp
 /*
@@ -37,7 +40,7 @@ int main(void){
     pthread_create(&id[3],NULL,(void*)inc,NULL);
     for(i=0;i<4;i++)
     {
-        pthread_join(id[i],NULL);   
+        pthread_join(id[i],NULL);
     }
     printf("\noutput is %d\n",count);
 }
@@ -82,7 +85,7 @@ int main(void){
     pthread_create(&id[3],NULL,(void*)inc,NULL);
     for(i=0;i<4;i++)
     {
-        pthread_join(id[i],NULL);   
+        pthread_join(id[i],NULL);
     }
     printf("\noutput is %d\n",count);
     sem_destroy(&sem);
@@ -96,10 +99,10 @@ int main(void){
 #include <stdlib.h>
 #include </usr/include/semaphore.h>
 
-#define BUFF_SIZE   5       /* total number of slots */
-#define NP          3       /* total number of producers */
-#define NC          3       /* total number of consumers */
-#define NITERS      4       /* number of items produced/consumed */
+#define BUFF_SIZE   5        /* total number of slots */
+#define NP          3        /* total number of producers */
+#define NC          3        /* total number of consumers */
+#define NITERS      4        /* number of items produced/consumed */
 
 typedef struct {
     int buf[BUFF_SIZE];   /* shared var */
@@ -121,7 +124,7 @@ void *Producer(void *arg)
     for (i=0; i < NITERS; i++) {
 
         /* Produce item */
-        item = i;   
+        item = i;
 
         /* Prepare to write item to buf */
 
@@ -157,7 +160,7 @@ void *Consumer(void *arg)
         sem_wait(&shared.full);
         /* If another thread uses the buffer, wait */
         sem_wait(&shared.mutex);
-
+        
         /* Consume item */
         item = shared.buf[shared.out];
         shared.out = (shared.out+1)%BUFF_SIZE;
