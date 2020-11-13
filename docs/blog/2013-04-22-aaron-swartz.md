@@ -1,7 +1,8 @@
 ---
-date: "2013-04-22T01:50:00+08"
-categories: Diary
-tags: [Diary]
+title: 那些 Aaron Swartz 用生命告訴網路社會的事
+date: 2013-04-22T03:47:00+08
+tags:
+  - Diary
 ---
 # 那些 Aaron Swartz 用生命告訴網路社會的事
 

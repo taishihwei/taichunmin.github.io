@@ -1,7 +1,14 @@
 ---
-date: "2013-05-16T01:46:00+08"
-categories: Diary
-tags: [Drupal, CSS, Slideshow, colorbox, QuickTab, 'Display Suite']
+title: 大開學長 Drupal 版型初分享
+date: 2013-05-16T01:06:00+08
+tags:
+  - 動態網頁
+  - Drupal
+  - CSS
+  - Slideshow
+  - colorbox
+  - quicktab
+  - Display Suite
 ---
 # 大開學長 Drupal 版型初分享
 

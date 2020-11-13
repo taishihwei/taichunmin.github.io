@@ -1,7 +1,10 @@
 ---
-date: "2013-10-11T01:40:00+08"
-categories: Reprint
-tags: [reprint, acm]
+title: 魏小亮：參加編程競賽對實際工作的用處
+date: 2013-10-11T23:09:00+08
+tags:
+  - CMD程式
+  - acm
+  - 轉貼
 ---
 # 魏小亮：參加編程競賽對實際工作的用處
 
