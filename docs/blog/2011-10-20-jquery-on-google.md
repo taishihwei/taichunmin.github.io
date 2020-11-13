@@ -1,6 +1,8 @@
 ---
-date: "2011-10-20T20:37:00+08"
-tags: ['Deprecated']
+title: jQuery 在 google 的一些在線資源
+date: 2011-10-20T22:33:00+08
+tags:
+  - Deprecated
 ---
 # jQuery 在 google 的一些在線資源
 

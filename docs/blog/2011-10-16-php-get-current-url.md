@@ -1,7 +1,8 @@
 ---
-date: "2011-10-16T01:36:00+08"
-categories: PHP
-tags: [PHP, URL]
+title: "PHP 取得目前網頁的對外網址"
+date: 2011-10-16T14:17:00+08
+tags:
+  - PHP
 ---
 # PHP 取得目前網頁的對外網址
 
@@ -9,29 +10,29 @@ tags: [PHP, URL]
 
 ```php
 <?php
-function getCurrentUrl()
-{
-  global $_SERVER;
+  function getCurrentUrl() 
+  {
+    global $_SERVER;
 
-  /**
-   * Filter php_self to avoid a security vulnerability.
-   */
-  $php_request_uri = htmlentities(substr($_SERVER['REQUEST_URI'], 0, strcspn($_SERVER['REQUEST_URI'], "\n\r")), ENT_QUOTES);
+    /**
+      * Filter php_self to avoid a security vulnerability.
+      */
+    $php_request_uri = htmlentities(substr($_SERVER['REQUEST_URI'], 0, strcspn($_SERVER['REQUEST_URI'], "\n\r")), ENT_QUOTES);
 
-  if (isset($_SERVER['HTTPS']) && strtolower($_SERVER['HTTPS']) == 'on') {
-    $protocol = 'https://';
-  } else {
-    $protocol = 'http://';
+    if (isset($_SERVER['HTTPS']) && strtolower($_SERVER['HTTPS']) == 'on') {
+      $protocol = 'https://';
+    } else {
+      $protocol = 'http://';
+    }
+    $host = $_SERVER['HTTP_HOST'];
+    if ($_SERVER['SERVER_PORT'] != '' &&
+        (($protocol == 'http://' && $_SERVER['SERVER_PORT'] != '80') ||
+        ($protocol == 'https://' && $_SERVER['SERVER_PORT'] != '443'))) {
+      $port = ':' . $_SERVER['SERVER_PORT'];
+    } else {
+      $port = '';
+    }
+    return $protocol . $host . $port . $php_request_uri;
   }
-  $host = $_SERVER['HTTP_HOST'];
-  if ($_SERVER['SERVER_PORT'] != '' &&
-     (($protocol == 'http://' && $_SERVER['SERVER_PORT'] != '80') ||
-     ($protocol == 'https://' && $_SERVER['SERVER_PORT'] != '443'))) {
-    $port = ':' . $_SERVER['SERVER_PORT'];
-  } else {
-    $port = '';
-  }
-  return $protocol . $host . $port . $php_request_uri;
-}
 ?>
 ```
