@@ -1,9 +1,12 @@
 ---
-date: "2011-12-23T02:30:00+08"
-categories: CPP
-tags: [CPP, oslab, homework]
+title: "作業系統實驗 Lab14"
+date: 2011-12-23T06:58:00+08
+tags:
+  - CPP
+  - oslab
+  - homework
 ---
-# 作業系統實驗 14
+# 作業系統實驗 Lab14
 
 ```cpp
 #include<stdlib.h>
@@ -24,15 +27,15 @@ int main(int argc,char *argv[])
     }
     int fd,count=0;
     char *map_memory,*ca;
-
+    
     fd = open(argv[1], O_RDWR | O_CREAT, S_IRUSR | S_IWUSR);
-
+    
     lseek(fd, FILE_LENGTH+1, SEEK_SET);
     write(fd, "", 1);
     lseek(fd, 0, SEEK_SET);
     map_memory =(char*) mmap(0, FILE_LENGTH, PROT_WRITE, MAP_SHARED, fd, 0);
     close(fd);
-
+    
     ca = map_memory;
     while( FILE_LENGTH>count && fgets(ca,FILE_LENGTH-count,stdin)!=NULL )
     {
@@ -40,7 +43,7 @@ int main(int argc,char *argv[])
         count += tmp;
         ca += tmp;
     }
-
+    
     munmap(map_memory, FILE_LENGTH);
     return 0;
 }
@@ -73,20 +76,20 @@ int main(int argc,char *argv[])
     }
     int fd,i;
     char *map_memory;
-
+    
     fd = open(argv[1], O_RDWR | O_CREAT, S_IRUSR | S_IWUSR);
-
+    
     lseek(fd, FILE_LENGTH+1, SEEK_SET);
     write(fd, "", 1);
     lseek(fd, 0, SEEK_SET);
     map_memory =(char*) mmap(0, FILE_LENGTH, PROT_WRITE, MAP_SHARED, fd, 0);
     close(fd);
-
+    
     printf("Substring from [%d] to [%d] is: ",start_pos,end_pos);
     for(i=start_pos-1;i<end_pos;i++)
         printf("%c",*(map_memory+i));
     puts("");
-
+    
     munmap(map_memory, FILE_LENGTH);
     return 0;
 }
