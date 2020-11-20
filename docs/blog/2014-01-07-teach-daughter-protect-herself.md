@@ -5,7 +5,7 @@ tags: [daughter, story]
 ---
 # 教育女兒成長過程中的自我保護意識
 
-轉載自：[http://www.epochtimes.com.tw/n80253](http://www.epochtimes.com.tw/n80253)
+轉載自：<http://www.epochtimes.com.tw/n80253>
 
 ![](https://ooo.0o0.ooo/2017/03/29/58dad593bede5.png)
 在女童被性侵頻繁發生的中國，一位母親為了女兒有自我保護意識，又不能讓女兒對世界失去信任，用改編童話故事的方法讓女兒知道怎麼樣做一個真正的「公主」（網路截圖）

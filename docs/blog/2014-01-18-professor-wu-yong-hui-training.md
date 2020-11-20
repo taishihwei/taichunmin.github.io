@@ -47,9 +47,9 @@ void build_prime()
 
 ### 網站
 
- * [http://poj.org/](http://poj.org/)
- * [http://acm.zju.edu.cn/onlinejudge/](http://acm.zju.edu.cn/onlinejudge/)
- * [http://acm.hdu.edu.cn/](http://acm.hdu.edu.cn/)
+ * <http://poj.org/>
+ * <http://acm.zju.edu.cn/onlinejudge/>
+ * <http://acm.hdu.edu.cn/>
 
 ### 實戰練習
 

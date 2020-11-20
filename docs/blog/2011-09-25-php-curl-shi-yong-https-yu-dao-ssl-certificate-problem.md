@@ -30,6 +30,6 @@ Google 一下就有答案了XD
 
 資料來源：
 
-[http://www.bsdlover.cn/html/43/n-5943.html](http://www.bsdlover.cn/html/43/n-5943.html)
+<http://www.bsdlover.cn/html/43/n-5943.html>
 
-[http://www.php.net/manual/en/function.curl-setopt.php](http://www.php.net/manual/en/function.curl-setopt.php)
+<http://www.php.net/manual/en/function.curl-setopt.php>

@@ -20,7 +20,7 @@ tags: [NCHUIT, CPE, ACM]
     * 17:30-17:40 報到， 18:00 之後不得入場
     * 17:40-18:30 練習
     * 18:40-21:40 考試
-* 網址：[http://cpe.cse.nsysu.edu.tw/newest.php](http://cpe.cse.nsysu.edu.tw/newest.php)
+* 網址：<http://cpe.cse.nsysu.edu.tw/newest.php>
 
 ## 題目練習網站
 

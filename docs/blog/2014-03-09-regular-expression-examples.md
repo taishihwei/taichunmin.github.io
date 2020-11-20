@@ -16,7 +16,7 @@ tags: [reference, regexp]
 2. [Linux grep 基礎正規表示法, 鳥哥](http://linux.vbird.org/linux_basic/0330regularex/0330regularex-fc4.php#basic_regexp)
 3. [Comparison of regular expression engines](https://en.wikipedia.org/wiki/Comparison_of_regular_expression_engines)
 4. [正規表示式 wiki](https://zh.wikipedia.org/wiki/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F)
-5. [http://regexlib.com/](http://regexlib.com/)
+5. <http://regexlib.com/>
 - - -
 ## 範例
 
